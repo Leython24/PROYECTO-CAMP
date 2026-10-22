@@ -1,0 +1,1395 @@
+SIMULADOR 150 PREGUNTAS - ÉXITOS
+PREGUNTAS SIN RESOLVER
+Este texto acompaña al PDF. Los diagramas deben consultarse en el PDF.
+
+1. Hay un total de N° dominios. ¿Cuántos son?
+a) 8
+b) 10
+c) 12
+d) 49
+Nota: El contexto del material es PMBOK 7; no confundir estos dominios de desempeño con los cuatro dominios del examen CAPM.
+Fuente: Capturas del material Project Now
+
+2. Los dominios de desempeño se ejecutan simultáneamente a lo largo del proyecto.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+3. La forma en cómo se presentan los dominios en el libro está presentada de forma jerárquica en importancia.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+4. El dominio de desempeño de los interesados se ocupa de las actividades y funciones asociadas con los interesados.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+5. Individuo, grupo u organización que puede afectar, verse afectado o percibirse a sí mismo como afectado por una decisión, actividad o resultado de un proyecto, programa o portafolio.
+a) PMO
+b) Área de Interesados
+c) Procesos de gestión de Interesados
+d) Interesados
+Fuente: Capturas del material Project Now
+
+6. Método que consiste en recopilar y analizar de manera sistemática información cuantitativa y cualitativa, a fin de determinar los intereses de quiénes deberían tenerse en cuenta a lo largo del proyecto.
+a) Diagrama de Influencias
+b) Diagrama de Afinidad
+c) Matriz Multicriterio
+d) Análisis de interesados
+Fuente: Capturas del material Project Now
+
+7. Los proyectos son realizados por las personas, pero no para las personas.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+8. Los proveedores, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+9. Los organismos de gobierno, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+10. El director del proyecto, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+11. La PMO, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+12. El equipo de dirección del proyecto, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+13. Los clientes, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+14. El usuario final, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+15. El comité de dirección, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+16. Los organismos reguladores, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+17. El equipo del proyecto, ¿en qué círculo se encuentra(n)?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 3
+b) 2
+c) 1
+Nota: La captura muestra los círculos numerados, pero no aporta una leyenda que defina sus conjuntos. Se conserva el ejercicio tal como fue recibido.
+Fuente: Capturas del material Project Now
+
+18. La identificación, análisis y participación efectivos de los interesados incluye solo a los interesados internos de la organización.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+19. Es cierto que contar con las habilidades técnicas pertinentes para la dirección de proyectos es un aspecto importante de los proyectos exitosos; contar con las habilidades interpersonales y de liderazgo para trabajar eficazmente con los interesados es tan o más importante.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+20. Rellena en orden 1-2-3-4-5-6 cuáles son las actividades de involucramiento de los interesados.
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) Identificar - Comprender - Monitorear - Involucrar - Priorizar - Analizar
+b) Identificar - Analizar - Priorizar - Involucrar - Monitorear - Comprender
+c) Identificar - Comprender - Analizar - Priorizar - Involucrar - Monitorear
+d) Involucrar - Identificar - Comprender - Priorizar - Monitorear - Analizar
+Fuente: Capturas del material Project Now
+
+21. Puede llevarse a cabo antes de formar el equipo de proyecto. Elabora en forma progresiva el trabajo inicial y es una actividad continua a lo largo del proyecto.
+a) Identificar
+b) Comprender y Analizar
+c) Priorizar
+d) Involucrar
+e) Monitorear
+Fuente: Capturas del material Project Now
+
+22. En el análisis de los interesados se tienen en cuenta varios aspectos de los mismos. Marca cuáles consideras que son:
+a) Poder
+b) Impacto
+c) Actitud
+d) Creencias
+e) Expectativas
+f) Grado de influencia
+g) Cercanía al proyecto
+h) Interés en el proyecto
+i) Todos los anteriores
+Fuente: Capturas del material Project Now
+
+23. Trata de comprender los sentimientos, emociones, creencias y valores de los interesados. Estos elementos pueden llevar a amenazas u oportunidades adicionales para los resultados del proyecto. También pueden cambiar rápidamente.
+a) Identificar
+b) Comprender y Analizar
+c) Priorizar
+d) Involucrar
+e) Monitorear
+Fuente: Capturas del material Project Now
+
+24. El equipo de proyecto debería tomar en consideración la forma en que los interesados interactúan entre sí.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+25. En muchos proyectos hay demasiados interesados para que el equipo de proyecto pueda involucrarse directa o eficazmente con todos ellos. Basado en su análisis, el equipo de proyecto puede completar una:
+a) Identificación
+b) Comprensión
+c) Priorización
+d) Involucramiento
+e) Monitoreo
+Fuente: Capturas del material Project Now
+
+26. Supone trabajar en colaboración con ellos para presentar el proyecto, obtener sus requisitos, gestionar las expectativas, resolver incidentes, negociar, establecer prioridades, resolver problemas y tomar decisiones.
+a) Identificar
+b) Comprender y Analizar
+c) Priorizar
+d) Involucrar
+e) Monitorear
+Fuente: Capturas del material Project Now
+
+27. Resalta cuáles consideras que pertenecen a la comunicación formal - verbal. Selecciona todas las que correspondan.
+a) Presentaciones
+b) Conversaciones
+c) Informes de avance
+d) Notas breves
+e) Revisiones del proyecto
+f) Discusiones ad hoc
+g) Documentos del proyecto
+h) Correo electrónico
+i) Reuniones informativas
+j) Caso de negocio
+k) Mensajería instantánea / mensajes de texto
+l) Demostraciones del producto
+m) Redes sociales
+n) Tormenta de ideas
+Fuente: Capturas del material Project Now
+
+28. Resalta cuáles consideras que pertenecen a la comunicación formal - por escrito. Selecciona todas las que correspondan.
+a) Presentaciones
+b) Conversaciones
+c) Informes de avance
+d) Notas breves
+e) Revisiones del proyecto
+f) Discusiones ad hoc
+g) Documentos del proyecto
+h) Correo electrónico
+i) Reuniones informativas
+j) Caso de negocio
+k) Mensajería instantánea / mensajes de texto
+l) Demostraciones del producto
+m) Redes sociales
+n) Tormenta de ideas
+Fuente: Capturas del material Project Now
+
+29. Resalta cuáles consideras que pertenecen a la comunicación informal - verbal. Selecciona todas las que correspondan.
+a) Presentaciones
+b) Conversaciones
+c) Informes de avance
+d) Notas breves
+e) Revisiones del proyecto
+f) Discusiones ad hoc
+g) Documentos del proyecto
+h) Correo electrónico
+i) Reuniones informativas
+j) Caso de negocio
+k) Mensajería instantánea / mensajes de texto
+l) Demostraciones del producto
+m) Redes sociales
+n) Tormenta de ideas
+Fuente: Capturas del material Project Now
+
+30. Resalta cuáles consideras que pertenecen a la comunicación informal - por escrito. Selecciona todas las que correspondan.
+o) Presentaciones
+p) Conversaciones
+q) Informes de avance
+r) Notas breves
+s) Revisiones del proyecto
+t) Discusiones ad hoc
+u) Documentos del proyecto
+v) Correo electrónico
+w) Reuniones informativas
+x) Caso de negocio
+y) Mensajería instantánea / mensajes de texto
+z) Demostraciones del producto
+aa) Redes sociales
+bb) Tormenta de ideas
+Nota: Se conservan las letras o) a bb) que aparecen en la captura original.
+Fuente: Capturas del material Project Now
+
+31. Comunicaciones enviadas a los interesados, tales como memorandos, correos electrónicos, informes de estado, correo de voz, etc.
+a) Push
+b) Pull
+Fuente: Capturas del material Project Now
+
+32. Información buscada por el interesado, tal como un miembro del equipo de proyecto que accede a una intranet para encontrar políticas o plantillas de comunicación, realizar búsquedas en Internet y utilizar repositorios en línea.
+a) Push
+b) Pull
+Fuente: Capturas del material Project Now
+
+33. El involucramiento es interactivo.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+34. ¿Cuál de los siguientes elementos es demostración de que los ciclos de retroalimentación rápida proporcionan información útil para:
+a) Confirmar hasta qué grado los interesados escucharon el mensaje.
+b) Determinar si los interesados están de acuerdo con el mensaje.
+c) Rechazar los mensajes entre líneas o no intencionados que el destinatario haya detectado.
+d) Todas las anteriores.
+Fuente: Capturas del material Project Now
+
+35. Además de identificar y analizar a los nuevos interesados, existe la oportunidad de evaluar si la estrategia actual de involucramiento es eficaz o si es necesario ajustarla.
+a) Identificar
+b) Comprender y Analizar
+c) Priorizar
+d) Involucrar
+e) Monitorear
+Fuente: Capturas del material Project Now
+
+36. El enfoque de involucramiento de los interesados no se debe actualizar porque perjudica una mayor satisfacción de los interesados.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+37. Persona nombrada por la organización ejecutante para liderar al equipo de proyecto que es responsable de alcanzar los objetivos del mismo.
+a) Director del proyecto
+b) Equipo de Dirección del proyecto
+c) Equipo de proyecto
+Fuente: Capturas del material Project Now
+
+38. Miembros del equipo de proyecto que participan directamente en las actividades de dirección del proyecto.
+a) Director del proyecto
+b) Equipo de Dirección del proyecto
+c) Equipo de proyecto
+Fuente: Capturas del material Project Now
+
+39. Conjunto de individuos que realizan el trabajo del proyecto con el fin de alcanzar sus objetivos.
+a) Director del proyecto
+b) Equipo de Dirección del proyecto
+c) Equipo de proyecto
+Fuente: Capturas del material Project Now
+
+40. Si bien las actividades de liderazgo deberían ser puestas en práctica por todos los miembros del equipo de proyecto, las actividades de dirección pueden estar centralizadas o distribuidas.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+41. En lugar de tener un director de proyecto designado, alguien dentro del equipo de proyecto puede servir de facilitador para mejorar la comunicación, la colaboración y el involucramiento. Este rol no puede moverse entre los miembros del equipo de proyecto.
+a) Verdadero
+b) Falso
+Fuente: Capturas del material Project Now
+
+42. Este dominio aborda las actividades y funciones asociadas con la organización y coordinación iniciales, continuas y en evolución, necesarias para la entrega de los elementos entregables y los resultados del proyecto.
+a) Dominio de Desempeño de los Interesados
+b) Dominio de Desempeño del Equipo
+c) Dominio de Desempeño del Enfoque
+d) Dominio de Desempeño de la Planificación
+Fuente: Capturas del material Project Now
+
+43. Completa la siguiente afirmación: «La descripción general de la planificación incluye actividades enfocadas en la _____ y _____ iniciales, continuas y en evolución del proyecto».
+a) Organización y coordinación
+b) Ejecución y control
+c) Monitoreo y evaluación
+d) Inicio y cierre
+Fuente: Capturas del material Project Now
+
+44. ¿Cuál de las siguientes NO es considerada una "variable para la planificación" según el PMBOK?
+a) Estimación
+b) Cronogramas
+c) Comunicación Interpersonal
+d) Presupuesto
+Fuente: PDF adjunto, página 1
+
+45. ¿Las "Variables para la Planificación" incluyen la identificación de recursos y la asignación de tareas dentro del proceso de planificación del proyecto?
+a) Verdadero
+b) Falso
+Fuente: PDF adjunto, página 1
+
+46. ¿Qué implica principalmente la fase de "Entrega" en el contexto de la planificación del proyecto?
+a) El cierre y conclusión de las actividades del proyecto.
+b) La transición de entregables al cliente o usuario final.
+c) La distribución de comunicaciones dentro del equipo del proyecto.
+d) La evaluación del desempeño del proyecto contra los KPIs establecidos.
+Fuente: PDF adjunto, página 1
+
+47. ¿Cuál de los siguientes términos se define como el proceso de calcular o prever el costo y el tiempo necesarios para completar el proyecto con base en los recursos disponibles?
+a) Cronograma
+b) Presupuesto
+c) Estimación
+d) Alcance
+Fuente: PDF adjunto, página 1
+
+48. ¿Qué condición del cronograma del proyecto sugiere que el director del proyecto probablemente no podrá modificar la secuencia de actividades asociadas a las obligaciones contractuales?
+a) Desviación del alcance
+b) Dependencia de las partes interesadas
+c) Dependencia obligatoria
+d) Dependencia externa
+Fuente: PDF adjunto, página 1
+
+49. ¿Qué concepto de compresión del calendario del proyecto sugiere que el director del proyecto debe buscar oportunidades para iniciar actividades seleccionadas en paralelo, aunque otras actividades aún no estén totalmente planificadas?
+a) Intensificación
+b) Ejecución rápida (Fast tracking)
+c) Reducción del alcance
+d) Reducción de la calidad
+Fuente: PDF adjunto, página 1
+
+50. Durante la fase de planificación, el director del proyecto revisa el presupuesto para incorporar posibles costos de respuesta a riesgos ya identificados. ¿Qué reserva corresponde utilizar?
+a) Una reserva de gestión destinada exclusivamente a eventos no identificados.
+b) Una reserva para contingencias asociada a los riesgos identificados.
+c) El margen de beneficio del proveedor, sin relacionarlo con riesgos.
+d) Una reducción automática de los requisitos de calidad.
+Fuente: PDF adjunto, página 1 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+51. La eficacia de la ________ dentro de un proyecto es crucial para asegurar que todos los interesados estén informados y comprometidos adecuadamente.
+a) Calidad
+b) Incertidumbre
+c) Comunicación
+d) Documentación
+Fuente: Captura image(20261022-091329).png
+
+52. Durante la formación del equipo de proyecto, el director del proyecto debe asegurar que todas las competencias necesarias estén representadas. ¿Qué aspecto debe priorizar al seleccionar los miembros del equipo?
+a) Antigüedad en la organización
+b) Disponibilidad de los recursos
+c) Habilidades y competencias específicas
+d) Preferencias personales del equipo
+Fuente: Captura image(20261022-091329).png
+
+53. La planificación eficaz de la comunicación dentro del equipo de proyecto incluye necesariamente la utilización de tecnologías avanzadas para la distribución de la información.
+a) Verdadero
+b) Falso
+Fuente: Captura image(20261022-091329).png
+
+54. Completa la afirmación: "La gestión de ________ en un proyecto incluye la planificación, adquisición y utilización de los recursos físicos necesarios desde el inicio hasta la conclusión del proyecto."
+a) los riesgos
+b) los costos
+c) los recursos físicos
+d) los tiempos
+Fuente: PDF adjunto, página 2
+
+55. ¿Qué estrategia debe emplear el director del proyecto para asegurar que la adquisición de recursos contribuya al éxito del proyecto?
+a) Seleccionar siempre el proveedor más económico.
+b) Evaluar proveedores basándose en su proximidad geográfica.
+c) Considerar tanto el coste como la calidad y la fiabilidad del proveedor.
+d) Delegar todas las decisiones de compra a un departamento externo.
+Fuente: PDF adjunto, página 2
+
+56. Si se identifica la necesidad de un cambio significativo en el alcance del proyecto, ¿cuál es el primer paso que debe tomar el director del proyecto?
+a) Revisar de inmediato las implicaciones de implementar el cambio para evitar posibles retrasos en el proyecto.
+b) Evaluar el impacto del cambio en el proyecto e informar al cliente o patrocinador antes de proceder.
+c) Analizar oportunidades para reducir otros costos del proyecto para acomodar financieramente el cambio propuesto.
+d) Considerar la opción de ignorar el cambio para mantener la integridad y el plan original del proyecto.
+Fuente: PDF adjunto, página 2
+
+57. Estás en una reunión con el analista de negocios de tu proyecto. El analista de negocios reconoce la necesidad de cambiar un material que se ha adquirido. Se ha coordinado una reunión para explorar varias formas de implementar el cambio. ¿Qué se perdió en esta situación?
+a) Falta la reunión de pie
+b) Falta la estructura de desglose del trabajo (WBS)
+c) Falta un plan de control de cambios
+d) Retrospectiva perdida
+Fuente: PDF adjunto, página 2
+
+58. En el contexto de establecer métricas para la planificación del proyecto, ¿qué es crucial considerar para asegurar que las mediciones son efectivas?
+a) Medir todos los posibles aspectos del proyecto.
+b) Establecer umbrales que indiquen desviaciones del desempeño esperado.
+c) Utilizar únicamente métricas financieras.
+d) Informar diariamente sobre todas las métricas.
+Fuente: PDF adjunto, página 2
+
+59. ¿Qué aspecto de la alineación es esencial cuando se planifica el desempeño en términos de alcance y requisitos de calidad?
+a) Asegurar que todos los entregables se desarrollen simultáneamente.
+b) Alinear los compromisos de entrega con los fondos asignados y recursos disponibles.
+c) Implementar un plan integral para cada aspecto del proyecto.
+d) Mantener una comunicación constante con proveedores externos.
+Fuente: PDF adjunto, página 2
+
+60. En el contexto del Dominio de Desempeño de la Planificación, ¿cómo se integra la planificación con otros dominios de desempeño a lo largo del ciclo de vida del proyecto?
+a) La planificación se realiza únicamente al inicio del proyecto y no se ajusta.
+b) La planificación se desarrolla por adelantado y se ajusta según sea necesario para adaptarse al entorno real del proyecto.
+c) Los planes son estáticos y no interactúan con otros dominios de desempeño.
+d) La planificación no influye en la entrega de resultados o en el valor del negocio.
+Fuente: Captura image(20261022-091343).png
+
+61. ¿Cuál es el enfoque recomendado en la Guía PMBOK para verificar que los resultados del proyecto se alinean con los objetivos planificados?
+a) Realizar revisiones de avance en hitos críticos del proyecto.
+b) Medir la satisfacción del cliente al final del proyecto.
+c) Comparar regularmente el progreso del proyecto con las líneas base de desempeño.
+d) Todas las anteriores.
+Fuente: Captura image(20261022-091343).png
+
+62. ¿Qué Dominio de Desempeño de un proyecto incluye una comunicación adecuada con las partes interesadas?
+a) Dominio de Desempeño del Enfoque de Desarrollo y del Ciclo de Vida
+b) Dominio de Desempeño de los Interesados
+c) Dominio de Desempeño del Trabajo del Proyecto
+d) Dominio de Desempeño de la Entrega
+Fuente: Captura image(20261022-091343).png
+
+63. Eres el director de proyectos en una empresa de construcción que está iniciando un nuevo proyecto de desarrollo urbano. Para asegurar que todos los contratistas potenciales tengan un entendimiento claro y uniforme del proyecto, organizas una reunión donde se clarifican los requerimientos del proyecto, se resuelven dudas y se discuten las especificaciones técnicas antes de que los contratistas preparen sus propuestas. ¿Qué actividad estás llevando a cabo?
+a) Evaluación de proveedores.
+b) Conferencia de oferentes.
+c) Negociación de contratos.
+d) Revisión de propuestas.
+Fuente: PDF adjunto, página 3
+
+64. Considerando los procesos de gestión de proyectos, ¿cómo influye la estrategia de reducción de desperdicios en la consecución de los objetivos del proyecto?
+a) Facilita el aumento del presupuesto al extender la duración de las actividades.
+b) Optimiza el desempeño del proyecto mediante la mejora de la eficiencia operativa y la eliminación de actividades redundantes.
+c) Requiere un incremento en la frecuencia de las auditorías de calidad para asegurar la adhesión a los estándares.
+d) Demanda reducir la comunicación con las partes interesadas para minimizar distracciones.
+Fuente: PDF adjunto, página 3
+
+65. El equilibrio de las restricciones en competencia implica que incrementar el alcance siempre resultará en aumentos de tiempo y costos.
+a) Verdadero
+b) Falso
+Fuente: PDF adjunto, página 3
+
+66. ¿Cuál de las siguientes técnicas puede ser efectiva para mantener el enfoque del equipo de proyecto durante la ejecución del proyecto?
+a) Establecer reuniones diarias de seguimiento.
+b) Reducir la frecuencia de las evaluaciones de desempeño.
+c) Aumentar la carga de trabajo para acelerar el desarrollo.
+d) Limitar las interacciones con el cliente.
+Fuente: PDF adjunto, página 3
+
+67. Le gustaría que Rahul Patel, vicepresidente de marketing de producto de su organización, participara activamente en su proyecto de desarrollo de un nuevo sistema de información al cliente. Ha decidido que la mejor manera de hacerlo es organizar un taller para él y los demás vicepresidentes, para explicarles las características y funciones del nuevo sistema previsto. ¿Qué solución va a utilizar?
+a) Incentivar
+b) Aislar
+c) Formar
+d) Involucrar
+Fuente: PDF adjunto, página 3
+
+68. La fórmula L = N × (N - 1) / 2 describe qué fenómeno debe comprender todo gestor de proyectos para tomar medidas que preserven el buen funcionamiento de su proyecto.
+a) La relación entre el trabajo finalizado y el planificado depende de la tasa de finalización del trabajo planificado dividida por su valor planificado.
+b) La cantidad de canales potenciales de comunicación aumenta de forma cuadrática al crecer el número de personas.
+c) La cantidad de partes interesadas que apoyan el proyecto disminuirá geométricamente con el tamaño del grupo de partes interesadas en su conjunto.
+d) Cada nueva persona añade siempre un solo canal de comunicación, independientemente del tamaño del equipo.
+Fuente: PDF adjunto, página 3 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+69. Completa la siguiente afirmación sobre la gestión de recursos físicos en un proyecto: «Un plan de logística describe la manera en que se implementará la ________ de la empresa en el proyecto, incluyendo estimados para el tipo de material, base de las estimaciones, uso esperado a lo largo del tiempo, especificaciones para el grado, y el momento y el lugar para las ________».
+a) Política - entregas
+b) Estrategia - operaciones
+c) Visión - instalaciones
+d) Misión - reuniones
+Fuente: Captura image(20261022-091357).png
+
+70. ¿Cuál es un aspecto clave al trabajar con adquisiciones en un proyecto?
+a) Evitar cualquier tipo de contrato externo.
+b) Seleccionar proveedores basándose únicamente en el costo.
+c) Desarrollar una relación colaborativa con proveedores.
+d) Reducir al mínimo la documentación legal en los contratos.
+Fuente: Captura image(20261022-091357).png
+
+71. Has publicado un documento de licitación en el que pide a los proveedores que indiquen su precio para suministrar e instalar el filtro de tratamiento de agua modelo 227-FQP23 de Filtros Bosch, Limitado, para una instalación de tratamiento de agua de una pequeña ciudad. ¿Qué tipo de pliego de condiciones ha emitido?
+a) RFI Solicitud de Información
+b) RFQ Solicitud de Cotización
+c) RFP Solicitud de Propuesta
+d) RFA Solicitud de Actividades
+Fuente: PDF adjunto, página 4
+
+72. Ha publicado un documento de licitación en el que se pide a los proveedores que propongan un enfoque para el desarrollo de una instalación de tratamiento de aguas para una pequeña ciudad, sus propias especificaciones para dicha instalación de tratamiento y un abanico de posibles costes para la misma. ¿Qué tipo de pliego de condiciones ha publicado?
+a) RFI Solicitud de Información
+b) RFQ Solicitud de Cotización
+c) RFP Solicitud de Propuesta
+d) RFA Solicitud de Actividades
+Fuente: PDF adjunto, página 4
+
+73. Usted establece un contrato de aprovisionamiento con un proveedor que le permite facturarle por la cantidad de horas trabajadas, así como por el equipo suministrado, y supone que ambos incluirán probablemente cierto margen de beneficio para el proveedor. ¿Cuál de los siguientes contratos es el suyo?
+a) Contrato de costo más honorarios
+b) Contrato por tiempo y materiales
+c) Contrato de precio fijo
+d) Contrato de precio variable
+Fuente: PDF adjunto, página 4
+
+74. En un proyecto que emplea tanto enfoques adaptativos como predictivos para la entrega de diferentes componentes, ¿cuál es el propósito de utilizar un "Acuerdo Maestro"?
+a) Asegurar que todos los entregables se gestionen bajo un único contrato sin posibilidad de modificación.
+b) Permitir la flexibilidad en el alcance adaptativo del proyecto sin afectar los términos del contrato general.
+c) Facilitar la terminación rápida del proyecto en caso de que los objetivos no se cumplan según lo previsto.
+d) Centralizar todas las adquisiciones bajo un solo proveedor para simplificar la gestión.
+Fuente: PDF adjunto, página 4
+
+75. ¿Cuál es el objetivo principal al monitorear nuevos trabajos y cambios durante la ejecución de un proyecto?
+a) Asegurar que todos los cambios se aprueben antes de la implementación.
+b) Evaluar el impacto de los cambios en el alcance, tiempo y costo del proyecto.
+c) Mantener una documentación detallada de todos los cambios propuestos y realizados.
+d) Todas las anteriores.
+Fuente: PDF adjunto, página 4
+
+76. ¿Cuál es una técnica efectiva para facilitar el aprendizaje continuo en un proyecto?
+a) Realizar revisiones periódicas del proyecto con todo el equipo.
+b) Limitar el intercambio de información a las reuniones formales.
+c) Enviar actualizaciones por correo electrónico sobre las lecciones aprendidas.
+d) Centrarse únicamente en la capacitación al inicio del proyecto.
+Fuente: PDF adjunto, página 4
+
+77. ¿Qué estrategia es clave para la gestión efectiva del conocimiento en un proyecto?
+a) Documentar solo las decisiones finales del proyecto.
+b) Crear un repositorio accesible donde se almacenen todas las lecciones aprendidas.
+c) Compartir conocimiento solo al final del proyecto.
+d) Revisar conocimientos previos solo cuando surjan problemas.
+Fuente: Captura image(20261022-091428).png
+
+78. ¿Cómo se puede mejorar el conocimiento tácito dentro de un equipo de proyecto?
+a) Mediante la documentación formal de todos los procedimientos.
+b) A través de sesiones interactivas y talleres de trabajo en equipo.
+c) Publicando artículos y papeles de política interna.
+d) Limitando la discusión a temas estrictamente relacionados con el proyecto.
+Fuente: Captura image(20261022-091428).png
+
+79. ¿De qué manera se facilitan las interacciones entre los dominios de desempeño en la gestión de proyectos?
+a) Manteniendo equipos separados para cada dominio sin interacción.
+b) A través de reuniones cruzadas entre equipos de diferentes dominios.
+c) Delegando la responsabilidad de la interacción a un gestor externo.
+d) Evitando la colaboración para minimizar conflictos.
+Fuente: PDF adjunto, página 5
+
+80. ¿Qué enfoque es fundamental para la verificación de resultados en la gestión de proyectos?
+a) Ignorar las desviaciones menores en los resultados del proyecto.
+b) Enfocarse solo en los resultados finales sin revisar etapas intermedias.
+c) Evaluar sistemáticamente los resultados del proyecto contra los objetivos establecidos.
+d) Delegar la verificación de resultados solo al equipo de calidad.
+Fuente: PDF adjunto, página 5
+
+81. Durante la revisión de mitad de proyecto, se observa que las actualizaciones semanales han sido efectivas, con los interesados expresando una clara comprensión de los avances y desafíos del proyecto. Además, se han minimizado las solicitudes ad hoc de información. Según la tabla de "Resultado y Verificar" en el PMBOK, ¿qué resultado del proyecto está siendo efectivamente demostrado en este escenario?
+a) Alineación del proyecto con los objetivos empresariales.
+b) Cumplimiento efectivo de los requisitos del proyecto.
+c) Comunicación e involucramiento adecuados con los interesados.
+d) Eficiencia en la gestión de los recursos del proyecto.
+Fuente: PDF adjunto, página 5
+
+82. ¿Qué aspecto es fundamental en el Dominio de Desempeño de la Entrega para garantizar que los proyectos me alineen y apoyen la estrategia y los objetivos del negocio?
+a) Maximizar el retorno de la inversión en cada fase del proyecto.
+b) Asegurar la conformidad del producto con las especificaciones técnicas únicamente.
+c) Cumplir con los requisitos, el alcance y las expectativas de calidad para producir entregables que impulsen resultados previstos.
+d) Concentrarse únicamente en la reducción de costos y eficiencia operativa.
+Fuente: PDF adjunto, página 5
+
+83. Usted es el director de proyecto en el desarrollo de un nuevo software para gestión de inventarios. Antes de considerar completado cualquier entregable del proyecto, su equipo ha establecido un conjunto de criterios específicos que cada entregable debe cumplir para asegurar su calidad y completitud. Durante una revisión, descubre que uno de los módulos del software no cumple con dos de los criterios esenciales listados. Según la Definición de Terminado (DoD), ¿cuál es el paso adecuado a seguir?
+a) Considerar el módulo como completado y planificar una actualización futura para corregir los defectos.
+b) No marcar el módulo como completado hasta que cumpla con todos los criterios establecidos en la DoD.
+c) Solicitar una excepción al cliente para avanzar debido a la urgencia de la entrega.
+d) Reducir los criterios de la DoD para facilitar la aprobación de entregables.
+Fuente: PDF adjunto, página 5
+
+84. Relaciona los siguientes términos del Dominio de Desempeño de la Entrega con su descripción correcta.
+I. Calidad.
+II. Definición de Terminado (DoD).
+III. Requisito.
+IV. Estructura de Desglose del Trabajo (EDT/WBS).
+V. Costo de la Calidad (COQ).
+
+i. Descomposición jerárquica del alcance total del trabajo del proyecto.
+ii. Grado en que las características inherentes cumplen los requisitos.
+iii. Condición o capacidad necesaria que debe estar presente para satisfacer una necesidad.
+iv. Descripción formal de las condiciones de calidad que debe cumplir un incremento para considerarse terminado.
+v. Costos de prevenir y evaluar la calidad y de atender fallas de conformidad.
+a) I-i; II-ii; III-iii; IV-iv; V-v.
+b) I-iii; II-iv; III-ii; IV-i; V-v.
+c) I-ii; II-iv; III-iii; IV-i; V-v.
+d) I-ii; II-i; III-iv; IV-v; V-iii.
+Fuente: PDF adjunto, página 5 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+85. ¿A qué ámbito de rendimiento del proyecto pertenece garantizar que las partes interesadas aceptan los resultados del proyecto y están satisfechas con ellos?
+a) Dominio de Desempeño del Enfoque de Desarrollo y del Ciclo de Vida
+b) Dominio de Desempeño de los Interesados
+c) Dominio de Desempeño del Trabajo del Proyecto
+d) Dominio de Desempeño de la Entrega
+Fuente: PDF adjunto, página 6
+
+86. La suma de todos los beneficios relacionados con el proyecto menos la suma de todos los costes relacionados con el proyecto sería una buena fórmula para calcular:
+a) El valor ganado del proyecto
+b) El valor de negocio del proyecto
+c) El coste de la calidad
+d) El presupuesto de finalización del proyecto
+Fuente: PDF adjunto, página 6
+
+87. ¿Qué asegura principalmente el proceso de gestión de entregables dentro de un proyecto?
+a) El cumplimiento con las normas de calidad internacionales.
+b) La alineación de las actividades del proyecto con las expectativas del cliente.
+c) La creación de documentos y resultados tangibles acordados.
+d) La formación continua del equipo del proyecto.
+Fuente: PDF adjunto, página 6
+
+88. ¿Cuál es el principal propósito de gestionar adecuadamente los requisitos del proyecto en el contexto de los entregables?
+a) Maximizar la rentabilidad del proyecto a través de la reducción de costos.
+b) Asegurar que todos los entregables cumplan con las necesidades específicas del cliente.
+c) Facilitar la comunicación entre las diferentes áreas del proyecto.
+d) Implementar cambios en el proyecto de manera efectiva.
+Fuente: PDF adjunto, página 6
+
+89. En la gestión de proyectos, ¿qué elemento es crucial para definir correctamente el alcance del proyecto?
+a) La identificación de todas las tareas a realizar.
+b) El desarrollo de un cronograma detallado.
+c) La definición clara de lo que el proyecto debe lograr.
+d) La asignación adecuada de recursos.
+Fuente: PDF adjunto, página 6
+
+90. Como director de proyectos en una empresa de software, está a cargo de la implementación de una solución integral para la gestión de inventarios para un gran retailer. El proyecto tiene claros requisitos funcionales y no funcionales, así como criterios de aceptación definidos por el cliente. Además, se espera que la solución esté fuertemente integrada con sistemas existentes y requiere un nivel alto de seguridad y estabilidad. Con estos factores en cuenta, ¿cuál de las siguientes opciones sería el enfoque más adecuado para descomponer y detallar el alcance del proyecto?
+a) Creación de un backlog de producto con temas y épicas para iteraciones ágiles.
+b) Desarrollo de una Estructura de Desglose del Trabajo (EDT/WBS) que refleje todos los entregables y sus criterios de aceptación.
+c) Elaboración de historias de usuario para identificar y planificar el trabajo dentro de sprints.
+d) Aplicación de la técnica de planificación en cascada con entregas secuenciales.
+Fuente: PDF adjunto, página 6
+
+91. ¿Qué describe mejor los «Objetivos Móviles de Finalización» en la gestión de proyectos?
+a) Cambios frecuentes en los objetivos del proyecto debido a factores externos.
+b) La flexibilidad en la planificación para adaptarse a los cambios del mercado.
+c) Objetivos que se ajustan a medida que avanza el proyecto y se obtiene más información.
+d) El uso de tecnología para ajustar los objetivos del proyecto automáticamente.
+Fuente: Captura image(20261022-091446).png
+
+92. En un proyecto de desarrollo de software para una aplicación móvil de comercio electrónico, el equipo de proyecto se da cuenta de que las expectativas de las características del producto están cambiando debido a la evolución de la tecnología y las tendencias del mercado. Esta situación requiere una actualización frecuente del alcance del proyecto. ¿Cómo se conoce este fenómeno en la gestión de proyectos?
+a) Deriva de lo terminado (done drift)
+b) Desviación del alcance
+c) Gestión de la variabilidad
+d) Movilidad de objetivos
+Fuente: Captura image(20261022-091446).png
+
+93. Eres el director de un proyecto de desarrollo de una aplicación de realidad aumentada. Dado el ritmo acelerado del cambio tecnológico, te enfrentas a la necesidad de ajustar continuamente lo que se considera "terminado" para el producto. ¿Puede el concepto de "terminado" estar sujeto a cambios durante el ciclo de vida del proyecto debido a la evolución del mercado y la tecnología?
+a) Verdadero
+b) Falso
+Fuente: PDF adjunto, página 7
+
+94. Un gráfico que muestra el comportamiento de un proceso a lo largo del tiempo y si es o no estable y está dentro de lo esperado, ¿a cuál de los siguientes se denomina?
+a) Registro de riesgos
+b) Diagrama de Gantt
+c) Gráfico de control
+d) Gráfico de Ishikawa
+Fuente: PDF adjunto, página 7
+
+95. ¿Cuál es el principal objetivo de gestionar el Costo de la Calidad (COQ) en los proyectos?
+a) Reducir los costos generales del proyecto sin considerar la calidad del entregable.
+b) Evaluar únicamente los costos directos relacionados con la fabricación o desarrollo del producto.
+c) Asegurar que el proyecto cumpla con los requisitos de calidad mientras se controlan los costos asociados.
+d) Concentrarse exclusivamente en los costos de no conformidad y rechazo de los entregables.
+Fuente: PDF adjunto, página 7
+
+96. En el marco del Costo de la Calidad en un proyecto, ¿cuáles de las siguientes actividades se clasificarían como esfuerzos de prevención y cuáles como de evaluación?
+a) La capacitación de empleados y las auditorías de calidad.
+b) La calificación de proveedores y la verificación de entregables.
+c) El aseguramiento de la calidad y la planificación de la calidad.
+d) Todas las actividades mencionadas son parte tanto de la prevención como de la evaluación.
+Fuente: PDF adjunto, página 7
+
+97. ¿Cuál es una implicación clave del Costo del Cambio en la gestión de proyectos?
+a) Los cambios siempre incrementan el costo del proyecto, por lo que deben evitarse.
+b) Los cambios no tienen impacto significativo en los costos si se gestionan adecuadamente desde el inicio.
+c) Los costos del cambio pueden variar, pero gestionarlos adecuadamente puede limitar impactos negativos y aprovechar oportunidades de mejora.
+d) Solo los cambios solicitados por el cliente tienen un impacto en los costos del proyecto.
+Fuente: PDF adjunto, página 7
+
+98. Estás liderando un proyecto de comercio electrónico. El gráfico ilustra que el costo relativo de implementar un cambio aumenta a medida que el producto avanza hacia producción. ¿Qué consideración debe guiar la decisión sobre un cambio significativo?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) Rechazar cualquier cambio después de la recopilación inicial de requisitos.
+b) Aceptar todo cambio porque el costo de implementarlo permanece constante.
+c) Esperar hasta producción para analizarlo y así disponer de toda la información.
+d) Evaluar pronto sus beneficios, costos, riesgos e impactos y aplicar el proceso de cambios acordado.
+Fuente: PDF adjunto, página 7 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+99. ¿Qué acción se recomienda cuando se enfrentan resultados subóptimos en un proyecto?
+a) Ignorar los resultados subóptimos mientras se mantenga dentro del presupuesto.
+b) Ajustar el alcance del proyecto para alinear expectativas con los resultados actuales.
+c) Implementar medidas correctivas para realinear el proyecto con sus objetivos iniciales.
+d) Reducir la calidad de los entregables para completar el proyecto a tiempo.
+Fuente: PDF adjunto, página 8
+
+100. ¿Cómo contribuye la interacción efectiva entre los dominios de desempeño al éxito del proyecto?
+a) Permitiendo que cada dominio funcione de manera independiente sin influencia externa.
+b) Fomentando la competencia entre dominios para mejorar la eficiencia.
+c) Integrando esfuerzos y alineando objetivos entre dominios para optimizar resultados.
+d) Limitando la comunicación entre dominios para evitar conflictos.
+Fuente: PDF adjunto, página 8
+
+101. El trabajo finalizado en uno de sus proyectos hasta la fecha es del 30%. Puede calcular que el valor planificado = 1.000.000 USD; el coste real = 850.000 USD; el VE = 900.000 USD; el CV = 900.000 USD - 850.000 USD = +50.000 USD; y el VV = 900.000 USD - 1.000.000 USD = -100.000 USD. ¿Cuál de las siguientes afirmaciones es correcta en este caso?
+a) El proyecto parece estar dentro del presupuesto y adelantado con respecto al calendario.
+b) El proyecto parece estar por encima del presupuesto y retrasado.
+c) El proyecto parece estar por encima del presupuesto pero adelantado con respecto al calendario.
+d) El proyecto parece estar dentro del presupuesto, pero con retraso.
+Fuente: PDF adjunto, página 8
+
+102. ¿Cuál de las siguientes características NO es parte de los criterios SMART para métricas efectivas?
+a) Específica
+b) Significativa
+c) Inalcanzable
+d) Relevante
+Fuente: PDF adjunto, página 8
+
+103. El siguiente gráfico representa el tablero de Estados de Ánimo. ¿Consideras que el seguimiento del estado de ánimo del equipo de proyecto mediante un diagrama de estados de ánimo utilizando emojis podría ser una herramienta eficaz para identificar posibles problemas y áreas a mejorar?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) Verdadero
+b) Falso
+Fuente: PDF adjunto, página 8
+
+104. Las medidas del desempeño caracterizan los atributos físicos o funcionales relacionados con la operación del sistema. Estas son las ________.
+a) Información sobre errores o defectos
+b) Medidas de desempeño
+c) Medidas de desempeño técnico
+d) Medidas de exactitud
+Fuente: PDF adjunto, página 8
+
+105. ¿Qué tipo de indicadores son utilizados para predecir cambios o tendencias en el proyecto?
+a) Indicadores de control
+b) Indicadores rezagados
+c) Indicadores adelantados
+d) Indicadores de desempeño
+Fuente: PDF adjunto, página 9
+
+106. ¿Qué indica un "Índice de Desempeño del Cronograma (SPI)" menor que 1?
+a) El proyecto está adelantado al cronograma
+b) El proyecto está retrasado respecto al cronograma
+c) El proyecto está en línea con el cronograma previsto
+d) El cronograma del proyecto no es relevante
+Fuente: PDF adjunto, página 9
+
+107. A partir del gráfico proporcionado. ¿Cuál es el tiempo promedio de entrega para las tareas una vez que ingresan al tablero Kanban, considerando la variabilidad en la columna 'Listo' que afecta el flujo de trabajo?
+[Esta pregunta incluye una figura: consultar el PDF.]
+a) 1 día
+b) 2 días
+c) 3 días
+d) Variable e impredecible debido a cambios en el orden dentro de la columna ‘Listo’
+Fuente: PDF adjunto, página 9
+
+108. ¿Qué tipo de indicadores son cruciales para evaluar el éxito de un proyecto según PMBOK?
+a) Indicadores estáticos
+b) Indicadores de progreso
+c) Indicadores adelantados y rezagados
+d) Indicadores de satisfacción personal
+Fuente: PDF adjunto, página 10
+
+109. En la gestión de proyectos, es crucial medir ________ para evaluar el progreso hacia los objetivos estratégicos.
+a) El tiempo dedicado en reuniones
+b) Los resultados clave y los indicadores de rendimiento específicos
+c) Las preferencias personales del equipo
+d) La cantidad de correos electrónicos enviados
+Fuente: PDF adjunto, página 10
+
+110. ¿Cuál de estos no es un peligro común en la medición del desempeño de proyectos?
+a) Medición frecuente de indicadores clave
+b) Influencia del comportamiento por medición (efecto Hawthorne)
+c) Uso de métricas de vanidad
+d) Establecer metas no alcanzables
+Fuente: PDF adjunto, página 10
+
+111. Los dashboards interactivos son una herramienta ineficaz para la presentación de información de proyectos.
+a) Verdadero
+b) Falso
+Fuente: PDF adjunto, página 10
+
+112. ¿Cuál es el propósito principal de los controles visuales en entornos lean?
+a) Facilitar la ocultación de información para ciertos miembros del equipo.
+b) Comparar el desempeño real con el esperado de manera eficiente.
+c) Minimizar la visibilidad de los procesos para aumentar la productividad.
+d) Limitar el acceso a la información solo a ciertos niveles jerárquicos.
+Fuente: PDF adjunto, página 10
+
+113. El Dominio de Desempeño de la Medición interactúa únicamente con el Dominio de Desempeño de la Planificación.
+a) Verdadero
+b) Falso
+Fuente: PDF adjunto, página 10
+
+114. ¿Cuál es la definición correcta de los radiadores de información en la gestión de proyectos?
+a) Son herramientas electrónicas de alta tecnología diseñadas para visualizar el progreso del proyecto.
+b) Son indicaciones visibles y físicas que proporcionan información al resto de la organización de manera oportuna, ubicadas en un lugar visible para facilitar el intercambio de conocimientos.
+c) Son sistemas automatizados que generan informes detallados sobre el desempeño del proyecto.
+d) Son gráficos complejos que muestran el flujo de trabajo en detalle y se actualizan automáticamente.
+Fuente: PDF adjunto, página 10
+
+115. La Variación a la Conclusión (VAC) pronostica el déficit o superávit presupuestal como diferencia entre el presupuesto hasta la conclusión (BAC) y la estimación a la conclusión (EAC). ¿Cuál es su fórmula?
+a) VAC = BAC - EAC.
+b) VAC = EAC - BAC.
+c) VAC = EV - AC.
+d) VAC = BAC / EAC.
+Fuente: PDF adjunto, página 10 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+116. ¿Cuál de las siguientes opciones describe una medida común de desempeño con respecto a la línea base en la gestión de proyectos?
+a) Comparación de las fechas de inicio y finalización reales con las fechas planificadas.
+b) Seguimiento de las tasas de aceptación de características durante las revisiones frecuentes.
+c) Comparación del costo real con el costo planificado.
+d) Observación del desempeño en la ruta crítica para determinar la variación del cronograma.
+Fuente: PDF adjunto, página 11
+
+117. Completa la siguiente afirmación: La relación beneficio-costo se utiliza para determinar si los ________ de un proyecto superan sus ________.
+a) Beneficios, costos
+b) Costos, beneficios
+c) Inversiones, riesgos
+d) Riesgos, inversiones
+Fuente: PDF adjunto, página 11
+
+118. La característica de las métricas efectivas que se refiere a que las mediciones son específicas en cuanto a qué medir es:
+a) Verdadera
+b) Falsa
+Fuente: PDF adjunto, página 11
+
+119. La eficiencia de procesos se define como la relación entre el tiempo de las actividades que agregan valor y las actividades ________.
+a) Sin valor agregado
+b) De valor agregado
+c) Intermedias
+d) Críticas
+Fuente: PDF adjunto, página 11
+
+120. ¿Cuál de las siguientes afirmaciones describe correctamente la variación del costo (CV) según el PMBOK?
+a) Se calcula restando el costo real del valor ganado (CV = EV - AC).
+b) Es la diferencia entre el valor ganado y el costo estimado.
+c) Se representa en el Gráfico 2-24 del valor ganado.
+d) Se determina comparando el costo real de un entregable con el costo estimado.
+Fuente: PDF adjunto, página 11
+
+121. En un proyecto de desarrollo de software, el equipo de proyecto ha implementado diversas métricas para medir y mejorar el rendimiento del proceso de desarrollo. ¿Cuál de los siguientes criterios guía la selección de estas métricas según el PMBOK?
+a) Medir el tiempo dedicado por cada miembro del equipo en reuniones.
+b) Medir la cantidad total de líneas de código escritas por día.
+c) Medir el tiempo promedio dedicado a corregir errores por ciclo de desarrollo.
+d) Medir el número de correos electrónicos enviados entre los miembros del equipo.
+Fuente: PDF adjunto, página 11
+
+122. Completa la afirmación: «La incertidumbre puede involucrar riesgos, ambigüedad y ________, asociada a múltiples elementos interconectados cuyas interacciones dificultan predecir los resultados».
+a) Certeza absoluta.
+b) Ausencia de interesados.
+c) Complejidad.
+d) Eliminación de la necesidad de planificar.
+Fuente: PDF adjunto, página 11 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+123. La incertidumbre en los proyectos puede manifestarse de diversas maneras, presentando tanto oportunidades como amenazas. ¿Cuál de las siguientes afirmaciones describe correctamente la relación entre la incertidumbre y los riesgos en un proyecto?
+a) La incertidumbre se asocia únicamente con oportunidades, mientras que los riesgos están relacionados solo con amenazas.
+b) La incertidumbre se refiere exclusivamente a los riesgos inesperados que pueden surgir durante un proyecto.
+c) La incertidumbre y los riesgos son conceptos completamente separados y no están relacionados entre sí.
+d) La incertidumbre puede dar lugar tanto a oportunidades como a amenazas, que juntas forman el conjunto de riesgos del proyecto.
+Fuente: Captura image(20261022-091520).png
+
+124. ¿Cuál de las siguientes estrategias sería más efectiva para abordar la ambigüedad situacional en un proyecto de desarrollo de software?
+a) Utilizar términos ambiguos en la documentación del proyecto.
+b) Realizar una serie de experimentos bien diseñados para identificar las relaciones de causa y efecto.
+c) Evitar el uso de prototipos.
+d) No explorar diferentes opciones para resolver problemas.
+Fuente: PDF adjunto, página 12
+
+125. ¿Cuál de las siguientes opciones describe mejor la elaboración progresiva?
+a) Es el proceso de reducir gradualmente el nivel de detalle de un plan para la dirección del proyecto.
+b) Es el proceso iterativo de incrementar el nivel de detalle de un plan para la dirección del proyecto a medida que se cuenta con mayor cantidad de información y con estimaciones más precisas.
+c) Es el proceso de implementar soluciones sin experimentación previa.
+d) Es el proceso de reducir la cantidad de ambigüedad utilizando prototipos.
+Fuente: PDF adjunto, página 12
+
+126. ¿Cuál es la principal característica de la complejidad en programas o proyectos, según el PMBOK 7ma edición?
+a) Una estructura organizativa claramente definida.
+b) La capacidad de prever con precisión todos los resultados posibles.
+c) La interacción impredecible entre múltiples influencias interconectadas.
+d) La facilidad para gestionar la complejidad utilizando métodos tradicionales.
+Fuente: PDF adjunto, página 12
+
+127. La elección del ciclo de vida y del enfoque de desarrollo influye en la forma en que se abordará la incertidumbre en un proyecto.
+a) Verdadera
+b) Falsa
+Fuente: PDF adjunto, página 12
+
+128. Un equipo de proyecto está trabajando en un proyecto adaptativo donde los requisitos son propensos a cambios y existe ambigüedad sobre cómo interactuarán los sistemas o cómo reaccionarán los interesados. ¿Cuál sería la estrategia más adecuada para abordar la incertidumbre en este contexto?
+a) Utilizar reservas en el cronograma y el presupuesto para responder a los riesgos.
+b) Ajustar los planes del proyecto para reflejar la evolución de la comprensión sobre los requisitos y riesgos.
+c) Ignorar la incertidumbre y seguir adelante con el plan original.
+d) Solicitar más información a los interesados para reducir la incertidumbre.
+Fuente: PDF adjunto, página 12
+
+129. ¿Qué diferencia principal existe entre la reserva para contingencias y la reserva de gestión?
+a) La reserva para contingencias es para riesgos conocidos (conocidos-desconocidos), mientras que la reserva de gestión es para eventos no previstos (desconocidos-desconocidos).
+b) La reserva para contingencias se reserva para eventos no previstos, mientras que la reserva de gestión es para riesgos identificados.
+c) La reserva para contingencias se aparta para hacer frente a eventos no planificados, mientras que la reserva de gestión es para riesgos conocidos.
+d) La reserva para contingencias es para eventos desconocidos, mientras que la reserva de gestión es para riesgos identificados.
+Fuente: PDF adjunto, página 12
+
+130. Como con las amenazas, la aceptación de una oportunidad reconoce su existencia. ¿En qué se diferencia de las estrategias de explotar, mejorar o compartir?
+a) Garantiza que la oportunidad se materialice mediante una acción directa.
+b) No toma medidas proactivas para perseguirla, aunque permite aprovecharla si ocurre.
+c) Aumenta deliberadamente su probabilidad o impacto positivo.
+d) Asigna la oportunidad a un tercero especialmente capacitado para capturar sus beneficios.
+Fuente: PDF adjunto, página 12 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+131. Estás liderando un proyecto de construcción de un edificio comercial y, durante la fase de planificación, surge una oportunidad inesperada: uno de los proveedores de materiales ofrece una rebaja significativa en el precio del acero si se realiza la compra antes del final del trimestre. Esta rebaja podría resultar en un ahorro significativo en el presupuesto total del proyecto. ¿Cuál estrategia sería la más adecuada para maximizar el beneficio para el proyecto?
+a) Explotar la oportunidad y realizar la compra anticipada del acero para aprovechar el descuento ofrecido por el proveedor.
+b) Escalar la situación para obtener la aprobación del comité de adquisiciones y proceder con la compra anticipada de acero antes del final del trimestre.
+c) Compartir la responsabilidad con el equipo de compras para evaluar la viabilidad financiera y logística de la compra anticipada del acero.
+d) Mejorar la oportunidad mediante la búsqueda de otros proveedores para comparar precios y negociar aún mejores condiciones antes de tomar una decisión.
+Fuente: Captura image(20261022-091531).png
+
+132. ¿Cuál es la estrategia recomendada para hacer frente a las amenazas en un proyecto?
+a) Evitar
+b) Transferir
+c) Mitigar
+d) Aceptar (Todas las anteriores son estrategias válidas según la situación)
+Fuente: PDF adjunto, página 13
+
+133. ¿Cuál es la definición de riesgo general del proyecto y cómo se diferencia de los riesgos individuales?
+a) El riesgo general del proyecto es el efecto de la incertidumbre sobre el proyecto en su conjunto, mientras que los riesgos individuales se refieren a eventos específicos.
+b) El riesgo general del proyecto se relaciona con las oportunidades de mejora en el proyecto, mientras que los riesgos individuales se centran en las amenazas.
+c) El riesgo general del proyecto solo afecta a proyectos complejos, mientras que los riesgos individuales pueden presentarse en proyectos de cualquier tamaño.
+d) El riesgo general del proyecto depende exclusivamente de la volatilidad del mercado, mientras que los riesgos individuales pueden provenir de diversas fuentes.
+Fuente: PDF adjunto, página 13
+
+134. La reserva es una cantidad de tiempo o presupuesto reservada para tener en cuenta el manejo de riesgos. ¿A qué se refiere el riesgo de contingencia?
+a) Se refiere a hacer frente a riesgos conocidos que se materialicen.
+b) Se refiere a presupuestos asignados para gestionar eventos imprevistos dentro del alcance del proyecto.
+c) Es una cantidad reservada para el manejo de riesgos que ya han ocurrido.
+d) Se aparta para enfrentar riesgos desconocidos que puedan surgir durante el proyecto.
+Fuente: PDF adjunto, página 13
+
+135. ¿Qué método se sugiere para identificar posibles amenazas y oportunidades de manera regular durante el desarrollo de un proyecto?
+a) Reuniones mensuales de revisión y retroalimentación.
+b) Reuniones trimestrales de planificación.
+c) Reuniones diarias de pie.
+d) Reuniones anuales de evaluación de riesgos.
+Fuente: PDF adjunto, página 13
+
+136. ¿Cuál de las siguientes actividades puede revelar amenazas y oportunidades durante el desarrollo de un proyecto?
+a) Realizar una revisión exhaustiva del proyecto al final de su ejecución.
+b) Realizar demostraciones frecuentes de incrementos del producto o servicio.
+c) Mantener reuniones de estatus mensuales.
+d) Realizar retrospectivas solo al final del proyecto.
+Fuente: PDF adjunto, página 13
+
+137. En un proyecto de implementación de un sistema de gestión de pacientes en un hospital, ¿cómo influye el enfoque de desarrollo en la forma de abordar la incertidumbre?
+a) Un enfoque predictivo elimina la necesidad de identificar riesgos porque el alcance se planifica por adelantado.
+b) Un enfoque adaptativo sustituye el aprendizaje y la revisión del backlog exclusivamente por reservas presupuestarias.
+c) Los enfoques predictivos y adaptativos deben gestionar toda incertidumbre de una única forma, sin adaptación.
+d) Un enfoque adaptativo permite revisar planes y prioridades con nueva información; ambos enfoques pueden gestionar riesgos y utilizar reservas cuando corresponda.
+Fuente: PDF adjunto, página 13 | Enunciado o alternativas completados/adaptados con IA a petición del usuario
+
+138. En un proyecto de construcción de un puente, ¿qué estrategia podría emplearse al principio del proyecto para reducir la incertidumbre y explorar diversas opciones de diseño?
+a) Realizar análisis de costos detallados.
+b) Contratar al equipo de construcción.
+c) Investigar múltiples diseños o alternativas.
+d) Establecer un cronograma de construcción detallado.
+Fuente: Captura image(20261022-091543).png
+
+139. ¿Cuál de lo siguiente se considera una condición de incertidumbre, uno de cuyos elementos es el número de interesados y/o organizaciones involucradas?
+a) Complejidad
+b) Oportunidad
+c) Amenaza
+d) Volatilidad
+Fuente: Captura image(20261022-091543).png
+
+140. ¿Cuál combinación de tipo de evento y probabilidad se entiende como una condición previa del riesgo?
+a) Conocido-conocido
+b) Desconocido-conocido
+c) Conocido-desconocido
+d) Desconocido-desconocido
+Fuente: PDF adjunto, página 14
+
+141. ¿Qué condición se considera un factor de incertidumbre y describe dimensiones o componentes del proyecto que cambian a menudo e inesperadamente?
+a) Complejidad
+b) Oportunidad
+c) Amenaza
+d) Volatilidad
+Fuente: PDF adjunto, página 14
+
+142. Nina, junto con su equipo, está realizando un análisis de proveedores en una lista reducida de proveedores para el proyecto. Recuerda que el proyecto se cerró hace unos tres años. La mayoría del equipo de ese proyecto abandonó la organización. Durante la siguiente reunión del proyecto, consulta los archivos del proyecto para revisar las lecciones aprendidas de ese proyecto en particular. El gerente anterior mencionó que el principal proveedor actualmente identificado tenía dificultades para cumplir con los hitos. Esto llevó a que se incumpliera la fecha de entrega del proyecto. ¿Esta información se identifica MEJOR como una influencia sobre qué condición de gestión del proyecto?
+a) Activos del proceso organizacional
+b) Documentos del proyecto
+c) Datos de desempeño
+d) Factores ambientales de la empresa
+Fuente: PDF adjunto, página 14
+
+143. Está trabajando con una parte interesada de alto nivel dentro de su organización para realizar un análisis de costo-beneficio de su proyecto recién iniciado. ¿Cuál de las siguientes opciones describe mejor la razón para realizar un análisis de costo-beneficio?
+a) Validar la alineación del proyecto con la estrategia organizacional y el valor comercial esperado.
+b) Identificar riesgos, suposiciones y limitaciones de alto nivel basados en el entorno actual.
+c) Participar en el desarrollo de la carta del proyecto recopilando información.
+d) Realizar un análisis utilizando herramientas para alinear expectativas.
+Fuente: PDF adjunto, página 14
+
+144. Una parte interesada de alto nivel le pidió a un gerente de proyecto que implementara algunos cambios en el proyecto. Al evaluar la situación y hablar con el equipo de liderazgo superior, el equipo acordó seguir adelante con los procesos para implementar el cambio. ¿En qué momento debería el director del proyecto evaluar el impacto de un cambio solicitado?
+a) Primero, antes de iniciar cualquier otra acción.
+b) Después de que se apruebe la solicitud de cambio.
+c) Después de lograr que el cliente acepte el cambio.
+d) Después de que encuentren una manera de ahorrar tiempo.
+Fuente: PDF adjunto, página 14
+
+145. Recientemente se unió a un nuevo proyecto ágil y el propietario del producto lo invitó a una reunión para analizar los requisitos del proyecto. Durante la reunión expresaron la necesidad de recibir estimaciones detalladas. ¿Cómo debería responder a la alineación con las prácticas ágiles?
+a) Sólo se podrán proporcionar estimaciones detalladas una vez que se haya definido el alcance total del proyecto.
+b) Las estimaciones detalladas están sujetas a cambios a medida que los requisitos del proyecto cambian y evolucionan.
+c) Por lo general, en los proyectos ágiles no se proporcionan estimaciones detalladas debido a la naturaleza cambiante de los requisitos.
+d) Las estimaciones son más útiles si son detalladas para la planificación a corto plazo, aplicadas con un enfoque justo a tiempo.
+Fuente: Captura image(20261022-091552).png
+
+146. Rasheed es el director de proyectos principal de una organización de telecomunicaciones y está a cargo de formar a nuevos directores de proyectos. Uno de los nuevos gerentes de proyecto está ayudando con la gestión del proceso de comunicaciones. Al evaluar los documentos, descubre que hay un documento que no pertenece a este proceso. ¿Cuál de los siguientes no es un ejemplo de un documento de proyecto que sería un insumo para el proceso de Gestión de Comunicaciones?
+a) Plan de gestión de recursos
+b) Registro de partes interesadas
+c) Registro de lecciones aprendidas
+d) Registro de cambios
+Fuente: Captura image(20261022-091552).png
+
+147. La empresa X está en el proceso de implementar un nuevo software. Jai es el jefe del departamento de TI de la empresa X y Bai es el director de operaciones del departamento que recibe el nuevo software. ¿Cuáles son mejor considerados Jai y Bai?
+a) Patrocinadores
+b) Partes interesadas
+c) Gerentes de proyecto
+d) Clientes
+Fuente: Captura image(20261022-091552).png
+
+148. A Dennis le acaban de asignar un proyecto ágil debido a sus capacidades de liderazgo de proyectos anteriores. Es conocido por centrarse en el crecimiento, el aprendizaje, el desarrollo, la autonomía y el bienestar de su equipo. ¿Qué estilo de liderazgo representa mejor?
+a) Laissez-faire
+b) Líder de servicio
+c) Interaccional
+d) Transaccional
+Fuente: Captura image(20261022-091600).png
+
+149. Le acaban de asignar una nueva organización que cuenta con una oficina de gestión de proyectos (PMO) establecida. Explora los distintos tipos de oficinas para comprender las diferencias. ¿Cuál de las siguientes descripciones no es correcta si se hace referencia a una oficina de gestión de proyectos (PMO) de control?
+a) Proporciona apoyo al proyecto.
+b) Tiene un grado moderado de control.
+c) Requiere cumplimiento.
+d) Gestiona directamente el proyecto.
+Fuente: Captura image(20261022-091600).png
+
+150. Está en una reunión con el patrocinador del proyecto para discutir el plan de gestión de comunicaciones. Al revisar el proceso Gestionar las comunicaciones, identifica una discrepancia. ¿Cuál de los siguientes no es un resultado del proceso de Gestión de Comunicaciones?
+a) Informes del proyecto
+b) Comunicaciones del proyecto
+c) Actualizaciones de documentos del proyecto
+d) Actualizaciones del plan de gestión del proyecto
+Fuente: Captura image(20261022-091600).png
+
+ANEXO: CLAVES DEL MATERIAL Y RESPUESTAS PROPUESTAS
+Material = clave marcada en la fuente; propuesta = respuesta añadida. No se ha validado todo el banco.
+
+Pregunta 1: Material: a) 8
+
+Pregunta 2: sin clave visible o confirmada.
+
+Pregunta 3: sin clave visible o confirmada.
+
+Pregunta 4: Material: a) Verdadero
+
+Pregunta 5: Material: d) Interesados
+
+Pregunta 6: Material: d) Análisis de interesados
+
+Pregunta 7: sin clave visible o confirmada.
+
+Pregunta 8: sin clave visible o confirmada.
+
+Pregunta 9: sin clave visible o confirmada.
+
+Pregunta 10: sin clave visible o confirmada.
+
+Pregunta 11: sin clave visible o confirmada.
+
+Pregunta 12: sin clave visible o confirmada.
+
+Pregunta 13: sin clave visible o confirmada.
+
+Pregunta 14: sin clave visible o confirmada.
+
+Pregunta 15: sin clave visible o confirmada.
+
+Pregunta 16: sin clave visible o confirmada.
+
+Pregunta 17: sin clave visible o confirmada.
+
+Pregunta 18: Material: b) Falso
+
+Pregunta 19: Material: a) Verdadero
+
+Pregunta 20: Material: c) Identificar - Comprender - Analizar - Priorizar - Involucrar - Monitorear
+
+Pregunta 21: Material: a) Identificar
+
+Pregunta 22: Material: i) Todos los anteriores
+
+Pregunta 23: Material: b) Comprender y Analizar
+
+Pregunta 24: Material: a) Verdadero
+
+Pregunta 25: Material: c) Priorización
+
+Pregunta 26: Material: d) Involucrar
+
+Pregunta 27: sin clave visible o confirmada.
+
+Pregunta 28: sin clave visible o confirmada.
+
+Pregunta 29: sin clave visible o confirmada.
+
+Pregunta 30: sin clave visible o confirmada.
+
+Pregunta 31: Material: a) Push
+
+Pregunta 32: Material: b) Pull
+
+Pregunta 33: Material: a) Verdadero
+
+Pregunta 34: sin clave visible o confirmada.
+
+Pregunta 35: Material: e) Monitorear
+
+Pregunta 36: Material: b) Falso
+
+Pregunta 37: Material: a) Director del proyecto
+
+Pregunta 38: Material: b) Equipo de Dirección del proyecto
+
+Pregunta 39: Material: c) Equipo de proyecto
+
+Pregunta 40: Material: a) Verdadero
+
+Pregunta 41: sin clave visible o confirmada.
+
+Pregunta 42: Material: d) Dominio de Desempeño de la Planificación
+
+Pregunta 43: Material: a) Organización y coordinación
+
+Pregunta 44: Material: c) Comunicación Interpersonal
+
+Pregunta 45: Material: a) Verdadero
+
+Pregunta 46: Material: b) La transición de entregables al cliente o usuario final.
+
+Pregunta 47: Material: c) Estimación
+
+Pregunta 48: Material: d) Dependencia externa
+
+Pregunta 49: Material: b) Ejecución rápida (Fast tracking)
+
+Pregunta 50: Propuesta: b) Una reserva para contingencias asociada a los riesgos identificados.
+Explicación añadida: La reserva para contingencias atiende riesgos identificados. La reserva de gestión se diferencia por atender incertidumbre no identificada. El margen del proveedor y reducir calidad no sustituyen la planificación de respuestas. [R1]
+
+Pregunta 51: Material: c) Comunicación
+
+Pregunta 52: Material: c) Habilidades y competencias específicas
+
+Pregunta 53: Propuesta: b) Falso
+
+Pregunta 54: Material: c) los recursos físicos
+
+Pregunta 55: Material: c) Considerar tanto el coste como la calidad y la fiabilidad del proveedor.
+
+Pregunta 56: Material: b) Evaluar el impacto del cambio en el proyecto e informar al cliente o patrocinador antes de proceder.
+
+Pregunta 57: Material: c) Falta un plan de control de cambios
+
+Pregunta 58: Material: b) Establecer umbrales que indiquen desviaciones del desempeño esperado.
+
+Pregunta 59: Material: b) Alinear los compromisos de entrega con los fondos asignados y recursos disponibles.
+
+Pregunta 60: Propuesta: b) La planificación se desarrolla por adelantado y se ajusta según sea necesario para adaptarse al entorno real del proyecto.
+
+Pregunta 61: Propuesta: d) Todas las anteriores.
+
+Pregunta 62: sin clave visible o confirmada.
+
+Pregunta 63: Material: b) Conferencia de oferentes.
+
+Pregunta 64: Material: b) Optimiza el desempeño del proyecto mediante la mejora de la eficiencia operativa y la eliminación de actividades redundantes.
+
+Pregunta 65: Material: b) Falso
+
+Pregunta 66: Material: a) Establecer reuniones diarias de seguimiento.
+
+Pregunta 67: Material: d) Involucrar
+
+Pregunta 68: Propuesta: b) La cantidad de canales potenciales de comunicación aumenta de forma cuadrática al crecer el número de personas.
+Explicación añadida: Cada par de personas define un canal potencial: L = N(N - 1)/2. Por ejemplo, con 5 personas hay 10 canales y con 6 hay 15. El crecimiento es cuadrático; se precisó la palabra «geométricamente» de la alternativa original. a) trata otro concepto; c) no mide apoyo; d) es falsa porque una persona nueva puede comunicarse con todas las anteriores. [R2]
+
+Pregunta 69: sin clave visible o confirmada.
+
+Pregunta 70: Propuesta: c) Desarrollar una relación colaborativa con proveedores.
+
+Pregunta 71: Material: b) RFQ Solicitud de Cotización
+
+Pregunta 72: Material: c) RFP Solicitud de Propuesta
+
+Pregunta 73: Material: b) Contrato por tiempo y materiales
+
+Pregunta 74: Material: b) Permitir la flexibilidad en el alcance adaptativo del proyecto sin afectar los términos del contrato general.
+
+Pregunta 75: Material: d) Todas las anteriores.
+
+Pregunta 76: Material: a) Realizar revisiones periódicas del proyecto con todo el equipo.
+
+Pregunta 77: Propuesta: b) Crear un repositorio accesible donde se almacenen todas las lecciones aprendidas.
+
+Pregunta 78: Propuesta: b) A través de sesiones interactivas y talleres de trabajo en equipo.
+
+Pregunta 79: Material: b) A través de reuniones cruzadas entre equipos de diferentes dominios.
+
+Pregunta 80: Material: c) Evaluar sistemáticamente los resultados del proyecto contra los objetivos establecidos.
+
+Pregunta 81: Material: c) Comunicación e involucramiento adecuados con los interesados.
+
+Pregunta 82: Material: c) Cumplir con los requisitos, el alcance y las expectativas de calidad para producir entregables que impulsen resultados previstos.
+
+Pregunta 83: Material: b) No marcar el módulo como completado hasta que cumpla con todos los criterios establecidos en la DoD.
+
+Pregunta 84: Propuesta: c) I-ii; II-iv; III-iii; IV-i; V-v.
+Explicación añadida: La correspondencia es calidad-ii, DoD-iv, requisito-iii, EDT-i y COQ-v. Las otras combinaciones confunden atributos de calidad, requisitos, condiciones de terminado y descomposición del trabajo. Las descripciones truncadas se desarrollaron y las cuatro combinaciones son propuestas de estudio. [R5]
+
+Pregunta 85: Material: a) Dominio de Desempeño del Enfoque de Desarrollo y del Ciclo de Vida
+
+Pregunta 86: Material: b) El valor de negocio del proyecto
+
+Pregunta 87: Material: c) La creación de documentos y resultados tangibles acordados.
+
+Pregunta 88: Material: b) Asegurar que todos los entregables cumplan con las necesidades específicas del cliente.
+
+Pregunta 89: Material: c) La definición clara de lo que el proyecto debe lograr.
+
+Pregunta 90: Material: b) Desarrollo de una Estructura de Desglose del Trabajo (EDT/WBS) que refleje todos los entregables y sus criterios de aceptación.
+
+Pregunta 91: Propuesta: c) Objetivos que se ajustan a medida que avanza el proyecto y se obtiene más información.
+
+Pregunta 92: sin clave visible o confirmada.
+
+Pregunta 93: Material: a) Verdadero
+
+Pregunta 94: Material: c) Gráfico de control
+
+Pregunta 95: Material: c) Asegurar que el proyecto cumpla con los requisitos de calidad mientras se controlan los costos asociados.
+
+Pregunta 96: Material: d) Todas las actividades mencionadas son parte tanto de la prevención como de la evaluación.
+
+Pregunta 97: Material: c) Los costos del cambio pueden variar, pero gestionarlos adecuadamente puede limitar impactos negativos y aprovechar oportunidades de mejora.
+
+Pregunta 98: Propuesta: d) Evaluar pronto sus beneficios, costos, riesgos e impactos y aplicar el proceso de cambios acordado.
+Explicación añadida: Evaluar temprano permite decidir con información sobre valor e impactos y seguir la gobernanza acordada. a) es una prohibición absoluta injustificada; b) contradice el supuesto del gráfico; c) puede encarecer la corrección. Los multiplicadores del gráfico son ilustrativos, no una regla universal para todos los proyectos.
+
+Pregunta 99: Material: c) Implementar medidas correctivas para realinear el proyecto con sus objetivos iniciales.
+
+Pregunta 100: Material: c) Integrando esfuerzos y alineando objetivos entre dominios para optimizar resultados.
+
+Pregunta 101: Material: d) El proyecto parece estar dentro del presupuesto, pero con retraso.
+
+Pregunta 102: Material: c) Inalcanzable
+
+Pregunta 103: Material: a) Verdadero
+
+Pregunta 104: Material: c) Medidas de desempeño técnico
+
+Pregunta 105: Material: c) Indicadores adelantados
+
+Pregunta 106: Material: b) El proyecto está retrasado respecto al cronograma
+
+Pregunta 107: Material: d) Variable e impredecible debido a cambios en el orden dentro de la columna ‘Listo’
+
+Pregunta 108: Material: c) Indicadores adelantados y rezagados
+
+Pregunta 109: Material: b) Los resultados clave y los indicadores de rendimiento específicos
+
+Pregunta 110: Material: a) Medición frecuente de indicadores clave
+
+Pregunta 111: Material: b) Falso
+
+Pregunta 112: Material: b) Comparar el desempeño real con el esperado de manera eficiente.
+
+Pregunta 113: Material: b) Falso
+
+Pregunta 114: Material: b) Son indicaciones visibles y físicas que proporcionan información al resto de la organización de manera oportuna, ubicadas en un lugar visible para facilitar el intercambio de conocimientos.
+
+Pregunta 115: Propuesta: a) VAC = BAC - EAC.
+Explicación añadida: VAC = BAC - EAC. Si BAC = 100 000 y EAC = 110 000, VAC = -10 000: se prevé sobrecosto. b) invierte el signo; c) calcula la variación del costo CV; d) es una razón, no una variación monetaria. [R3]
+
+Pregunta 116: Material: a) Comparación de las fechas de inicio y finalización reales con las fechas planificadas.
+
+Pregunta 117: Material: a) Beneficios, costos
+
+Pregunta 118: Material: a) Verdadera
+
+Pregunta 119: Material: a) Sin valor agregado
+
+Pregunta 120: Material: a) Se calcula restando el costo real del valor ganado (CV = EV - AC).
+
+Pregunta 121: Material: c) Medir el tiempo promedio dedicado a corregir errores por ciclo de desarrollo.
+
+Pregunta 122: Propuesta: c) Complejidad.
+Explicación añadida: La complejidad surge de elementos e interacciones que dificultan comprender o predecir el comportamiento del sistema. La certeza absoluta describe lo contrario; la ausencia de interesados no define complejidad, y la incertidumbre exige adaptar la planificación, no abandonarla. Se reformuló el fragmento para evitar una definición imprecisa de ambigüedad.
+
+Pregunta 123: Propuesta: d) La incertidumbre puede dar lugar tanto a oportunidades como a amenazas, que juntas forman el conjunto de riesgos del proyecto.
+
+Pregunta 124: Material: b) Realizar una serie de experimentos bien diseñados para identificar las relaciones de causa y efecto.
+
+Pregunta 125: Material: b) Es el proceso iterativo de incrementar el nivel de detalle de un plan para la dirección del proyecto a medida que se cuenta con mayor cantidad de información y con estimaciones más precisas.
+
+Pregunta 126: Material: c) La interacción impredecible entre múltiples influencias interconectadas.
+
+Pregunta 127: Material: a) Verdadera
+
+Pregunta 128: Material: b) Ajustar los planes del proyecto para reflejar la evolución de la comprensión sobre los requisitos y riesgos.
+
+Pregunta 129: Material: a) La reserva para contingencias es para riesgos conocidos (conocidos-desconocidos), mientras que la reserva de gestión es para eventos no previstos (desconocidos-desconocidos).
+
+Pregunta 130: Propuesta: b) No toma medidas proactivas para perseguirla, aunque permite aprovecharla si ocurre.
+Explicación añadida: Aceptar reconoce la oportunidad sin perseguirla activamente; puede aprovecharse si ocurre. a) describe explotar; c) describe mejorar; d) se relaciona con compartir. [R4]
+
+Pregunta 131: sin clave visible o confirmada.
+
+Pregunta 132: Material: d) Aceptar (Todas las anteriores son estrategias válidas según la situación)
+
+Pregunta 133: Material: a) El riesgo general del proyecto es el efecto de la incertidumbre sobre el proyecto en su conjunto, mientras que los riesgos individuales se refieren a eventos específicos.
+
+Pregunta 134: Material: a) Se refiere a hacer frente a riesgos conocidos que se materialicen.
+
+Pregunta 135: Material: a) Reuniones mensuales de revisión y retroalimentación.
+
+Pregunta 136: Material: b) Realizar demostraciones frecuentes de incrementos del producto o servicio.
+
+Pregunta 137: Propuesta: d) Un enfoque adaptativo permite revisar planes y prioridades con nueva información; ambos enfoques pueden gestionar riesgos y utilizar reservas cuando corresponda.
+Explicación añadida: La adaptación usa aprendizaje y retroalimentación para actualizar decisiones; las reservas son una herramienta posible en ambos enfoques. a) supone eliminar riesgos por planificar; b) ignora el aprendizaje; c) niega la adaptación al contexto. Se reformularon las alternativas porque la opción d estaba ilegible y la clave b del PDF no debe trasladarse a esta versión modificada.
+
+Pregunta 138: Propuesta: c) Investigar múltiples diseños o alternativas.
+
+Pregunta 139: Propuesta: a) Complejidad
+
+Pregunta 140: Material: c) Conocido-desconocido
+
+Pregunta 141: Material: d) Volatilidad
+
+Pregunta 142: Material: a) Activos del proceso organizacional
+
+Pregunta 143: Material: a) Validar la alineación del proyecto con la estrategia organizacional y el valor comercial esperado.
+
+Pregunta 144: Material: a) Primero, antes de iniciar cualquier otra acción.
+
+Pregunta 145: Propuesta: d) Las estimaciones son más útiles si son detalladas para la planificación a corto plazo, aplicadas con un enfoque justo a tiempo.
+Explicación añadida: La opción d es la respuesta más específica: se detalla el trabajo próximo y se refina lo lejano al disponer de información. La opción b también expresa una característica válida; el enunciado original permite cierto solapamiento entre ambas.
+
+Pregunta 146: Propuesta: a) Plan de gestión de recursos
+
+Pregunta 147: Propuesta: b) Partes interesadas
+
+Pregunta 148: Propuesta: b) Líder de servicio
+
+Pregunta 149: Propuesta: d) Gestiona directamente el proyecto.
+
+Pregunta 150: Propuesta: a) Informes del proyecto

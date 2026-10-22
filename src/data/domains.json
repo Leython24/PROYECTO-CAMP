@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Aspectos fundamentales y conceptos principales",
+    "short": "Fundamentos",
+    "weight": 36,
+    "color": "#4f17a8",
+    "description": "Construye una base sólida para dirigir proyectos."
+  },
+  {
+    "id": 2,
+    "title": "Metodologías predictivas y basadas en planes",
+    "short": "Enfoque predictivo",
+    "weight": 17,
+    "color": "#a9470c",
+    "description": "Planifica, mide y toma decisiones con evidencia."
+  },
+  {
+    "id": 3,
+    "title": "Marcos de referencia y metodologías ágiles",
+    "short": "Enfoques ágiles",
+    "weight": 20,
+    "color": "#7650b0",
+    "description": "Entrega valor, aprende y adapta el trabajo."
+  },
+  {
+    "id": 4,
+    "title": "Marcos de referencia del análisis de negocio",
+    "short": "Análisis de negocio",
+    "weight": 27,
+    "color": "#463475",
+    "description": "Conecta necesidades, requisitos y resultados."
+  }
+]

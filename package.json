@@ -1,0 +1,36 @@
+{
+  "name": "capm-centro-leython",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader native",
+    "build": "tsc -b && vite build --configLoader native",
+    "test": "tsx --test tests/*.test.ts",
+    "preview": "vite preview --configLoader native",
+    "test:browser": "node scripts/browser-qa.mjs",
+    "test:dev": "node scripts/dev-browser-qa.mjs",
+    "test:collections": "node scripts/collections-browser-qa.mjs",
+    "audit:bank": "tsx scripts/audit.ts",
+    "dev:watch": "vite --configLoader native",
+    "start": "node scripts/serve.mjs",
+    "test:procesos": "node scripts/procesos-browser-qa.mjs"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "tsx": "^4.20.0",
+    "@types/node": "^24.0.0"
+  }
+}

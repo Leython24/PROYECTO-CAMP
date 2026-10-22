@@ -1,0 +1,2264 @@
+{
+  "generatedAt": "2026-10-22",
+  "syllabusVersion": "ECO público: 2023 Exam Update, consultado 2026-10-22",
+  "goal": 300,
+  "total": 197,
+  "missingToGoal": 103,
+  "origins": {
+    "ia": 197,
+    "externa": 0,
+    "adaptada": 0
+  },
+  "reviews": {
+    "contrastado": 191,
+    "pendiente": 6,
+    "humanReviewed": 0
+  },
+  "domains": [
+    {
+      "id": 1,
+      "title": "Aspectos fundamentales y conceptos principales",
+      "short": "Fundamentos",
+      "weight": 36,
+      "color": "#178b85",
+      "description": "Construye una base sólida para dirigir proyectos.",
+      "total": 67,
+      "eligible": 65
+    },
+    {
+      "id": 2,
+      "title": "Metodologías predictivas y basadas en planes",
+      "short": "Enfoque predictivo",
+      "weight": 17,
+      "color": "#cf8952",
+      "description": "Planifica, mide y toma decisiones con evidencia.",
+      "total": 36,
+      "eligible": 36
+    },
+    {
+      "id": 3,
+      "title": "Marcos de referencia y metodologías ágiles",
+      "short": "Enfoques ágiles",
+      "weight": 20,
+      "color": "#7883c5",
+      "description": "Entrega valor, aprende y adapta el trabajo.",
+      "total": 42,
+      "eligible": 40
+    },
+    {
+      "id": 4,
+      "title": "Marcos de referencia del análisis de negocio",
+      "short": "Análisis de negocio",
+      "weight": 27,
+      "color": "#528bad",
+      "description": "Conecta necesidades, requisitos y resultados.",
+      "total": 52,
+      "eligible": 50
+    }
+  ],
+  "tasks": [
+    {
+      "id": "D1-T1",
+      "domain": 1,
+      "title": "Procesos y ciclos de vida",
+      "total": 17,
+      "topics": [
+        {
+          "id": "D1-T1-proyecto",
+          "taskId": "D1-T1",
+          "title": "Proyecto, programa y portafolio",
+          "summary": "Un proyecto produce un resultado único; un programa coordina proyectos relacionados para obtener beneficios; un portafolio selecciona inversiones alineadas con la estrategia.",
+          "example": "Una universidad coordina matrícula, pagos y capacitación como programa de transformación.",
+          "contrast": "Compartir un patrocinador no convierte automáticamente proyectos independientes en un programa.",
+          "terms": [
+            "proyecto / project",
+            "programa / program",
+            "portafolio / portfolio"
+          ],
+          "refs": [
+            "b4",
+            "portfolio-standard"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T1-operaciones",
+          "taskId": "D1-T1",
+          "title": "Proyecto frente a operaciones",
+          "summary": "Los proyectos son temporales; las operaciones sostienen actividades recurrentes. Un producto puede seguir funcionando después del cierre del proyecto que lo creó.",
+          "example": "Desarrollar el portal de matrícula es un proyecto; atender matrículas con el portal es una operación.",
+          "contrast": "Temporal no significa corto ni que el resultado deje de existir.",
+          "terms": [
+            "operaciones / operations"
+          ],
+          "refs": [
+            "b2"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T1-enfoques",
+          "taskId": "D1-T1",
+          "title": "Enfoques predictivos y adaptativos",
+          "summary": "Un enfoque predictivo detalla el trabajo con mayor anticipación; uno adaptativo refina decisiones mediante ciclos de aprendizaje. La selección depende de incertidumbre y contexto.",
+          "example": "Para una app cuyo flujo aún se descubre, entregar pequeñas funciones permite recibir comentarios.",
+          "contrast": "Adaptativo no significa ausencia de planificación; predictivo no elimina todo cambio.",
+          "terms": [
+            "predictivo / predictive",
+            "adaptativo / adaptive"
+          ],
+          "refs": [
+            "agile",
+            "b8"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T1-riesgo-incidente",
+          "taskId": "D1-T1",
+          "title": "Riesgos e incidentes",
+          "summary": "Un riesgo es incierto y puede afectar objetivos; un incidente es una condición actual que necesita atención. Un riesgo materializado puede originar un incidente.",
+          "example": "Posible cierre de una carretera: riesgo. Carretera cerrada hoy: incidente.",
+          "contrast": "Un riesgo puede ser amenaza u oportunidad; no todos son daños.",
+          "terms": [
+            "riesgo / risk",
+            "incidente / issue"
+          ],
+          "refs": [
+            "b16"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D1-T1-supuestos",
+          "taskId": "D1-T1",
+          "title": "Supuestos y restricciones",
+          "summary": "Un supuesto se acepta provisionalmente como verdadero y debe validarse; una restricción limita las opciones disponibles.",
+          "example": "Suponer disponible un laboratorio es distinto de tener un presupuesto máximo aprobado.",
+          "contrast": "Un supuesto no es evidencia confirmada ni una autorización para ignorar riesgos.",
+          "terms": [
+            "supuesto / assumption",
+            "restricción / constraint"
+          ],
+          "refs": [
+            "b7",
+            "b2",
+            "glossary"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T1-alcance",
+          "taskId": "D1-T1",
+          "title": "Alcance del producto y del proyecto",
+          "summary": "El alcance del producto describe características; el del proyecto comprende el trabajo para entregar el resultado. Ambos deben ser coherentes y verificables.",
+          "example": "Autenticar estudiantes es una función del producto; configurar y probar esa función es trabajo del proyecto.",
+          "contrast": "Una lista de características no describe por sí sola todo el trabajo del proyecto.",
+          "terms": [
+            "alcance / scope"
+          ],
+          "refs": [
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T1-etica",
+          "taskId": "D1-T1",
+          "title": "Ética aplicada",
+          "summary": "La honestidad, responsabilidad, respeto y equidad orientan decisiones profesionales. Los escenarios se analizan según sus hechos y obligaciones.",
+          "example": "Informar con precisión un defecto protege decisiones del equipo y del cliente.",
+          "contrast": "Una presión por cumplir fechas no justifica ocultar información relevante.",
+          "terms": [
+            "honestidad / honesty",
+            "equidad / fairness"
+          ],
+          "refs": [
+            "ethics"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T1-cambio",
+          "taskId": "D1-T1",
+          "title": "Proyecto como vehículo para el cambio",
+          "summary": "Un proyecto puede crear capacidades que permitan pasar de una situación actual a otra deseada. Entregar una solución y lograr sus beneficios son resultados relacionados, pero distintos.",
+          "example": "Un portal puede reducir colas solo si los usuarios lo adoptan y el servicio se reorganiza.",
+          "contrast": "Finalizar un entregable no prueba automáticamente que se obtuvo el beneficio esperado.",
+          "terms": [
+            "cambio / change",
+            "beneficio / benefit"
+          ],
+          "refs": [
+            "b7",
+            "sponsor"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D1-T2",
+      "domain": 1,
+      "title": "Planificación",
+      "total": 17,
+      "topics": [
+        {
+          "id": "D1-T2-planes",
+          "taskId": "D1-T2",
+          "title": "Plan del proyecto y gestión del producto",
+          "summary": "El plan del proyecto integra cómo dirigir el trabajo temporal. La gestión del producto orienta su evolución y valor durante su ciclo de vida, que puede superar al proyecto.",
+          "example": "El cronograma de implantación pertenece al proyecto; la evolución posterior del servicio pertenece a la gestión del producto.",
+          "contrast": "No todos los documentos llamados plan de producto tienen idéntica estructura; el contexto define sus resultados.",
+          "terms": [
+            "plan para la dirección / project management plan"
+          ],
+          "refs": [
+            "b8",
+            "product-practices"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T2-componentes",
+          "taskId": "D1-T2",
+          "title": "Componentes de la planificación",
+          "summary": "Costo, cronograma, calidad, recursos y riesgos deben coordinarse. Un cambio puede afectar varios componentes y necesita evaluación integrada.",
+          "example": "Agregar un reporte requiere estimar trabajo, pruebas, tiempo y costo.",
+          "contrast": "Optimizar una dimensión no garantiza el mejor resultado global.",
+          "terms": [
+            "línea base / baseline"
+          ],
+          "refs": [
+            "b8",
+            "b2"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T2-hitos",
+          "taskId": "D1-T2",
+          "title": "Hitos y duración de actividades",
+          "summary": "Un hito representa un evento significativo de duración cero en el cronograma. Una actividad requiere tiempo y recursos para realizar trabajo.",
+          "example": "Aprobación del diseño es un hito; elaborar el diseño durante cinco días es una actividad.",
+          "contrast": "La fecha de un hito no equivale al esfuerzo para alcanzarlo.",
+          "terms": [
+            "hito / milestone",
+            "duración / duration"
+          ],
+          "refs": [
+            "b10"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T2-recursos",
+          "taskId": "D1-T2",
+          "title": "Cantidad y tipo de recursos",
+          "summary": "La planificación de recursos considera habilidades, equipos, cantidades y disponibilidad. Tener personas no garantiza contar con la especialidad necesaria.",
+          "example": "Probar accesibilidad puede requerir especialista, dispositivos y tiempo de laboratorio.",
+          "contrast": "Esfuerzo y duración difieren; más personas no siempre reducen el plazo proporcionalmente.",
+          "terms": [
+            "recurso / resource",
+            "esfuerzo / effort"
+          ],
+          "refs": [
+            "b11"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 1,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T2-registro-riesgos",
+          "taskId": "D1-T2",
+          "title": "Registro de riesgos",
+          "summary": "El registro de riesgos conserva eventos identificados, análisis, responsables y respuestas según el nivel de detalle requerido. Debe actualizarse durante el trabajo.",
+          "example": "Un cierre posible de una vía se asocia con impacto, responsable y alternativa logística.",
+          "contrast": "El plan de gestión de riesgos define el método; el registro documenta riesgos concretos.",
+          "terms": [
+            "registro de riesgos / risk register"
+          ],
+          "refs": [
+            "registers",
+            "b16"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 1,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T2-registro-interesados",
+          "taskId": "D1-T2",
+          "title": "Registro de interesados",
+          "summary": "El registro identifica actores relevantes y datos para comprender su participación. El análisis se revisa porque influencia, necesidades y actitudes pueden cambiar.",
+          "example": "Una asociación vecinal puede ganar influencia cuando empieza la obra cerca de sus viviendas.",
+          "contrast": "La clasificación de un interesado no es permanente ni un juicio personal.",
+          "terms": [
+            "interesado / stakeholder",
+            "registro de interesados / stakeholder register"
+          ],
+          "refs": [
+            "b5",
+            "registers"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D1-T2-cierre",
+          "taskId": "D1-T2",
+          "title": "Cierre y transición",
+          "summary": "El cierre verifica aceptación, asuntos pendientes, transferencia, documentación y aprendizaje. La transición prepara a quienes operarán el resultado.",
+          "example": "Entregar el portal requiere manuales, soporte acordado y aceptación, además de desplegarlo.",
+          "contrast": "Cerrar el proyecto no significa abandonar obligaciones ni confundir cierre con operación.",
+          "terms": [
+            "cierre / closure",
+            "transición / transition"
+          ],
+          "refs": [
+            "b3"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D1-T3",
+      "domain": 1,
+      "title": "Roles y responsabilidades",
+      "total": 15,
+      "topics": [
+        {
+          "id": "D1-T3-pm-sponsor",
+          "taskId": "D1-T3",
+          "title": "Director del proyecto y patrocinador",
+          "summary": "El director coordina el trabajo y al equipo. El patrocinador respalda el caso de negocio, facilita apoyo y atiende decisiones que superan la autoridad del director.",
+          "example": "Si un conflicto de prioridades excede la autoridad del director, puede necesitar apoyo del patrocinador.",
+          "contrast": "El patrocinador no debe sustituir la coordinación diaria mediante microgestión.",
+          "terms": [
+            "director del proyecto / project manager",
+            "patrocinador / sponsor"
+          ],
+          "refs": [
+            "sponsor"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T3-equipo",
+          "taskId": "D1-T3",
+          "title": "Equipo y patrocinador",
+          "summary": "El equipo realiza trabajo especializado para crear entregables; el patrocinador facilita respaldo y decisiones estratégicas. La responsabilidad técnica no desaparece por existir patrocinio.",
+          "example": "Los ingenieros verifican la estructura de una obra; el patrocinador apoya su financiamiento y objetivos.",
+          "contrast": "Autoridad de patrocinio no equivale a conocimiento técnico sobre todas las especialidades.",
+          "terms": [
+            "equipo / team"
+          ],
+          "refs": [
+            "sponsor",
+            "b11"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T3-facilitacion",
+          "taskId": "D1-T3",
+          "title": "PM: iniciador, negociador, oyente, coach y facilitador",
+          "summary": "El director adapta su intervención: inicia acuerdos, negocia recursos, escucha necesidades, desarrolla al equipo y facilita decisiones compartidas.",
+          "example": "Ante dos propuestas de arquitectura, facilitar criterios y diálogo ayuda a decidir con evidencia.",
+          "contrast": "Facilitar no significa imponer una respuesta ni renunciar a la responsabilidad de gestionar.",
+          "terms": [
+            "facilitador / facilitator",
+            "escucha activa / active listening"
+          ],
+          "refs": [
+            "b2"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D1-T3-liderazgo",
+          "taskId": "D1-T3",
+          "title": "Liderazgo y gestión",
+          "summary": "El liderazgo moviliza a las personas hacia un propósito compartido; la gestión organiza y controla el trabajo. Un director necesita combinar ambos según el contexto.",
+          "example": "Alinear al equipo con el servicio al estudiante complementa organizar fechas y responsabilidades.",
+          "contrast": "No son capacidades excluyentes ni roles reservados a cargos diferentes.",
+          "terms": [
+            "liderazgo / leadership",
+            "gestión / management"
+          ],
+          "refs": [
+            "b2"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T3-emocional",
+          "taskId": "D1-T3",
+          "title": "Inteligencia emocional",
+          "summary": "Reconocer emociones propias y ajenas, regular respuestas y escuchar con empatía ayuda a manejar conversaciones difíciles.",
+          "example": "Antes de responder con enojo a una crítica, el director puede reconocer su reacción y pedir ejemplos concretos.",
+          "contrast": "Empatía no significa aceptar todas las solicitudes ni dejar de exigir resultados.",
+          "terms": [
+            "inteligencia emocional / emotional intelligence"
+          ],
+          "refs": [
+            "eq"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T3-pmo",
+          "taskId": "D1-T3",
+          "title": "PMO y responsabilidades",
+          "summary": "Una PMO puede proporcionar estándares, apoyo, coordinación o dirección de proyectos según su mandato. Su autoridad depende de la organización.",
+          "example": "Una PMO de apoyo puede entregar plantillas sin decidir por el director.",
+          "contrast": "No todas las PMO tienen igual autoridad ni todas administran directamente cada proyecto.",
+          "terms": [
+            "oficina de dirección de proyectos / PMO"
+          ],
+          "refs": [
+            "b4"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T3-servicial",
+          "taskId": "D1-T3",
+          "title": "Liderazgo servicial",
+          "summary": "El liderazgo servicial ayuda al equipo a mejorar su efectividad, desarrollar capacidades y eliminar impedimentos. En Scrum, el Scrum Master sirve al equipo y a la organización.",
+          "example": "Facilitar que se resuelva un bloqueo de acceso ayuda a que el equipo avance.",
+          "contrast": "Servir no significa hacer todo el trabajo del equipo ni evitar conversaciones difíciles.",
+          "terms": [
+            "liderazgo servicial / servant leadership"
+          ],
+          "refs": [
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D1-T4",
+      "domain": 1,
+      "title": "Ejecución de estrategias planificadas",
+      "total": 8,
+      "topics": [
+        {
+          "id": "D1-T4-comunicacion",
+          "taskId": "D1-T4",
+          "title": "Aplicar estrategias de comunicación",
+          "summary": "Una estrategia de comunicación define audiencia, información, canal, frecuencia y responsables; debe comprobarse si la información fue entendida.",
+          "example": "Un comité puede requerir un resumen ejecutivo; el equipo técnico necesita detalles operativos.",
+          "contrast": "Enviar un mensaje no prueba que fue recibido y comprendido.",
+          "terms": [
+            "retroalimentación / feedback"
+          ],
+          "refs": [
+            "registers"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T4-respuesta-riesgo",
+          "taskId": "D1-T4",
+          "title": "Ejecutar respuestas a riesgos",
+          "summary": "Las respuestas planificadas deben activarse según condiciones, responsables y autoridad acordados. Después se revisan su eficacia y riesgos residuales.",
+          "example": "Si se cumple el umbral de lluvias, activar una ruta logística alternativa previamente acordada.",
+          "contrast": "Tener una respuesta escrita no equivale a haberla ejecutado ni a eliminar toda incertidumbre.",
+          "terms": [
+            "respuesta al riesgo / risk response",
+            "disparador / trigger"
+          ],
+          "refs": [
+            "b16",
+            "registers"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T4-iniciacion",
+          "taskId": "D1-T4",
+          "title": "Iniciación y acta de constitución",
+          "summary": "La iniciación aclara necesidad, objetivos y autorización. El acta de constitución autoriza formalmente el proyecto y sitúa sus elementos de alto nivel.",
+          "example": "Antes de implantar matrícula, se aclara el problema, el respaldo y la autoridad para iniciar.",
+          "contrast": "Un acta no reemplaza el detalle posterior del plan ni es una lista completa de tareas.",
+          "terms": [
+            "acta de constitución / project charter",
+            "caso de negocio / business case"
+          ],
+          "refs": [
+            "registers",
+            "b7"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T4-beneficios",
+          "taskId": "D1-T4",
+          "title": "Planificación de beneficios",
+          "summary": "Planificar beneficios requiere definir la mejora esperada, cómo medirla y quién dará seguimiento, incluso después de entregar.",
+          "example": "Un servicio de transporte puede medir reducción de espera frente a una línea base acordada.",
+          "contrast": "Cumplir el presupuesto no demuestra por sí solo el valor de negocio.",
+          "terms": [
+            "realización de beneficios / benefits realization"
+          ],
+          "refs": [
+            "sponsor"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D1-T5",
+      "domain": 1,
+      "title": "Resolución de problemas",
+      "total": 10,
+      "topics": [
+        {
+          "id": "D1-T5-reuniones",
+          "taskId": "D1-T5",
+          "title": "Eficacia de las reuniones",
+          "summary": "La eficacia de una reunión depende de su objetivo, participantes, decisiones y seguimiento de acciones. La duración o asistencia no bastan para juzgarla.",
+          "example": "Una reunión de coordinación debe dejar responsables y próximos pasos claros.",
+          "contrast": "Una reunión breve también puede ser ineficaz si no logra su propósito.",
+          "terms": [
+            "acta de reunión / meeting minutes"
+          ],
+          "refs": [
+            "registers"
+          ],
+          "total": 2,
+          "eligible": 0,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T5-focales",
+          "taskId": "D1-T5",
+          "title": "Grupos focales",
+          "summary": "Un grupo focal explora percepciones de participantes seleccionados mediante conversación guiada. No proporciona por sí solo representatividad estadística.",
+          "example": "Escuchar a conductores de distintos servicios ayuda a explorar dificultades de una app de rutas.",
+          "contrast": "No confundir una conversación cualitativa con una encuesta de población.",
+          "terms": [
+            "grupo focal / focus group"
+          ],
+          "refs": [
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T5-seguimiento-diaria",
+          "taskId": "D1-T5",
+          "title": "Seguimiento y reuniones diarias",
+          "summary": "Las reuniones de seguimiento revisan estado y acciones. En Scrum, la Daily Scrum permite a los Developers inspeccionar el avance al Sprint Goal y adaptar el plan diario.",
+          "example": "Un bloqueo de pruebas puede coordinarse en la Daily y resolverse con detalle después.",
+          "contrast": "La regla de quince minutos corresponde a Daily Scrum; no a todas las reuniones ágiles.",
+          "terms": [
+            "reunión diaria / Daily Scrum"
+          ],
+          "refs": [
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T5-ideas",
+          "taskId": "D1-T5",
+          "title": "Lluvia de ideas",
+          "summary": "La lluvia de ideas abre una etapa de generación de opciones antes de evaluarlas. Separar ambas etapas ayuda a evitar que el juicio temprano suprima propuestas.",
+          "example": "Para reducir colas se generan alternativas y luego se comparan con criterios.",
+          "contrast": "Generar ideas no equivale a priorizarlas ni a elegir una solución definitiva.",
+          "terms": [
+            "lluvia de ideas / brainstorming"
+          ],
+          "refs": [
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D1-T5-herramienta",
+          "taskId": "D1-T5",
+          "title": "Elegir herramientas según el problema",
+          "summary": "La herramienta debe elegirse por el propósito: explorar ideas, profundizar necesidades, coordinar acciones o decidir entre alternativas.",
+          "example": "Entrevistar en privado puede descubrir problemas sensibles que no aparecen en una reunión masiva.",
+          "contrast": "No hay una técnica universalmente superior para cualquier situación.",
+          "terms": [
+            "técnica / technique"
+          ],
+          "refs": [
+            "b9",
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D2-T1",
+      "domain": 2,
+      "title": "Selección y aplicación del enfoque",
+      "total": 10,
+      "topics": [
+        {
+          "id": "D2-T1-idoneidad",
+          "taskId": "D2-T1",
+          "title": "Cuándo conviene el enfoque predictivo",
+          "summary": "El enfoque predictivo resulta útil cuando requisitos y solución pueden definirse con suficiente estabilidad y los cambios se gestionan de forma controlada.",
+          "example": "Una obra con diseño aprobado y especificaciones estables permite planificar secuencias detalladas.",
+          "contrast": "El sector o el tamaño por sí solos no determinan el enfoque.",
+          "terms": [
+            "basado en planes / plan-based"
+          ],
+          "refs": [
+            "b8",
+            "groups"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T1-estructura",
+          "taskId": "D2-T1",
+          "title": "Estructuras funcionales, matriciales y jerárquicas",
+          "summary": "La estructura distribuye autoridad y recursos. En una organización funcional predominan áreas especializadas; en una matricial se comparten responsabilidades funcionales y de proyecto.",
+          "example": "Un analista puede reportar a su gerente funcional y coordinar compromisos con el director del proyecto.",
+          "contrast": "Una estructura jerárquica no implica automáticamente que el director tenga autoridad plena.",
+          "terms": [
+            "estructura matricial / matrix structure"
+          ],
+          "refs": [
+            "b11",
+            "matrix"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T1-ubicacion",
+          "taskId": "D2-T1",
+          "title": "Equipos virtuales y coubicados",
+          "summary": "La ubicación del equipo cambia las necesidades de coordinación, pero no determina por sí sola un enfoque predictivo o adaptativo.",
+          "example": "Un equipo virtual puede acordar horarios, documentación y canales para coordinar entregables.",
+          "contrast": "Virtual y coubicado describen ubicación; funcional y matricial describen principalmente autoridad.",
+          "terms": [
+            "equipo virtual / virtual team",
+            "coubicado / colocated"
+          ],
+          "refs": [
+            "b2",
+            "b11"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T1-procesos",
+          "taskId": "D2-T1",
+          "title": "Actividades de los grupos de procesos",
+          "summary": "Iniciación, planificación, ejecución, seguimiento y control, y cierre agrupan actividades de gestión. Pueden interactuar y repetirse en diferentes fases.",
+          "example": "Crear entregables es ejecución; comparar desempeño con el plan corresponde a seguimiento y control.",
+          "contrast": "Un grupo de procesos no es necesariamente una fase del ciclo de vida.",
+          "terms": [
+            "grupos de procesos / process groups"
+          ],
+          "refs": [
+            "groups",
+            "b3"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T1-componentes",
+          "taskId": "D2-T1",
+          "title": "Componentes y documentos del proyecto",
+          "summary": "El acta autoriza; la EDT descompone alcance; el cronograma organiza tiempos y dependencias; el presupuesto distribuye recursos financieros.",
+          "example": "Para saber cuándo se probará un módulo se consulta el cronograma, no solo la EDT.",
+          "contrast": "Documentos relacionados cumplen funciones diferentes y no deben confundirse.",
+          "terms": [
+            "estructura de desglose del trabajo / WBS"
+          ],
+          "refs": [
+            "b8",
+            "b9",
+            "b10"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D2-T2",
+      "domain": 2,
+      "title": "Cronograma y planificación",
+      "total": 16,
+      "topics": [
+        {
+          "id": "D2-T2-ruta",
+          "taskId": "D2-T2",
+          "title": "Ruta crítica",
+          "summary": "La ruta crítica es la secuencia de mayor duración que determina el plazo mínimo de la red bajo sus supuestos. La holgura total mide flexibilidad respecto al fin planificado.",
+          "example": "Si dos rutas duran nueve y doce días, la de doce controla la duración, sin restricciones adicionales.",
+          "contrast": "Una actividad cara o riesgosa no pertenece necesariamente a la ruta crítica.",
+          "terms": [
+            "ruta crítica / critical path",
+            "holgura / float"
+          ],
+          "refs": [
+            "cpm"
+          ],
+          "total": 4,
+          "eligible": 4,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 2,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T2-sv",
+          "taskId": "D2-T2",
+          "title": "Variación del cronograma en valor ganado",
+          "summary": "En valor ganado, SV = EV − PV compara trabajo logrado con planificado en unidades monetarias. No representa directamente días de atraso.",
+          "example": "SV negativo indica menos valor ganado que el planificado a la fecha de corte.",
+          "contrast": "No convertir soles de SV en días sin analizar la red y el cronograma.",
+          "terms": [
+            "valor ganado / earned value",
+            "valor planificado / planned value"
+          ],
+          "refs": [
+            "evm"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 1,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T2-edt",
+          "taskId": "D2-T2",
+          "title": "EDT/WBS",
+          "summary": "La EDT organiza jerárquicamente el alcance del trabajo orientado a entregables. Apoya estimación y control, pero no sustituye la secuencia del cronograma.",
+          "example": "La app de matrícula puede descomponerse en gestión del proyecto, portal, integración y capacitación.",
+          "contrast": "Descomponer alcance no equivale a ordenar actividades por fecha.",
+          "terms": [
+            "EDT / Work Breakdown Structure (WBS)"
+          ],
+          "refs": [
+            "b9"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D2-T2-paquetes",
+          "taskId": "D2-T2",
+          "title": "Paquetes de trabajo",
+          "summary": "Un paquete de trabajo es un componente de nivel inferior de la EDT para el que se puede estimar y controlar trabajo. Puede descomponerse en actividades del cronograma.",
+          "example": "“Capacitación de usuarios” puede requerir preparar material, coordinar y dictar sesiones.",
+          "contrast": "Un paquete de trabajo no es obligatoriamente una única actividad ni una persona.",
+          "terms": [
+            "paquete de trabajo / work package"
+          ],
+          "refs": [
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T2-calidad",
+          "taskId": "D2-T2",
+          "title": "Aplicar el plan de calidad",
+          "summary": "El plan de calidad define criterios, medidas y actividades para prevenir y comprobar defectos. Cumplir una fecha no sustituye la conformidad requerida.",
+          "example": "Si una app debe ser accesible, se preparan verificaciones y evidencia de cumplimiento.",
+          "contrast": "Calidad no significa añadir funciones no solicitadas ni inspeccionar solamente al final.",
+          "terms": [
+            "calidad / quality",
+            "aseguramiento / assurance"
+          ],
+          "refs": [
+            "b14"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T2-integracion",
+          "taskId": "D2-T2",
+          "title": "Integración y control de cambios",
+          "summary": "La integración coordina componentes y evalúa impactos de cambios antes de modificar compromisos aprobados. Se siguen las autoridades y reglas de decisión acordadas.",
+          "example": "Agregar un acceso biométrico puede afectar alcance, seguridad, costo y cronograma.",
+          "contrast": "No todo cambio es malo; tampoco toda solicitud debe ejecutarse inmediatamente.",
+          "terms": [
+            "control integrado de cambios / integrated change control"
+          ],
+          "refs": [
+            "b8",
+            "b9",
+            "b4"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D2-T3",
+      "domain": 2,
+      "title": "Controles predictivos",
+      "total": 10,
+      "topics": [
+        {
+          "id": "D2-T3-artefactos",
+          "taskId": "D2-T3",
+          "title": "Artefactos de control predictivo",
+          "summary": "Líneas base, registros de cambios, informes y mediciones permiten comparar desempeño y conservar decisiones. Los datos deben corresponder al mismo corte y alcance.",
+          "example": "Un informe de costo compara gasto y avance contra el presupuesto del trabajo correspondiente.",
+          "contrast": "Un dato aislado de gasto no demuestra eficiencia sin conocer el trabajo logrado.",
+          "terms": [
+            "informe de desempeño / performance report"
+          ],
+          "refs": [
+            "evm",
+            "registers"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D2-T3-indices",
+          "taskId": "D2-T3",
+          "title": "Interpretación de costo y cronograma",
+          "summary": "CPI = EV/AC mide eficiencia de costo y SPI = EV/PV compara avance respecto al plan. Un valor menor que uno es desfavorable en su dimensión.",
+          "example": "Un proyecto puede ir adelantado respecto al valor planificado y gastar más de lo presupuestado para su trabajo.",
+          "contrast": "SPI no reemplaza el análisis de ruta crítica ni garantiza la fecha final.",
+          "terms": [
+            "índice de desempeño del costo / CPI",
+            "índice de desempeño del cronograma / SPI"
+          ],
+          "refs": [
+            "evm"
+          ],
+          "total": 8,
+          "eligible": 8,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 5,
+            "interpretacion": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "D3-T1",
+      "domain": 3,
+      "title": "Selección del enfoque adaptativo",
+      "total": 8,
+      "topics": [
+        {
+          "id": "D3-T1-adaptacion",
+          "taskId": "D3-T1",
+          "title": "Cuándo conviene adaptarse",
+          "summary": "La adaptación es útil con incertidumbre y necesidad de retroalimentación. Entregas frecuentes permiten contrastar hipótesis y ajustar prioridades.",
+          "example": "Una app de transporte puede validar primero si la información mostrada ayuda al usuario.",
+          "contrast": "No se elige agilidad solo para evitar documentación o controles.",
+          "terms": [
+            "adaptación / adaptation"
+          ],
+          "refs": [
+            "agile"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T1-pros-contras",
+          "taskId": "D3-T1",
+          "title": "Ventajas y límites de la adaptación",
+          "summary": "Las entregas frecuentes reducen el costo de aprender tarde, pero necesitan colaboración y capacidad de ajustar decisiones. El contexto puede requerir combinar enfoques.",
+          "example": "La revisión temprana puede evitar desarrollar un módulo completo que nadie necesita.",
+          "contrast": "No existe un enfoque que elimine toda incertidumbre o sea mejor en cualquier proyecto.",
+          "terms": [
+            "híbrido / hybrid"
+          ],
+          "refs": [
+            "agile",
+            "groups"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T1-organizacion",
+          "taskId": "D3-T1",
+          "title": "Idoneidad organizacional",
+          "summary": "Equipos con acceso a usuarios, colaboración y autonomía pueden responder mejor al aprendizaje. La estructura debe permitir decisiones oportunas.",
+          "example": "Una matriz puede requerir acuerdos explícitos para proteger capacidad del equipo durante una iteración.",
+          "contrast": "Ágil no exige que todos trabajen físicamente juntos ni elimina la gobernanza.",
+          "terms": [
+            "autogestión / self-management"
+          ],
+          "refs": [
+            "scrum",
+            "agile"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T1-activos",
+          "taskId": "D3-T1",
+          "title": "Activos y factores ambientales",
+          "summary": "Los activos de procesos incluyen prácticas y conocimiento de la organización; los factores ambientales son condiciones que influyen en el trabajo, como cultura o regulación.",
+          "example": "Una guía interna de retrospectivas es un activo; una regulación de datos es un factor ambiental.",
+          "contrast": "Ambos influyen en el enfoque, pero no son la misma clase de elemento.",
+          "terms": [
+            "activos de procesos / OPA",
+            "factores ambientales / EEF"
+          ],
+          "refs": [
+            "b4"
+          ],
+          "total": 2,
+          "eligible": 0,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D3-T2",
+      "domain": 3,
+      "title": "Planificación de iteraciones",
+      "total": 10,
+      "topics": [
+        {
+          "id": "D3-T2-iteracion",
+          "taskId": "D3-T2",
+          "title": "Unidades lógicas de iteración",
+          "summary": "Una iteración es un período de trabajo y aprendizaje. Un incremento es un resultado añadido al producto; iterativo e incremental describen ideas diferentes que pueden combinarse.",
+          "example": "En una iteración se puede mejorar un flujo y entregar una nueva capacidad utilizable.",
+          "contrast": "Una iteración no debe entenderse como una fase exclusiva de análisis, diseño o prueba.",
+          "terms": [
+            "iteración / iteration",
+            "incremento / increment"
+          ],
+          "refs": [
+            "scrum",
+            "agile"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T2-cadencia",
+          "taskId": "D3-T2",
+          "title": "Ventajas y costos de iterar",
+          "summary": "Las iteraciones ofrecen puntos frecuentes de inspección y adaptación. También necesitan coordinación y pueden tener costos de cambio y de revisión.",
+          "example": "Una iteración corta ayuda a detectar un error de enfoque antes de invertir meses.",
+          "contrast": "Acortar iteraciones no garantiza mayor valor si el trabajo queda fragmentado sin resultados útiles.",
+          "terms": [
+            "cadencia / cadence"
+          ],
+          "refs": [
+            "scrum",
+            "agile"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T2-edt-backlog",
+          "taskId": "D3-T2",
+          "title": "De EDT a planificación adaptativa",
+          "summary": "Una descomposición de alcance puede ayudar a identificar entregables, pero el trabajo adaptativo se organiza y refina en incrementos de valor. No basta copiar cada fila como historia.",
+          "example": "Un módulo de matrícula se divide en capacidades de consulta e inscripción que pueden validarse.",
+          "contrast": "Una historia no es automáticamente una capa técnica ni una sección de documento.",
+          "terms": [
+            "lista de trabajo / backlog"
+          ],
+          "refs": [
+            "stories",
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T2-entradas",
+          "taskId": "D3-T2",
+          "title": "Entradas para determinar el alcance",
+          "summary": "La visión, necesidades, retroalimentación, objetivos y capacidad ayudan a seleccionar trabajo. En Scrum se considera el Product Backlog y el Sprint Goal.",
+          "example": "El equipo elige un conjunto viable que contribuya a inscribir estudiantes sin errores.",
+          "contrast": "La capacidad no debe fijarse solo por el deseo del patrocinador.",
+          "terms": [
+            "objetivo del Sprint / Sprint Goal"
+          ],
+          "refs": [
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T2-seguimiento",
+          "taskId": "D3-T2",
+          "title": "Seguimiento adaptativo y predictivo",
+          "summary": "El seguimiento adaptativo observa resultados y aprendizaje para ajustar el trabajo. El predictivo compara también contra planes y líneas base; ambos necesitan evidencia.",
+          "example": "Mostrar un flujo utilizable aporta información distinta de reportar horas consumidas.",
+          "contrast": "Horas trabajadas no equivalen a valor ni a avance funcional comprobado.",
+          "terms": [
+            "inspección / inspection"
+          ],
+          "refs": [
+            "scrum",
+            "agile"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D3-T3",
+      "domain": 3,
+      "title": "Controles adaptativos",
+      "total": 6,
+      "topics": [
+        {
+          "id": "D3-T3-backlogs",
+          "taskId": "D3-T3",
+          "title": "Product Backlog y Sprint Backlog",
+          "summary": "En Scrum, el Product Backlog ordena necesidades del producto; el Sprint Backlog contiene objetivo, selección y plan para el Sprint, gestionado por Developers.",
+          "example": "Una nueva idea suele analizarse en el Product Backlog antes de considerarse para ejecución.",
+          "contrast": "No confundir la lista general del producto con el plan del Sprint actual.",
+          "terms": [
+            "Product Backlog / lista del producto",
+            "Sprint Backlog / plan del Sprint"
+          ],
+          "refs": [
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T3-graficos",
+          "taskId": "D3-T3",
+          "title": "Gráficos de avance y flujo",
+          "summary": "Un burndown visualiza trabajo restante; un burnup muestra trabajo completado y puede mostrar alcance total. Un tablero hace visible el flujo.",
+          "example": "Un burnup con alcance total creciente permite distinguir cambio de alcance de entrega realizada.",
+          "contrast": "Ningún gráfico sustituye por sí solo la inspección del producto.",
+          "terms": [
+            "trabajo restante / burndown",
+            "trabajo completado / burnup"
+          ],
+          "refs": [
+            "kanban",
+            "charts"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T3-wip",
+          "taskId": "D3-T3",
+          "title": "Trabajo en curso y métricas de flujo",
+          "summary": "Kanban hace explícito el flujo y el control del trabajo en curso. WIP cuenta lo empezado sin terminar; el tiempo de ciclo mide desde inicio hasta finalización.",
+          "example": "Limitar trabajos simultáneos puede ayudar a terminar antes los que ya están en proceso.",
+          "contrast": "Throughput cuenta ítems terminados por período; no equivale a WIP.",
+          "terms": [
+            "trabajo en curso / WIP",
+            "tiempo de ciclo / cycle time",
+            "rendimiento / throughput"
+          ],
+          "refs": [
+            "kanban"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D3-T4",
+      "domain": 3,
+      "title": "Componentes del plan adaptativo",
+      "total": 12,
+      "topics": [
+        {
+          "id": "D3-T4-scrum",
+          "taskId": "D3-T4",
+          "title": "Scrum: responsabilidades y eventos",
+          "summary": "Scrum define Product Owner, Scrum Master y Developers. Sus eventos y artefactos facilitan empirismo y foco en objetivos.",
+          "example": "El Product Owner ordena el backlog; Developers gestionan el plan para crear el incremento.",
+          "contrast": "Scrum no prescribe un project manager como una de sus tres responsabilidades.",
+          "terms": [
+            "dueño del producto / Product Owner",
+            "Scrum Master",
+            "Developers"
+          ],
+          "refs": [
+            "scrum"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D3-T4-xp",
+          "taskId": "D3-T4",
+          "title": "XP y prácticas de ingeniería",
+          "summary": "XP combina prácticas de ingeniería como programación en pareja, pruebas, refactorización e integración continua para apoyar calidad y retroalimentación.",
+          "example": "Refactorizar mejora la estructura interna conservando el comportamiento esperado.",
+          "contrast": "Una práctica de XP puede complementar Scrum, pero no es una regla universal de toda agilidad.",
+          "terms": [
+            "programación extrema / Extreme Programming",
+            "refactorización / refactoring"
+          ],
+          "refs": [
+            "xp"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D3-T4-kanban-safe",
+          "taskId": "D3-T4",
+          "title": "Kanban y SAFe: alcance del marco",
+          "summary": "Kanban se centra en mejorar flujo; SAFe aborda la aplicación de Lean y Agile a escala organizacional. Sus propósitos no deben confundirse con las reglas de Scrum.",
+          "example": "Una organización puede necesitar coordinación entre equipos y también mejorar su flujo local.",
+          "contrast": "No todos los enfoques ágiles requieren Sprints ni la estructura de SAFe.",
+          "terms": [
+            "flujo / flow",
+            "Scaled Agile Framework / SAFe"
+          ],
+          "refs": [
+            "kanban",
+            "safe"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T4-review",
+          "taskId": "D3-T4",
+          "title": "Sprint Review",
+          "summary": "La Sprint Review inspecciona el resultado con interesados y considera adaptaciones futuras. Es una sesión de trabajo y no solo una demostración o aprobación formal.",
+          "example": "Al revisar un flujo de matrícula, usuarios y equipo conversan sobre lo aprendido y las próximas necesidades.",
+          "contrast": "No confundir Sprint Review con retrospectiva del proceso de trabajo.",
+          "terms": [
+            "revisión del Sprint / Sprint Review"
+          ],
+          "refs": [
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T4-retro",
+          "taskId": "D3-T4",
+          "title": "Sprint Retrospective",
+          "summary": "La retrospectiva busca mejorar calidad y efectividad del trabajo del Scrum Team. Se inspeccionan interacciones, procesos y herramientas para decidir mejoras.",
+          "example": "El equipo acuerda automatizar una comprobación que causa errores repetidos.",
+          "contrast": "La retrospectiva no sustituye la revisión del producto con interesados.",
+          "terms": [
+            "retrospectiva / Sprint Retrospective"
+          ],
+          "refs": [
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D3-T5",
+      "domain": 3,
+      "title": "Gestión de tareas",
+      "total": 6,
+      "topics": [
+        {
+          "id": "D3-T5-exito",
+          "taskId": "D3-T5",
+          "title": "Criterios de éxito y terminado",
+          "summary": "Los criterios de éxito relacionan resultados con objetivos. En Scrum, la Definition of Done expresa condiciones de calidad para un incremento utilizable.",
+          "example": "Una historia de inscripción necesita criterios específicos y cumplir la calidad común del producto.",
+          "contrast": "Criterios de aceptación de un ítem y Definition of Done no son necesariamente equivalentes.",
+          "terms": [
+            "definición de terminado / Definition of Done (DoD)"
+          ],
+          "refs": [
+            "scrum",
+            "stories"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T5-priorizacion",
+          "taskId": "D3-T5",
+          "title": "Priorización por valor, riesgo y dependencia",
+          "summary": "Priorizar considera valor, urgencia, riesgo, dependencias y capacidad. Ordenar no equivale a declarar todo igualmente obligatorio.",
+          "example": "Una necesidad normativa urgente puede preceder una mejora visual de menor impacto.",
+          "contrast": "El ítem más fácil no es siempre el más valioso.",
+          "terms": [
+            "priorización / prioritization"
+          ],
+          "refs": [
+            "iiba",
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D3-T5-preparar",
+          "taskId": "D3-T5",
+          "title": "Preparación y ejecución del trabajo",
+          "summary": "Refinar aclara y divide trabajo para que pueda seleccionarse y ejecutarse. Durante la ejecución se inspecciona avance y se adapta el plan sin perder el objetivo.",
+          "example": "Una historia demasiado grande puede dividirse por capacidades comprobables.",
+          "contrast": "Una Definition of Ready puede ser acuerdo del equipo; Scrum no la prescribe como artefacto oficial.",
+          "terms": [
+            "refinamiento / refinement",
+            "preparación / readiness"
+          ],
+          "refs": [
+            "scrum",
+            "stories"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D4-T1",
+      "domain": 4,
+      "title": "Roles y responsabilidades",
+      "total": 10,
+      "topics": [
+        {
+          "id": "D4-T1-roles-proceso",
+          "taskId": "D4-T1",
+          "title": "Propietario y gerente del proceso",
+          "summary": "El propietario del proceso responde por su orientación y resultados; el gerente coordina su funcionamiento cotidiano según el mandato organizacional. Los títulos pueden variar.",
+          "example": "En matrícula, una autoridad puede ser dueña del proceso y un coordinador gestionar su operación diaria.",
+          "contrast": "No asumir responsabilidades por el título sin revisar el mandato de la organización.",
+          "terms": [
+            "propietario del proceso / process owner",
+            "gerente del proceso / process manager"
+          ],
+          "refs": [
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 0,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T1-roles-producto",
+          "taskId": "D4-T1",
+          "title": "Gerente y dueño del producto",
+          "summary": "El gerente de producto suele orientar estrategia y evolución; en Scrum, el Product Owner responde por maximizar valor y gestionar efectivamente el Product Backlog. La relación depende del contexto.",
+          "example": "La estrategia de un servicio puede coordinarse con la ordenación del trabajo del equipo.",
+          "contrast": "Product manager y Product Owner no son sinónimos obligatorios ni dos cargos que Scrum exija juntos.",
+          "terms": [
+            "gerente del producto / product manager",
+            "dueño del producto / Product Owner"
+          ],
+          "refs": [
+            "scrum",
+            "product-practices"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T1-identificacion",
+          "taskId": "D4-T1",
+          "title": "Identificación y propósito de los interesados",
+          "summary": "Identificar interesados ayuda a conocer necesidades, restricciones, fuentes de información y decisiones. Un afectado puede ser relevante aunque no financie el proyecto.",
+          "example": "Los vecinos de una obra pueden aportar necesidades sobre acceso y ruido.",
+          "contrast": "No limitar interesados a quienes tienen contratos o cargos altos.",
+          "terms": [
+            "interesado / stakeholder"
+          ],
+          "refs": [
+            "iiba",
+            "b5"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T1-internos-externos",
+          "taskId": "D4-T1",
+          "title": "Roles internos y externos",
+          "summary": "Hay interesados dentro y fuera de la organización: usuarios, reguladores, proveedores, patrocinadores y equipos. La relevancia depende de su relación con la necesidad.",
+          "example": "Un regulador externo puede imponer condiciones de datos a una app universitaria.",
+          "contrast": "Externo no significa menos influyente ni menos necesario para validar requisitos.",
+          "terms": [
+            "usuario final / end user",
+            "regulador / regulator"
+          ],
+          "refs": [
+            "iiba",
+            "b5"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T1-analista",
+          "taskId": "D4-T1",
+          "title": "Responsabilidad del análisis de negocio",
+          "summary": "El análisis de negocio ayuda a comprender necesidades y recomendar soluciones que generen valor. Una persona puede desempeñar más de un rol según el contexto.",
+          "example": "Antes de automatizar un formulario, el analista investiga el problema que el servicio necesita resolver.",
+          "contrast": "El analista no es únicamente un transcriptor de solicitudes ni siempre el aprobador de requisitos.",
+          "terms": [
+            "analista de negocios / business analyst (BA)"
+          ],
+          "refs": [
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D4-T2",
+      "domain": 4,
+      "title": "Comunicación",
+      "total": 8,
+      "topics": [
+        {
+          "id": "D4-T2-canales",
+          "taskId": "D4-T2",
+          "title": "Seleccionar canales de comunicación",
+          "summary": "El canal depende de urgencia, complejidad, audiencia, acceso y confidencialidad. La comunicación debe facilitar comprensión y decisiones.",
+          "example": "Un conflicto complejo puede necesitar conversación y luego un registro de acuerdos.",
+          "contrast": "Correo, reunión o tablero no son siempre la mejor opción por sí mismos.",
+          "terms": [
+            "canal / communication channel"
+          ],
+          "refs": [
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T2-informes",
+          "taskId": "D4-T2",
+          "title": "Informes y presentaciones",
+          "summary": "Un informe conserva detalle y evidencia; una presentación puede facilitar síntesis y conversación. Su contenido debe responder a decisiones de la audiencia.",
+          "example": "El comité necesita impactos y decisiones; especialistas pueden requerir anexos técnicos.",
+          "contrast": "Más detalle no siempre produce más comprensión.",
+          "terms": [
+            "informe / report",
+            "presentación / presentation"
+          ],
+          "refs": [
+            "iiba",
+            "registers"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T2-entre-equipos",
+          "taskId": "D4-T2",
+          "title": "Comunicación entre equipos",
+          "summary": "Alinear vocabulario, interfaces, responsables y cambios reduce interpretaciones incompatibles. Confirmar entendimiento ayuda a evitar retrabajo.",
+          "example": "Dos equipos deben acordar qué significa “matrícula confirmada” antes de integrar sistemas.",
+          "contrast": "Un mismo término puede tener significados distintos según el área.",
+          "terms": [
+            "lenguaje compartido / shared vocabulary"
+          ],
+          "refs": [
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T2-caracteristicas",
+          "taskId": "D4-T2",
+          "title": "Comunicar características y requisitos",
+          "summary": "Una característica describe capacidad del producto; un requisito expresa una necesidad o condición que debe satisfacerse. Ejemplos y criterios aclaran el comportamiento esperado.",
+          "example": "“Pago en línea” requiere reglas sobre montos, confirmación, fallas y acceso.",
+          "contrast": "Nombrar una función no define todos sus requisitos.",
+          "terms": [
+            "característica / feature",
+            "requisito / requirement"
+          ],
+          "refs": [
+            "iiba",
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D4-T3",
+      "domain": 4,
+      "title": "Recopilación de requisitos",
+      "total": 19,
+      "topics": [
+        {
+          "id": "D4-T3-historias",
+          "taskId": "D4-T3",
+          "title": "Historias de usuario",
+          "summary": "Una historia expresa una necesidad desde la perspectiva de una persona y su valor. Requiere conversación y criterios; no es una especificación exhaustiva por sí sola.",
+          "example": "Como estudiante, quiero consultar cupos para elegir cursos disponibles.",
+          "contrast": "La plantilla “como, quiero, para” ayuda, pero rellenarla no garantiza una historia útil.",
+          "terms": [
+            "historia de usuario / user story"
+          ],
+          "refs": [
+            "stories"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T3-casos",
+          "taskId": "D4-T3",
+          "title": "Casos de uso",
+          "summary": "Un caso de uso describe interacción entre actor y sistema para alcanzar un objetivo, con flujos y alternativas relevantes. Su detalle depende de la necesidad.",
+          "example": "Inscribir un curso puede incluir flujo normal, falta de cupo y prerrequisito incumplido.",
+          "contrast": "Una historia y un caso de uso no tienen equivalencia exacta uno a uno.",
+          "terms": [
+            "caso de uso / use case",
+            "actor / actor"
+          ],
+          "refs": [
+            "stories",
+            "b9",
+            "glossary"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T3-entrevistas",
+          "taskId": "D4-T3",
+          "title": "Entrevistas",
+          "summary": "Las entrevistas permiten profundizar en experiencias y necesidades. Preparar preguntas y confirmar lo entendido reduce sesgos e interpretaciones erróneas.",
+          "example": "Una entrevista con secretaría puede revelar excepciones del proceso que no aparecen en los formularios.",
+          "contrast": "La opinión de una persona no representa automáticamente a todos los usuarios.",
+          "terms": [
+            "entrevista / interview",
+            "elicitación / elicitation"
+          ],
+          "refs": [
+            "b9",
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T3-encuestas",
+          "taskId": "D4-T3",
+          "title": "Encuestas",
+          "summary": "Las encuestas recogen respuestas estandarizadas de muchas personas. Sus resultados dependen de preguntas, acceso, selección y participación.",
+          "example": "Consultar a estudiantes sobre horarios requiere considerar quiénes pudieron responder.",
+          "contrast": "Muchas respuestas no eliminan automáticamente sesgos de selección o preguntas dirigidas.",
+          "terms": [
+            "encuesta / survey",
+            "sesgo / bias"
+          ],
+          "refs": [
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T3-talleres",
+          "taskId": "D4-T3",
+          "title": "Talleres de requisitos",
+          "summary": "Un taller reúne interesados para aclarar necesidades, resolver diferencias y construir acuerdos. Requiere facilitación y registro de decisiones.",
+          "example": "Admisión y tesorería pueden acordar reglas de confirmación de matrícula en un taller.",
+          "contrast": "Reunir personas sin objetivo ni facilitación no garantiza consenso.",
+          "terms": [
+            "taller de requisitos / requirements workshop"
+          ],
+          "refs": [
+            "b9",
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T3-lecciones",
+          "taskId": "D4-T3",
+          "title": "Lecciones aprendidas y revisión documental",
+          "summary": "Las lecciones y documentos existentes aportan conocimiento, pero deben evaluarse frente al contexto actual. Reutilizar no elimina la necesidad de confirmar requisitos.",
+          "example": "Un proyecto anterior puede revelar problemas de accesibilidad que conviene investigar ahora.",
+          "contrast": "Una regla antigua no es automáticamente válida para un nuevo servicio.",
+          "terms": [
+            "lecciones aprendidas / lessons learned"
+          ],
+          "refs": [
+            "iiba",
+            "b9"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T3-tecnicas",
+          "taskId": "D4-T3",
+          "title": "Elección de técnicas de elicitación",
+          "summary": "La elección combina propósito, profundidad, cantidad de participantes y restricciones. Pueden usarse varias técnicas para contrastar hallazgos.",
+          "example": "Entrevistas exploran dificultades y una encuesta posterior ayuda a conocer su frecuencia entre participantes.",
+          "contrast": "Ninguna técnica garantiza por sí sola requisitos completos y correctos.",
+          "terms": [
+            "recopilación de requisitos / requirements elicitation"
+          ],
+          "refs": [
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T3-trazabilidad",
+          "taskId": "D4-T3",
+          "title": "Matriz de trazabilidad",
+          "summary": "La trazabilidad relaciona necesidades, requisitos, diseños, componentes y pruebas. Permite evaluar cobertura y efectos de un cambio.",
+          "example": "Un requisito sobre pagos se vincula con la necesidad, la función implementada y la prueba correspondiente.",
+          "contrast": "Trazar no significa solo numerar requisitos ni registrar quién escribió cada fila.",
+          "terms": [
+            "matriz de trazabilidad / requirements traceability matrix (RTM)"
+          ],
+          "refs": [
+            "iiba"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D4-T3-backlog",
+          "taskId": "D4-T3",
+          "title": "Backlog y gestión de requisitos",
+          "summary": "Un backlog hace visible trabajo pendiente y su orden. Puede complementarse con relaciones y criterios que permitan conservar trazabilidad.",
+          "example": "Una historia de pago enlaza una necesidad y pruebas, además de su prioridad en el backlog.",
+          "contrast": "Tener backlog no garantiza automáticamente trazabilidad completa ni elimina la gestión de requisitos.",
+          "terms": [
+            "backlog del producto / Product Backlog"
+          ],
+          "refs": [
+            "scrum",
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D4-T4",
+      "domain": 4,
+      "title": "Hoja de ruta del producto",
+      "total": 4,
+      "topics": [
+        {
+          "id": "D4-T4-roadmap",
+          "taskId": "D4-T4",
+          "title": "Propósito de la hoja de ruta",
+          "summary": "La hoja de ruta del producto comunica dirección, objetivos y evolución prevista. Se revisa con aprendizaje y no equivale al detalle del cronograma del proyecto.",
+          "example": "Un portal puede evolucionar de inscripción básica a pagos y luego servicios personalizados.",
+          "contrast": "Un roadmap no es automáticamente una promesa contractual de cada función y fecha.",
+          "terms": [
+            "hoja de ruta del producto / product roadmap"
+          ],
+          "refs": [
+            "roadmap-checked",
+            "product-practices"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T4-releases",
+          "taskId": "D4-T4",
+          "title": "Componentes y versiones",
+          "summary": "La asignación a versiones considera valor, dependencias, capacidad, riesgo y criterios de entrega. Una versión agrupa capacidades para su disponibilidad a usuarios.",
+          "example": "La conciliación bancaria puede necesitar que pagos y registro estén disponibles antes.",
+          "contrast": "Release no es necesariamente sinónimo de Sprint; pueden tener distintas cadencias.",
+          "terms": [
+            "versión o entrega / release"
+          ],
+          "refs": [
+            "scrum",
+            "iiba",
+            "product-practices"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D4-T5",
+      "domain": 4,
+      "title": "Influencia del enfoque",
+      "total": 4,
+      "topics": [
+        {
+          "id": "D4-T5-ba-predictivo",
+          "taskId": "D4-T5",
+          "title": "Análisis de negocio en enfoque predictivo",
+          "summary": "En un enfoque predictivo suele buscarse definición anticipada suficiente y control de cambios. El analista sigue apoyando aclaración, trazabilidad y validación durante el trabajo.",
+          "example": "Un requisito aprobado puede necesitar análisis de impacto cuando cambia una norma.",
+          "contrast": "Definir temprano no significa que el analista deja de participar después.",
+          "terms": [
+            "requisitos aprobados / approved requirements"
+          ],
+          "refs": [
+            "iiba"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T5-ba-adaptativo",
+          "taskId": "D4-T5",
+          "title": "Análisis de negocio en enfoque adaptativo",
+          "summary": "En enfoques adaptativos el análisis refina necesidades de forma continua y cercana a la entrega. Se conserva el foco en valor, claridad y validación.",
+          "example": "El analista conversa con usuarios y equipo para detallar la próxima capacidad a implementar.",
+          "contrast": "Adaptar el detalle no significa omitir análisis ni convertir al analista automáticamente en Product Owner.",
+          "terms": [
+            "análisis continuo / continuous analysis"
+          ],
+          "refs": [
+            "iiba",
+            "stories"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "D4-T6",
+      "domain": 4,
+      "title": "Validación y entrega",
+      "total": 7,
+      "topics": [
+        {
+          "id": "D4-T6-aceptacion",
+          "taskId": "D4-T6",
+          "title": "Criterios de aceptación",
+          "summary": "Los criterios de aceptación describen condiciones verificables para aceptar un resultado. Deben ser claros y acordados con quienes deciden la aceptación.",
+          "example": "Si no hay cupo, el sistema debe impedir la inscripción y mostrar una razón definida.",
+          "contrast": "Una frase como “que funcione bien” no permite una comprobación consistente.",
+          "terms": [
+            "criterios de aceptación / acceptance criteria"
+          ],
+          "refs": [
+            "stories",
+            "b9",
+            "glossary"
+          ],
+          "total": 3,
+          "eligible": 3,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 1
+          }
+        },
+        {
+          "id": "D4-T6-validacion",
+          "taskId": "D4-T6",
+          "title": "Validar necesidades y verificar calidad",
+          "summary": "Verificar requisitos examina su calidad y consistencia; validarlos comprueba alineación con necesidades y valor. Son perspectivas complementarias.",
+          "example": "Un requisito puede estar redactado con claridad y aun así no resolver la necesidad real.",
+          "contrast": "Estar bien escrito no equivale a aportar valor al negocio.",
+          "terms": [
+            "validación / validation",
+            "verificación / verification"
+          ],
+          "refs": [
+            "iiba",
+            "glossary"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        },
+        {
+          "id": "D4-T6-preparacion",
+          "taskId": "D4-T6",
+          "title": "Preparación para la entrega",
+          "summary": "La preparación requiere evidencia sobre requisitos, calidad, aceptación y transición aplicables. Trazabilidad o backlog con estados comprobados ayudan a evaluar pendientes.",
+          "example": "Antes de liberar pagos se verifica cobertura de pruebas, criterios y capacidad de soporte.",
+          "contrast": "Estar escrito en el backlog no equivale a estar entregado ni aceptado.",
+          "terms": [
+            "preparación para entrega / release readiness"
+          ],
+          "refs": [
+            "iiba",
+            "scrum"
+          ],
+          "total": 2,
+          "eligible": 2,
+          "types": {
+            "conceptual": 1,
+            "situacional": 1,
+            "calculo": 0,
+            "interpretacion": 0
+          }
+        }
+      ]
+    }
+  ]
+}

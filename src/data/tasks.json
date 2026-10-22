@@ -1,0 +1,97 @@
+[
+  {
+    "id": "D1-T1",
+    "domain": 1,
+    "title": "Procesos y ciclos de vida"
+  },
+  {
+    "id": "D1-T2",
+    "domain": 1,
+    "title": "Planificación"
+  },
+  {
+    "id": "D1-T3",
+    "domain": 1,
+    "title": "Roles y responsabilidades"
+  },
+  {
+    "id": "D1-T4",
+    "domain": 1,
+    "title": "Ejecución de estrategias planificadas"
+  },
+  {
+    "id": "D1-T5",
+    "domain": 1,
+    "title": "Resolución de problemas"
+  },
+  {
+    "id": "D2-T1",
+    "domain": 2,
+    "title": "Selección y aplicación del enfoque"
+  },
+  {
+    "id": "D2-T2",
+    "domain": 2,
+    "title": "Cronograma y planificación"
+  },
+  {
+    "id": "D2-T3",
+    "domain": 2,
+    "title": "Controles predictivos"
+  },
+  {
+    "id": "D3-T1",
+    "domain": 3,
+    "title": "Selección del enfoque adaptativo"
+  },
+  {
+    "id": "D3-T2",
+    "domain": 3,
+    "title": "Planificación de iteraciones"
+  },
+  {
+    "id": "D3-T3",
+    "domain": 3,
+    "title": "Controles adaptativos"
+  },
+  {
+    "id": "D3-T4",
+    "domain": 3,
+    "title": "Componentes del plan adaptativo"
+  },
+  {
+    "id": "D3-T5",
+    "domain": 3,
+    "title": "Gestión de tareas"
+  },
+  {
+    "id": "D4-T1",
+    "domain": 4,
+    "title": "Roles y responsabilidades"
+  },
+  {
+    "id": "D4-T2",
+    "domain": 4,
+    "title": "Comunicación"
+  },
+  {
+    "id": "D4-T3",
+    "domain": 4,
+    "title": "Recopilación de requisitos"
+  },
+  {
+    "id": "D4-T4",
+    "domain": 4,
+    "title": "Hoja de ruta del producto"
+  },
+  {
+    "id": "D4-T5",
+    "domain": 4,
+    "title": "Influencia del enfoque"
+  },
+  {
+    "id": "D4-T6",
+    "domain": 4,
+    "title": "Validación y entrega"
+  }
+]

@@ -1,0 +1,7 @@
+import type {Progress,Question,Attempt} from '../types';import {validateProgress} from './validation';
+export const STORAGE_KEY='leython-capm-v1';
+export function emptyProgress():Progress{return {version:1,visited:[],seen:[],history:[],bookmarks:[],notes:{},reports:[],attempts:[],activeId:null,preferences:{shuffle:true},lastPage:'inicio'}}
+export function loadProgress(bank:Question[]):{progress:Progress;error:string|null}{try{const raw=localStorage.getItem(STORAGE_KEY);if(!raw)return {progress:emptyProgress(),error:null};const parsed=JSON.parse(raw);const errors=validateProgress(parsed,bank);if(errors.length)return {progress:emptyProgress(),error:'No se pudo recuperar el progreso: '+errors[0]+'. El respaldo existente no se sobrescribió.'};return {progress:parsed,error:null}}catch{return {progress:emptyProgress(),error:'El almacenamiento local no está disponible o contiene datos dañados.'}}}
+export function saveProgress(p:Progress){localStorage.setItem(STORAGE_KEY,JSON.stringify(p))}
+export function withAttempt(p:Progress,a:Attempt):Progress{return {...p,activeId:a.finishedAt?null:a.id,attempts:[...p.attempts.filter(x=>x.id!==a.id),a]}}
+export function recordResults(p:Progress,a:Attempt):Progress{const existing=p.history.filter(h=>h.attemptId!==a.id);return {...p,history:[...existing,...a.questionIds.flatMap(questionId=>{const ans=a.answers[questionId];return ans?.selectedIds.length?[{questionId,selectedIds:ans.selectedIds,at:ans.at??a.finishedAt??Date.now(),attemptId:a.id,wasNew:a.newIds.includes(questionId)}]:[]})]}}

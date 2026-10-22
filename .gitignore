@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.openai/local*
+artifacts/
+*.tsbuildinfo
+.npm-cache/
+
+__pycache__/
+*.pyc
+.env
+.env.*

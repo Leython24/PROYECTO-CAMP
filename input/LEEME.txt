@@ -1,0 +1,5 @@
+El PDF y el TXT de Éxitos están integrados. No debes ejecutar extractores para estudiar.
+La importación original completa se conserva en src/data/collections/exitos-simulador-01-v1.json.
+La versión actual de las 150 preguntas está en exitos-simulador-01.json.
+Las respuestas IA revisadas y los enlaces se documentan en docs/REVISION_55_PREGUNTAS.md.
+Los archivos fuente no se modificaron. Los cinco diagramas originales siguen incluidos.

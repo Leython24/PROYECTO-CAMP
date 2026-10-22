@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import {initialQuestions as bank,initialSources as sources} from '../src/data/bank';
+import {domains,tasks,topics} from '../src/data/syllabus';
+import {validateBank} from '../src/engine/validation';
+import {apportion,selectQuestions} from '../src/engine/exam';
+import {collectionQuestions,collectionSources,PDF_COLLECTION,collections} from '../src/data/collections';
+import {collectionStats} from '../src/engine/collections';
+const errors=validateBank({formatVersion:1,questions:bank,sources});
+errors.push(...validateBank({formatVersion:1,questions:[...bank,...collectionQuestions],sources:[...sources,...collectionSources]}));
+const pdfStats=collectionStats(collectionQuestions,PDF_COLLECTION);
+const pdfCollections=collections.filter(c=>c.kind==='pdf').map(c=>{const qs=collectionQuestions.filter(q=>q.collectionId===c.id);const stats=collectionStats(qs,c.id);if(stats.imported!==c.expectedCount||stats.practice!==c.expectedCount||new Set(qs.map(q=>q.originalNumber)).size!==c.expectedCount)errors.push('Colección incompleta: '+c.id);return {id:c.id,...stats}});
+for(const q of collectionQuestions)for(const figure of q.diagrams??[])if(!fs.existsSync('public'+figure.src))errors.push('Falta figura: '+figure.src);
+for(const task of tasks)if(!bank.some(q=>q.taskId===task.id))errors.push('Tarea sin preguntas: '+task.id);
+for(const topic of topics)if(!bank.some(q=>q.topicId===topic.id&&q.type==='conceptual')||!bank.some(q=>q.topicId===topic.id&&q.type==='situacional'))errors.push('Falta par conceptual/situacional en '+topic.id);
+const duplicatePairs:{a:string;b:string;similarity:number}[]=[];
+const tokens=(s:string)=>new Set(s.toLocaleLowerCase('es').replace(/[^\p{L}\p{N}\s]/gu,'').split(/\s+/).filter(w=>w.length>3));
+for(let i=0;i<bank.length;i++)for(let j=i+1;j<bank.length;j++){const a=tokens(bank[i].stem),b=tokens(bank[j].stem);const intersection=[...a].filter(x=>b.has(x)).length;const similarity=intersection/(new Set([...a,...b]).size);if(similarity>.82)duplicatePairs.push({a:bank[i].id,b:bank[j].id,similarity})}
+if(duplicatePairs.length)errors.push('Revisar enunciados muy similares: '+JSON.stringify(duplicatePairs));
+const ids=selectQuestions(bank,150,[],[1,2,3,4],true,2026);
+const result={date:'2026-10-22',questions:bank.length,sources:sources.length,tasks:tasks.length,topics:topics.length,errors,nearDuplicates:duplicatePairs,calculations:bank.filter(q=>q.calculation).length,multipleChoice:bank.filter(q=>q.choose>1).length,distribution:apportion(150),selected:domains.map(d=>ids.filter(id=>bank.find(q=>q.id===id)?.domain===d.id).length)};
+Object.assign(result,{pdfCollection:pdfStats,pdfCollections,totalQuestions:bank.length+collectionQuestions.length,totalSources:sources.length+collectionSources.length});
+fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/bank-audit.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));
+if(errors.length)process.exitCode=1;

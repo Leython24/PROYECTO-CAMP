@@ -1,0 +1,329 @@
+:root {
+  font-size: 16px;
+  color: #2b193f;
+  background: #f7f5fb;
+  --ink: #2b193f;
+  --muted: #62596c;
+  --teal: #4f17a8;
+  --border: #e4ddeb;
+  --warm: #f7f5fb;
+  --purple: #4f17a8;
+  --orange: #ff610f;
+  --orange-ink: #963b06;
+}
+body {background: var(--warm); color: var(--ink)}
+h1, h2, h3, h4 {color: var(--ink)}
+h1 {font-size: 34px; line-height: 1.2}
+h2 {font-size: 26px; line-height: 1.3}
+h3 {font-size: 19px; line-height: 1.4}
+h4 {font-size: 16px}
+p {line-height: 1.65; color: var(--muted)}
+a {color: var(--purple)}
+small {font-size: 13px}
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible {outline: 3px solid #b7480a; outline-offset: 4px}
+.sidebar {width: 260px; padding: 28px 18px 0; background: #fff; border-color: var(--border)}
+.main-shell {margin-left: 260px}
+.brand {color: var(--purple); font-size: 29px; padding: 0 8px}
+.brand-symbol {background: var(--purple); border-bottom: 4px solid var(--orange); border-radius: 10px; width: 46px; height: 50px}
+.brand-sub {font-size: 10px; color: #5d4c70; letter-spacing: 1.4px}
+.workspace-label {font-size: 11px; color: #766484; margin: 32px 12px 16px}
+.nav-item {font-size: 15px; padding: 13px 14px; min-height: 48px; color: #63576f; border-radius: 9px}
+.nav-item:hover {background: #f6f1fc; color: var(--purple)}
+.nav-item.active {background: var(--purple); color: #fff}
+.nav-item.active:before {background: var(--orange); width: 4px; height: 27px}
+.nav-item small {background: #f4edf9; color: #4a237e; font-size: 12px; padding: 2px 6px}
+.nav-item.active small {background: #fff; color: var(--purple)}
+.local-status {font-size: 12px; color: #675a72; margin: 24px 8px 18px}
+.local-status span, .tiny-dot {background: var(--purple)}
+.profile {padding: 18px 4px}
+.profile b {font-size: 14px}
+.profile small {font-size: 12px; color: #6f607a}
+.avatar {background: #efe5fd; color: var(--purple); font-family: inherit}
+.topbar {height: 72px; padding: 0 32px; background: #fff; border-color: var(--border)}
+.top-breadcrumb, .header-search {font-size: 14px; color: #65586f}
+.top-breadcrumb b {color: #3a2450}
+.top-actions {gap: 18px}
+.date {font-size: 13px; color: #6d5e79}
+main {padding: 26px 32px 0; max-width: 1480px}
+.eyebrow {font-size: 11px; letter-spacing: 1.2px; color: #6e508e}
+.welcome {display: block; min-height: 0; padding: 9px 0 24px}
+.welcome h1 {font-size: 34px; letter-spacing: -.8px; max-width: none; margin: 14px 0 12px}
+.welcome em {font: inherit; color: var(--purple)}
+.welcome p {font-size: 16px; max-width: 700px; margin-bottom: 20px}
+.hero-art, .hero-caption {display: none}
+.button {font-size: 15px; min-height: 44px; padding: 11px 17px; border-radius: 8px; line-height: 1.35}
+.button.primary {background: var(--purple); color: #fff; box-shadow: none}
+.button.primary:hover {background: #3b0d83; transform: none}
+.button.secondary {background: #fff; color: #4f17a8; border-color: #d8c8eb}
+.button.secondary:hover {background: #f3edfb}
+.button.text, .link-button {color: var(--purple); font-size: 14px}
+.button.small {font-size: 14px; padding: 8px 12px; min-height: 40px}
+.icon-button {min-width: 40px; min-height: 40px; color: var(--purple)}
+.button-row {gap: 12px}
+.stats-grid {gap: 16px}
+.stat {padding: 18px; background: #fff}
+.stat-icon {background: #f2eafa; color: var(--purple)}
+.stat p {font-size: 14px; line-height: 1.4}
+.stat strong {font-size: 29px}
+.stat strong small {font-size: 14px}
+.section-heading {gap: 16px; margin-top: 28px; margin-bottom: 18px; flex-wrap: wrap}
+.section-heading h2 {margin-bottom: 6px}
+.section-heading p {font-size: 15px; margin-bottom: 0}
+.domains-grid {gap: 16px}
+.domain-card {padding: 22px; min-height: 0; border-color: var(--border); border-radius: 12px; background: #fff}
+.domain-card h3 {font-size: 21px; margin: 18px 0 8px}
+.domain-card p {font-size: 15px; min-height: 0; line-height: 1.55}
+.domain-number {font-size: 32px}
+.domain-weight {font-size: 13px}
+.domain-meta {font-size: 14px; gap: 10px; flex-wrap: wrap}
+.domain-foot {font-size: 13px; gap: 12px; flex-wrap: wrap}
+.domain-meta span, .domain-meta b {font-size: 14px}
+.domain-foot span {font-size: 13px}
+.stat-icon.teal, .stat-icon.blue, .stat-icon.purple {background: #eee5fb; color: var(--purple)}
+.stat-icon.gold {background: #fff0e5; color: #963b06}
+.domain-card:hover {border-color: var(--purple); box-shadow: 0 3px 16px #4f17a80a}
+.next-step, .source-note {padding: 22px; border-color: var(--border); background: #fff}
+.next-step p, .source-note p {font-size: 15px}
+.source-note {background: #f1eafa}
+.panel, .question-card, .source-card, .task-group {border-color: var(--border); border-radius: 12px}
+.page-title {margin-bottom: 24px}
+.page-title h1 {font-size: 32px; margin-top: 10px; margin-bottom: 10px}
+.page-title p {font-size: 16px; max-width: 760px}
+.badge {font-size: 12px; line-height: 1.4; padding: 5px 9px; background: #f1edf7; color: #5e437d; display: inline-flex; align-items: center; gap: 5px; white-space: normal}
+.badge.teal {color: #4f17a8; background: #eee5fb}
+.badge.amber {color: #863b0b; background: #fff0e5}
+.fine-print {font-size: 14px!important; line-height: 1.6; color: #665b72}
+.field {font-size: 14px; line-height: 1.5; color: #3a254f; gap: 7px; margin-bottom: 16px}
+.field select, .field input, select, textarea {font-size: 16px; border-color: #d8cfe2; background: #fff; color: #352044; min-height: 44px; padding: 10px 12px; border-radius: 7px; width: 100%; max-width: 100%; min-width: 0}
+input[type=checkbox], input[type=radio] {accent-color: var(--purple); width: 18px; height: 18px; flex-shrink: 0}
+.checkbox-list label {font-size: 15px; min-height: 38px}
+.practice-layout {grid-template-columns: minmax(260px, 330px) minmax(0, 1fr); gap: 22px}
+.filter-panel {padding: 22px; align-self: start}
+.filter-panel h3 {font-size: 19px}
+.more-filters {margin: 8px 0 20px; border-top: 1px solid var(--border); padding-top: 16px}
+.more-filters summary {font-size: 15px; font-weight: 650; color: var(--purple); cursor: pointer; min-height: 34px}
+.more-filters[open] summary {margin-bottom: 16px}
+.practice-feature {background: #fff; padding: 26px; min-height: 0; border: 1px solid var(--border); border-top: 4px solid var(--purple); border-radius: 12px}
+.practice-feature h2 {font-size: 29px; margin: 12px 0}
+.practice-feature p {font-size: 16px; max-width: 650px}
+.practice-number {font-size: 38px; color: var(--purple); margin: 20px 0}
+.practice-number span {font-size: 15px; color: #675873}
+.active-collection {background: #f3edfb; padding: 12px 14px; border-radius: 7px; color: #4b2679!important}
+.practice-shuffle, .collection-shuffle {font-size: 15px; display: flex; gap: 10px; align-items: center; margin: 20px 0; line-height: 1.5}
+.sim-grid {grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px}
+.complete-sim, .custom-sim {padding: 24px; background: #fff}
+.sim-icon {display: none}
+.complete-sim h2 {font-size: 27px; margin-top: 18px}
+.sim-big-stats {gap: 24px; margin: 22px 0}
+.sim-big-stats b {font-size: 34px; color: var(--purple)}
+.sim-big-stats span {font-size: 14px}
+.weight-strip {height: auto; min-height: 33px; overflow: hidden; border-radius: 6px}
+.weight-strip span {font-size: 12px; padding: 7px 3px; color: #fff}
+.rules {font-size: 15px; line-height: 1.7; padding-left: 20px}
+.pdf-collections {margin-top: 36px; padding-top: 4px; border-top: 1px solid var(--border)}
+.pdf-collection-card {padding: 25px; background: #fff; margin-bottom: 22px; border-top: 4px solid var(--orange)}
+.collection-card-heading {display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap}
+.collection-card-heading>div {flex: 1; min-width: 190px}
+.collection-card-heading h3 {font-size: 24px; margin: 6px 0}
+.collection-card-heading p {font-size: 14px; overflow-wrap: anywhere; margin: 0}
+.collection-symbol {width: 52px; height: 52px; display: grid; place-items: center; background: #fff0e5; color: #a3420e; border-radius: 11px}
+.collection-counters {display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 16px; margin: 24px 0; padding: 20px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border)}
+.collection-counters dt {font-size: 14px; color: #655770; min-height: 42px; line-height: 1.45}
+.collection-counters dd {font-size: 29px; margin: 7px 0 0; font-weight: 700; color: var(--purple)}
+.collection-pending {padding: 18px; background: #fff5ed; border-radius: 9px; color: #6c350c; font-size: 15px; line-height: 1.6; margin-bottom: 20px}
+.collection-pending p {color: #79512f; margin: 10px 0}
+.collection-pending a {font-weight: 600; color: #893907}
+.collection-mode {display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0}
+.collection-mode button {display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 15px; border: 1px solid #dacdeb; background: #fff; border-radius: 7px; font-size: 15px; color: #5b3a7c}
+.collection-mode button.selected {background: var(--purple); color: #fff; border-color: var(--purple)}
+.collection-selection {display: grid; grid-template-columns: 1fr 1.4fr 120px; gap: 16px}
+.collection-history {margin-top: 22px; border-top: 1px solid var(--border); padding-top: 16px; font-size: 15px}
+.collection-history summary {cursor: pointer; color: var(--purple); font-weight: 600; min-height: 30px}
+.collection-history>div {display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--border)}
+.collection-history p {margin: 12px 0 0}
+.notice {font-size: 15px; line-height: 1.6; background: #f1eafa; border-color: #d8c7ef; color: #4b2775; padding: 16px; border-radius: 8px; margin: 16px 0}
+.notice p {color: inherit; margin: 8px 0}
+.notice label {display: flex; gap: 10px; align-items: flex-start; margin-top: 12px}
+.tabs button {font-size: 14px; min-height: 43px; color: #5f4c73; padding: 10px 15px}
+.tabs button.active {background: var(--purple); color: #fff; border-color: var(--purple)}
+.domain-tabs button {font-size: 14px; color: #544064; padding: 13px 16px}
+.domain-tabs button.selected {background: #eee5fb; color: var(--purple); border-color: #b995ea}
+.domain-tabs small {font-size: 13px}
+.module-intro p {font-size: 15px}
+.topic-row {padding: 16px; min-height: 70px; gap: 14px}
+.topic-row b {font-size: 16px; line-height: 1.5}
+.topic-row small {font-size: 14px; color: #756780; line-height: 1.6}
+.task-group summary {padding: 16px; gap: 13px}
+.task-group summary h3 {font-size: 17px}
+.task-group summary>span {font-size: 13px}
+.task-id {color: var(--purple); background: #efe6fb; font-size: 13px}
+.topic-status {color: #80689a; background: #f3eef8}
+.topic-status.visited {color: var(--purple); background: #e9dcfb}
+.study-article {padding: 28px}
+.study-article .lead {font-size: 19px; line-height: 1.75}
+.lesson-example {background: #f3edfb; border-left-color: var(--purple)}
+.concept-box {background: #f5f1fa; color: var(--purple)}
+.concept-box p {font-size: 16px; color: #665672}
+.terms {font-size: 14px; color: #573783}
+.terms span {background: #f2ebfa; color: #563181; font-size: 14px}
+.session-title h1 {font-size: 31px}
+.session-title h1 small {font-size: 18px}
+.session-context {font-size: 14px; display: flex; gap: 10px; flex-wrap: wrap; line-height: 1.6}
+.question-card {padding: 28px; background: #fff}
+.question-id {font-size: 14px; color: #6c4f88; line-height: 1.6; overflow-wrap: anywhere; margin-top: 16px}
+.question-stem {font-size: 24px; line-height: 1.6; font-weight: 600}
+.select-hint {font-size: 15px}
+.option {font-size: 16px; line-height: 1.65; padding: 16px; border-color: #ddd4e7; background: #fff}
+.option.selected {border-color: var(--purple); background: #f5effe}
+.option-letter {font-size: 14px; color: var(--purple); background: #f0e8fb; min-width: 32px; min-height: 32px}
+.option-feedback {font-size: 15px; line-height: 1.6}
+.option.right {border-color: #86b49b; background: #edf7f0}
+.option.wrong {border-color: #ce8e86; background: #fff2ef}
+.option.right .option-letter {color: #21613b; background: #e0f1e4}
+.option.wrong .option-letter {color: #983e32; background: #f9dfd8}
+.explanation-origin {display: block; margin: 9px 0 6px; color: #6b487c; font-size: 13px; font-weight: 650}
+.solution {padding: 21px; border-radius: 9px}
+.solution>p, .calculation p {font-size: 16px; line-height: 1.7}
+.solution.ungraded {background: #fff5e8; border-left: 4px solid #c35b1b}
+.key-note {background: #ffffffa8; border-radius: 6px; padding: 13px}
+.question-diagram {margin: 22px 0; padding: 16px; background: #fff; border: 1px solid var(--border); border-radius: 8px}
+.question-diagram img {display: block; max-width: 100%; height: auto; margin: auto}
+.question-diagram figcaption {font-size: 14px; color: #675b71; margin-top: 10px; line-height: 1.6}
+.question-tools, .provenance {font-size: 15px}
+.question-tools summary, .provenance summary {font-size: 15px; min-height: 40px; align-items: center}
+.question-tools label, .question-tools textarea, .provenance p {font-size: 15px}
+.question-tools textarea {font-size: 16px}
+.refs a {font-size: 15px; color: var(--purple); background: #f9f7fc; border-color: var(--border)}
+.refs small {font-size: 13px; color: #72627e}
+.question-map {padding: 20px; background: #fff; border-color: var(--border)}
+.question-map>p {font-size: 14px; line-height: 1.5}
+.question-grid button {font-size: 14px; min-height: 34px; color: #6c4c8b; background: #f7f3fc; border-color: #ded0ed}
+.question-grid button.answered {background: #ece1fa; color: #4e1b87}
+.question-grid button.current {background: var(--purple); color: #fff; border-color: var(--purple)}
+.question-grid button.flagged {box-shadow: inset 0 -3px 0 var(--orange)}
+.map-legend {font-size: 13px; gap: 10px; flex-wrap: wrap}
+.timer {font-size: 21px; color: var(--purple); background: #f1eafa}
+.timer.urgent {color: #9b3609; background: #fff0e5}
+.result-hero {padding: 26px; background: #fff; gap: 24px; border-color: var(--border)}
+.result-hero h2 {font-size: 28px}
+.result-hero p {font-size: 16px}
+.result-score {background: #f0e6fc; color: var(--purple)}
+.result-score b {font-size: 51px; color: var(--purple)}
+.result-score span {font-size: 13px; line-height: 1.5; padding: 0 10px}
+.results-select {gap: 18px; align-items: flex-end; flex-wrap: wrap}
+.results-select label {font-size: 14px; min-width: 180px; flex: 1}
+.results-select select {margin-top: 8px}
+.result-domain {font-size: 14px}
+.fresh-results {font-size: 14px; flex-wrap: wrap}
+.review-list b {font-size: 16px; line-height: 1.6}
+.review-list small {font-size: 14px; line-height: 1.5}
+.status-pending {color: #8d460b; background: #fff0df; display: grid; place-items: center; min-width: 32px; min-height: 32px; border-radius: 50%}
+.source-card {padding: 22px; background: #fff}
+.source-card h3 {font-size: 19px}
+.source-card p {font-size: 15px}
+.source-card small {font-size: 14px; line-height: 1.6}
+.source-card a {font-size: 15px}
+.source-icon {background: #f0e7fb; color: var(--purple)}
+.library-questions h3 {font-size: 18px; line-height: 1.6}
+.library-questions p, .library-questions details {font-size: 15px}
+.library-toolbar {gap: 16px}
+.search-input input {font-size: 16px; min-height: 44px}
+.preferences label {font-size: 15px}
+.coverage-task>div, .coverage-task>div>span:last-child {font-size: 14px; line-height: 1.6}
+.coverage-counts b {color: var(--purple)}
+table {font-size: 14px}
+th, td {line-height: 1.6}
+.footer {font-size: 13px; color: #786584; margin-top: 36px; gap: 14px; flex-wrap: wrap}
+@media (max-width: 1150px) {
+  .top-actions .date, .header-search kbd {display: none}
+  .sim-grid {grid-template-columns: 1fr}
+  .collection-selection {grid-template-columns: 1fr 1fr}
+  .practice-layout {grid-template-columns: minmax(250px, 300px) minmax(0,1fr)}
+}
+@media (max-width: 900px) {
+  .sidebar {width: 230px; padding-inline: 12px}
+  .main-shell {margin-left: 230px}
+  main {padding: 24px 22px 0}
+  .topbar {padding-inline: 22px}
+  .practice-layout {grid-template-columns: 1fr}
+  .stats-grid {grid-template-columns: repeat(2,minmax(0,1fr))}
+  .domain-card {padding: 19px}
+  .sources-grid {grid-template-columns: 1fr}
+}
+@media (max-width: 760px) {
+  .sidebar {width: 250px; padding: 24px 16px 0}
+  .main-shell {margin-left: 0}
+  main {padding: 22px 16px 0}
+  .topbar {height: 66px; padding-inline: 16px}
+  .top-breadcrumb {font-size: 12px; gap: 7px}
+  .top-actions {gap: 10px}
+  .header-search {font-size: 0}
+  .welcome h1 {font-size: 29px; line-height: 1.3}
+  .page-title h1 {font-size: 29px}
+  .welcome p, .page-title p {font-size: 16px}
+  .welcome .button-row {gap: 10px; flex-wrap: wrap}
+  .button, .button.small {font-size: 14px; min-height: 44px}
+  .badge {font-size: 12px}
+  .stats-grid {gap: 10px}
+  .stat {padding: 14px; gap: 10px}
+  .stat strong {font-size: 25px}
+  .stat p {font-size: 13px; line-height: 1.5}
+  .stat-icon {width: 34px; height: 34px; flex-shrink: 0}
+  .domains-grid {grid-template-columns: 1fr}
+  .domain-meta {font-size: 14px}
+  .domain-foot {font-size: 13px}
+  .field {font-size: 14px}
+  .field input, .field select {font-size: 16px}
+  .practice-layout, .sim-grid {grid-template-columns: 1fr}
+  .practice-feature, .filter-panel, .complete-sim, .custom-sim {padding: 20px}
+  .collection-card-heading {gap: 12px}
+  .collection-card-heading>div {min-width: 0; flex-basis: calc(100% - 70px)}
+  .collection-card-heading h3 {font-size: 22px}
+  .pdf-collection-card {padding: 19px}
+  .collection-counters {grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px 12px}
+  .collection-counters dt {min-height: 0; font-size: 14px}
+  .collection-counters dd {font-size: 27px}
+  .collection-mode {display: grid; grid-template-columns: 1fr; gap: 9px}
+  .collection-mode button {width: 100%; font-size: 14px}
+  .collection-selection {grid-template-columns: 1fr}
+  .collection-history>div {flex-direction: column; align-items: flex-start}
+  .collection-pending {padding: 15px; font-size: 14px}
+  .question-card {padding: 20px 17px}
+  .question-top {align-items: flex-start; gap: 10px}
+  .question-stem {font-size: 22px; line-height: 1.6}
+  .question-id, .select-hint {font-size: 14px}
+  .option {padding: 14px 12px; gap: 10px; font-size: 16px}
+  .option-letter {min-width: 28px; min-height: 28px; font-size: 13px}
+  .option-feedback {font-size: 15px}
+  .session-context {font-size: 13px}
+  .session-controls {gap: 7px; flex-wrap: wrap}
+  .session-controls .button {font-size: 13px; padding: 10px 12px; flex: 1}
+  .question-grid {grid-template-columns: repeat(6,minmax(0,1fr))}
+  .question-grid button {min-height: 40px; font-size: 14px}
+  .result-hero {padding: 21px; gap: 18px}
+  .result-hero h2 {font-size: 25px}
+  .results-select {align-items: stretch; flex-direction: column}
+  .results-select label {width: 100%; min-width: 0}
+  .topic-row b {font-size: 16px}
+  .topic-row small {font-size: 14px}
+  .task-group summary h3 {font-size: 16px}
+  .task-group summary {flex-wrap: wrap; gap: 9px; padding: 15px 12px}
+  .study-article {padding: 21px}
+  .study-article .lead {font-size: 18px}
+  .domain-tabs button {font-size: 13px}
+  .form-two {gap: 12px}
+}
+.question-stem {white-space: pre-line}
+.reference-answer {border-left: 3px solid var(--purple, #4f17a8); padding-left: 12px}
+.question-grid {grid-template-columns: repeat(auto-fit,minmax(36px,1fr)); gap: 6px}
+.question-grid button {min-width: 0; max-width: 100%}
+.adaptation-note {padding: 14px 16px; border-left: 3px solid var(--purple); background: #f7f2ff; border-radius: 8px; margin: 14px 0}
+.adaptation-note p {margin: 6px 0 0; font-size: 15px}
+.original-question {margin: 16px 0; padding: 14px; border: 1px solid var(--border); border-radius: 8px}
+.original-question summary {cursor: pointer; font-size: 15px; font-weight: 600}
+.original-question p {margin-top: 12px; white-space: pre-line}
+.original-question ol {padding-left: 0; list-style: none}
+.original-question li {margin: 8px 0; font-size: 15px; line-height: 1.5}
+.option-sources {display: flex; flex-direction: column; gap: 8px; margin-top: 12px}
+.option-sources a {display: inline-flex; align-items: flex-start; gap: 6px; overflow-wrap: anywhere; line-height: 1.5; font-size: 14px}
+.ai-answer {padding: 12px; border: 1px solid #bba1e9; border-radius: 8px; background: #f6f0ff}

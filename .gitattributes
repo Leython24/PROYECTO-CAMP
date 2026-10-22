@@ -1,0 +1,14 @@
+# Preserve imported source bytes and the versioned question banks on all platforms.
+* text=auto
+*.json -text
+input/** -text
+public/collections/** -text
+*.pdf binary
+*.png binary
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf

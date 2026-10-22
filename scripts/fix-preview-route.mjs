@@ -1,0 +1,2 @@
+import fs from 'node:fs/promises';
+const p='preview/main.tsx';let s=await fs.readFile(p,'utf8');s=s.replace('await initializeStorage();Object.assign','await initializeStorage();const route=capmStorage.getItem("capm-preview-route");if(route&&!location.hash)location.hash=route;window.addEventListener("hashchange",()=>capmStorage.setItem("capm-preview-route",location.hash));Object.assign');await fs.writeFile(p,s);

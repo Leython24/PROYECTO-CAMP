@@ -1,0 +1,1 @@
+import rawQuestions from './questions.json';import rawSources from './sources.json';import type {Question,Source} from '../types';export const initialQuestions=rawQuestions as Question[];export const initialSources=rawSources as Source[];

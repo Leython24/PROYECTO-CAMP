@@ -1,0 +1,1 @@
+import rawTopics from './topics.json';import rawTasks from './tasks.json';import rawDomains from './domains.json';import type {Topic,Task,Domain} from '../types';export const topics=rawTopics as Topic[];export const tasks=rawTasks as Task[];export const domains=rawDomains as Domain[];
