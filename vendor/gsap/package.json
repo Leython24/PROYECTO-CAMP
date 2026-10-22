@@ -1,0 +1,18 @@
+{
+  "name": "gsap",
+  "version": "3.15.0",
+  "main": "./dist/gsap.min.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./dist/gsap.min.js"
+    },
+    "./ScrollTrigger": {
+      "types": "./index.d.ts",
+      "default": "./dist/ScrollTrigger.min.js"
+    }
+  },
+  "license": "SEE LICENSE IN THIRD_PARTY.md",
+  "description": "Official GSAP distribution, vendored for offline installation"
+}

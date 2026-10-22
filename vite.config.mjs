@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {nodeDependencyResolver} from './scripts/esbuild-node-resolver.mjs';
 
 const root = fileURLToPath(new URL('.', import.meta.url));
-const dependencies = ['react', 'react-dom/client', 'react/jsx-runtime', 'react/jsx-dev-runtime', 'lucide-react'];
+const dependencies = ['react', 'react-dom/client', 'react/jsx-runtime', 'react/jsx-dev-runtime', 'lucide-react', 'gsap', 'gsap/ScrollTrigger'];
 
 export default defineConfig(({command}) => ({
   plugins: [
@@ -35,6 +35,7 @@ export default defineConfig(({command}) => ({
     esbuildOptions: {plugins: [nodeDependencyResolver(root, dependencies)]}
   },
   build: {
+    commonjsOptions: {include: [/node_modules/, /vendor[\\/]gsap/]},
     rollupOptions: {
       output: {
         manualChunks: {

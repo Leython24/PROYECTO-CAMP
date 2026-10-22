@@ -14,6 +14,7 @@ child.stdio[4].on('data',data=>{buffer+=data.toString();let i;while((i=buffer.in
 async function fulfillDocument(params){console.log('  HTML interceptado:',params.request.url);const html=Buffer.from(await (await fetch(base+'/',{signal:AbortSignal.timeout(10000)})).text());await send('Fetch.fulfillRequest',{requestId:params.requestId,responseCode:200,responseHeaders:[{name:'Content-Type',value:'text/html; charset=utf-8'},{name:'Content-Length',value:String(html.length)}],body:html.toString('base64')})}
 function send(method,params={},browser=false){return new Promise((resolve,reject)=>{const id=++seq;const timer=setTimeout(()=>{pending.delete(id);reject(Error('Tiempo agotado: '+method))},45000);pending.set(id,{resolve,reject,timer});child.stdio[3].write(JSON.stringify({id,method,params,...(!browser&&sessionId?{sessionId}:{})})+'\0')})}
 async function evaluate(expression){const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(r.exceptionDetails.exception?.description||r.exceptionDetails.text);if(r.result.subtype==='error')throw Error(r.result.description);return r.result.value}
+async function reload(){const stamp=await evaluate('performance.timeOrigin');await send('Page.reload');await wait('performance.timeOrigin!=='+stamp+'&&document.readyState==="complete"&&!!document.querySelector("main#main")',25000)}
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 async function wait(expression,ms=10000){const end=Date.now()+ms;while(Date.now()<end){try{if(await evaluate(expression))return}catch(e){if(!/navigated|closed|context|Cannot find/i.test(e.message))throw e}await delay(80)}throw Error('No se cumplió: '+expression)}
 async function click(selector){await wait('!!document.querySelector('+JSON.stringify(selector)+')');await evaluate('document.querySelector('+JSON.stringify(selector)+').click()');await delay(100)}
@@ -70,7 +71,7 @@ try {
     for(const q of [...oldPdf.slice(0,5),oldPdf[47]])previous.answers[q.id]={selectedIds:q.correctIds,confirmed:false,at:now-1000};
     p.attempts=[previous];p.activeId=previous.id;p.notes[bank[0].id]='Nota original antes del simulador 2';p.notes[oldPdf[47].id]='Nota de Éxitos antes de actualizar';p.bookmarks=[bank[0].id,oldPdf[47].id];p.visited=['D1-T1-proyecto'];
     await evaluate('localStorage.setItem("leython-capm-v1",'+JSON.stringify(JSON.stringify(p))+');localStorage.setItem("leython-capm-bank-v1",'+JSON.stringify(JSON.stringify({formatVersion:1,questions:[...bank,...oldPdf],sources:oldSources}))+');location.hash="simulacros"');
-    await send('Page.reload');await wait('!!document.querySelector(".question-grid")',20000);
+    await reload();await wait('!!document.querySelector(".question-grid")',20000);
     assert.equal(await evaluate('document.querySelector(".question-stem").textContent'),oldPdf[47].stem);
     assert.deepEqual(await active(),previous);
     assert.equal((await progress()).notes[bank[0].id],'Nota original antes del simulador 2');
@@ -95,7 +96,7 @@ try {
     assert.equal(await evaluate('document.querySelectorAll(".options input").length'),4);
     await click('.options input[value=a]');await button('Confirmar respuesta');await wait('!!document.querySelector(".solution.success")');
     await click('.question-top .icon-button');await click('.question-tools summary');await field('.question-tools textarea','Pregunta 21: estrategia de adquisiciones');
-    const before=await active();await send('Page.reload');await wait('!!document.querySelector(".solution.success")',20000);
+    const before=await active();await reload();await wait('!!document.querySelector(".solution.success")',20000);
     assert.deepEqual(await active(),before);assert.equal((await progress()).notes[pdf[20].id],'Pregunta 21: estrategia de adquisiciones');
     await screenshot('pregunta-21.png');await finish();
     assert.deepEqual(await evaluate('[...document.querySelectorAll(".result-stats strong")].map(e=>e.textContent)'),['3','1','21','0']);
@@ -112,7 +113,7 @@ try {
       assert.equal(await evaluate('document.querySelectorAll(".solution,.option-feedback,.document-explanation").length'),0);
       if(i===74){
         await button('Marcar duda');await click('.question-top .icon-button');await click('.question-tools summary');await field('.question-tools textarea','Seguimiento adaptativo: nota guardada');
-        const before=await active();await send('Page.reload');await wait('!!document.querySelector(".question-grid")',20000);
+        const before=await active();await reload();await wait('!!document.querySelector(".question-grid")',20000);
         assert.deepEqual(await active(),before);assert.equal((await progress()).notes[pdf[i].id],'Seguimiento adaptativo: nota guardada');
         console.log('  Recarga después de 75 respuestas: plazo, selección, notas y marcas recuperados');
       }
@@ -140,17 +141,17 @@ try {
   });
   let exported;
   await check('Exportación e importación recuperan los tres intentos y notas de las tres colecciones',async()=>{
-    await route('banco');const downloads=path.join(artifacts,'downloads');await fs.mkdir(downloads,{recursive:true});
+    await route('banco');const downloads=await fs.mkdtemp(path.join(artifacts,'downloads-'));await fs.mkdir(downloads,{recursive:true});
     await send('Browser.setDownloadBehavior',{behavior:'allow',downloadPath:downloads},true);await button('Exportar banco JSON');await button('Exportar progreso');
     for(let i=0;i<80;i++){try{await fs.stat(path.join(downloads,'capm-banco-v1.json'));await fs.stat(path.join(downloads,'capm-progreso-v1.json'));break}catch{await delay(100)}}
     const b=JSON.parse(await fs.readFile(path.join(downloads,'capm-banco-v1.json'),'utf8'));exported=JSON.parse(await fs.readFile(path.join(downloads,'capm-progreso-v1.json'),'utf8'));
     assert.equal(b.questions.length,497);assert.equal(b.sources.length,85);assert.equal(exported.attempts.length,3);
     assert.equal(exported.notes[bank[0].id],'Nota original antes del simulador 2');assert.equal(exported.notes[oldPdf[47].id],'Nota de Éxitos antes de actualizar');
     assert.ok(exported.bookmarks.includes(pdf[20].id));assert.ok(exported.bookmarks.includes(pdf[74].id));
-    await route('inicio');await evaluate('localStorage.clear()');await send('Page.reload');await wait('!!document.querySelector(".welcome")',20000);await route('banco');
+    await route('inicio');await evaluate('localStorage.clear()');await reload();await wait('!!document.querySelector(".welcome")',20000);await route('banco');
     await upload(JSON.stringify({formatVersion:1,questions:[...bank,...oldPdf],sources:oldSources}));await wait('document.body.textContent.includes("0 preguntas nuevas")');
     await evaluate('(()=>{const f=new File(['+JSON.stringify(JSON.stringify(exported))+'],"progreso.json",{type:"application/json"});const dt=new DataTransfer();dt.items.add(f);const input=document.querySelectorAll("input[type=file]")[1];input.files=dt.files;input.dispatchEvent(new Event("change",{bubbles:true}))})()');
-    await wait('document.body.textContent.includes("Progreso importado")');await send('Page.reload');await wait('!!document.querySelector("main")',20000);
+    await wait('document.body.textContent.includes("Progreso importado")');await reload();await wait('!!document.querySelector("main")',20000);
     assert.deepEqual((await progress()).attempts,exported.attempts);assert.deepEqual((await progress()).notes,exported.notes);
     await route('resultados');await wait('!!document.querySelector(".result-hero")');
     assert.deepEqual(await evaluate('[...document.querySelectorAll(".result-stats strong")].map(e=>e.textContent)'),['150','0','0','0']);

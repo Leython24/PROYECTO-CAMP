@@ -1,0 +1,11 @@
+{
+  "name": "lenis",
+  "version": "1.3.27",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./lenis.css": "./lenis.css"
+  },
+  "types": "./index.ts",
+  "license": "MIT"
+}

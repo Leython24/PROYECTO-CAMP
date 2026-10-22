@@ -1,6 +1,6 @@
 # CAPM · Centro de estudio de Leython
 
-Proyecto existente de **React + Vite + TypeScript**, actualizado para estudio local en Visual Studio Code. No usa Sites.
+Proyecto existente de **React + Vite + TypeScript**, versión **1.4.0**, actualizado para estudio local en Visual Studio Code. No usa Sites.
 
 ## Ejecutar
 
@@ -113,3 +113,15 @@ Las pruebas de navegador usan perfiles aislados; no cambian el progreso personal
 Los scripts Python de extracción y revisión se conservan para mantenimiento; los datos finales ya están incorporados y **no es necesario ejecutarlos para estudiar**. Si se reproduce la importación original, el script aplica después la revisión documentada.
 
 El material aportado se conserva para estudio personal. No se atribuye una licencia de republicación a fuentes ajenas. No se copian contenidos completos de las referencias oficiales; se enlazan como respaldo del razonamiento.
+
+
+## Diseño y experiencia 1.4.0
+
+Interfaz unificada con Pico CSS, GSAP y Lenis; navegación adaptable y diálogos de salida y finalización. Mis resultados incluye historial, comparación, denominadores explícitos y acciones para revisar, practicar falladas/omitidas y repetir. Se conservan los 497 registros, las colecciones independientes y el almacenamiento versión 1.
+
+Las bibliotecas visuales están incluidas en `vendor` como dependencias locales: `npm install` las enlaza sin descargar código de CDN. Node compatible: `^20.19.0 || >=22.12.0`.
+
+Prueba adicional del rediseño: `npm run test:design`. El arnés de navegador utiliza Chrome instalado; en otro equipo puede configurarse `CAPM_CHROME_PATH`.
+
+- [Diseño, accesibilidad e integración de bibliotecas](docs/DISENO_UX.md)
+- [Comprobaciones y capturas](docs/VERIFICACION_DISENO.md)

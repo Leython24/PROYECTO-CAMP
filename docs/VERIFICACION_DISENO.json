@@ -1,0 +1,288 @@
+{
+  "version": "1.4.0",
+  "unitTests": 64,
+  "browser": {
+    "test:design": {
+      "checks": 12,
+      "date": "2026-10-22T19:15:17.856Z",
+      "results": [
+        {
+          "name": "Inicio real, GSAP y Lenis activos, controles nativos y siete destinos accesibles",
+          "status": "passed"
+        },
+        {
+          "name": "Progreso versión 1 recuperado: 1 respuesta de 150 y 149 omisiones se explican sin inflar el puntaje",
+          "status": "passed"
+        },
+        {
+          "name": "Historial: búsqueda, colección, comparación y procedencia de las claves",
+          "status": "passed"
+        },
+        {
+          "name": "Revisión completa, filtro de omitidas y notas guardadas después de recargar",
+          "status": "passed"
+        },
+        {
+          "name": "Practicar omitidas utiliza exactamente esa colección; salir confirma, recupera y no borra el intento",
+          "status": "passed"
+        },
+        {
+          "name": "Repetir simulacro conserva los 150 IDs y crea otro intento; finalizar requiere confirmación",
+          "status": "passed"
+        },
+        {
+          "name": "Personalizado: controles nativos, pausa, recarga, salida y reanudación conservan el reloj",
+          "status": "passed"
+        },
+        {
+          "name": "Ruta y biblioteca: recomendaciones reales, búsqueda, paginación y filtros de colección",
+          "status": "passed"
+        },
+        {
+          "name": "Exportación e importación conservan sesiones, notas y marcas con la nueva interfaz",
+          "status": "passed"
+        },
+        {
+          "name": "Todas las pantallas a 1600, 900, 390 y 320 px: sin desbordamiento horizontal y con navegación móvil por teclado",
+          "status": "passed"
+        },
+        {
+          "name": "Movimiento reducido desactiva Lenis y mantiene todas las acciones disponibles",
+          "status": "passed"
+        },
+        {
+          "name": "Capturas finales del caso 1/150 sin modificar el progreso personal",
+          "status": "passed"
+        }
+      ],
+      "browserErrors": []
+    },
+    "test:procesos": {
+      "checks": 9,
+      "date": "2026-10-22T19:15:14.289Z",
+      "results": [
+        {
+          "name": "Dos tarjetas PDF independientes: Éxitos 150 y Grupo de Procesos 150 revisadas",
+          "status": "passed"
+        },
+        {
+          "name": "Práctica ofrece la colección y sus filtros sin mezclar los 197 originales",
+          "status": "passed"
+        },
+        {
+          "name": "Un banco de 347 preguntas y un simulacro Éxitos en curso se recuperan con notas y reloj",
+          "status": "passed"
+        },
+        {
+          "name": "Práctica: pregunta 21 íntegra, confirmación, error, originales y explicación importada",
+          "status": "passed"
+        },
+        {
+          "name": "Las 150 preguntas se responden en localhost, sin soluciones durante el simulacro",
+          "status": "passed"
+        },
+        {
+          "name": "Resultado 150/150 y los 150 ejercicios tienen explicación, alternativas y enlaces",
+          "status": "passed"
+        },
+        {
+          "name": "Exportación e importación recuperan los tres intentos y notas de las tres colecciones",
+          "status": "passed"
+        },
+        {
+          "name": "PDF completo y TXT extraído disponibles desde localhost",
+          "status": "passed"
+        },
+        {
+          "name": "Las dos tarjetas y las explicaciones se mantienen legibles a 390 y 320 píxeles",
+          "status": "passed"
+        }
+      ],
+      "browserErrors": []
+    },
+    "test:collections": {
+      "checks": 13,
+      "date": "2026-10-22T19:13:39.280Z",
+      "results": [
+        {
+          "name": "La colección real tiene 150 preguntas, 55 respuestas IA revisadas y conserva cuatro dominios",
+          "status": "passed"
+        },
+        {
+          "name": "Recuperación de un intento anterior con 14 alternativas elegidas, notas y marcas sin sobrescribir",
+          "status": "passed"
+        },
+        {
+          "name": "La tarjeta y los filtros muestran 150 calificables y 95 claves del material pendientes",
+          "status": "passed"
+        },
+        {
+          "name": "Práctica: ejercicio equivalente 8, original consultable, clave IA y fuentes solo tras confirmar",
+          "status": "passed"
+        },
+        {
+          "name": "Práctica de 14 alternativas: clave múltiple, errores y letras originales o–bb",
+          "status": "passed"
+        },
+        {
+          "name": "Las 150 preguntas se abren y responden en simulacro; sin soluciones durante el intento",
+          "status": "passed"
+        },
+        {
+          "name": "Puntaje real del simulacro: 150 aciertos sobre 150, sin omisiones ni no calificadas",
+          "status": "passed"
+        },
+        {
+          "name": "Las 55 revisadas muestran explicación de cada alternativa, clave IA y enlaces primarios de respaldo",
+          "status": "passed"
+        },
+        {
+          "name": "Una corrección no sobrescribe la clave histórica ni recalifica el intento anterior",
+          "status": "passed"
+        },
+        {
+          "name": "Exportación incluye versiones, 497 preguntas, 85 fuentes y progreso de ambas revisiones",
+          "status": "passed"
+        },
+        {
+          "name": "Importar banco de la versión anterior y progreso exportado recupera todo tras recargar",
+          "status": "passed"
+        },
+        {
+          "name": "Originales, PDF, TXT y cinco diagramas permanecen disponibles en localhost",
+          "status": "passed"
+        },
+        {
+          "name": "Diseño conservado a 390 y 320 píxeles: claves, enlaces y originales no desbordan",
+          "status": "passed"
+        }
+      ],
+      "browserErrors": []
+    },
+    "test:browser": {
+      "checks": 14,
+      "date": "2026-10-22T19:20:49.104Z",
+      "results": [
+        {
+          "name": "Inicio de escritorio: cuatro dominios, métricas reales y sin desbordamiento",
+          "status": "passed"
+        },
+        {
+          "name": "Las siete pantallas se abren",
+          "status": "passed"
+        },
+        {
+          "name": "Los 89 módulos se pueden abrir y registran visita sin respuestas",
+          "status": "passed"
+        },
+        {
+          "name": "Práctica: solución oculta hasta confirmar y notas guardadas",
+          "status": "passed"
+        },
+        {
+          "name": "Recarga recupera elección, confirmación y explicaciones de práctica",
+          "status": "passed"
+        },
+        {
+          "name": "Errores y finalización producen resultados y revisión completa",
+          "status": "passed"
+        },
+        {
+          "name": "Selección múltiple limita cantidad y explica faltantes y sobrantes",
+          "status": "passed"
+        },
+        {
+          "name": "Biblioteca busca fuentes por autor y filtra preguntas por procedencia con paginación",
+          "status": "passed"
+        },
+        {
+          "name": "Simulacro personalizado no muestra respuestas y recupera cronómetro",
+          "status": "passed"
+        },
+        {
+          "name": "Completo: 150 únicas, cuotas exactas, sin pausa y vencimiento persistido",
+          "status": "passed"
+        },
+        {
+          "name": "JSON inválido y referencias rotas se rechazan sin sobrescribir",
+          "status": "passed"
+        },
+        {
+          "name": "Importación válida de progreso y banco conserva integridad",
+          "status": "passed"
+        },
+        {
+          "name": "Exportaciones JSON descargables tienen conteos y formato consistentes",
+          "status": "passed"
+        },
+        {
+          "name": "Móvil: navegación, casos legibles, teclado y sin desbordamiento",
+          "status": "passed"
+        }
+      ],
+      "browserErrors": []
+    },
+    "test:dev": {
+      "checks": 5,
+      "date": "2026-10-22T19:20:13.899Z",
+      "results": [
+        {
+          "name": "Vite muestra la aplicación y sus cuatro dominios",
+          "status": "passed"
+        },
+        {
+          "name": "Práctica con explicación, notas y recuperación tras recargar",
+          "status": "passed"
+        },
+        {
+          "name": "Simulacro completo con 150 preguntas, sin soluciones durante el intento",
+          "status": "passed"
+        },
+        {
+          "name": "HMR de CSS sin recarga manual ni pérdida de progreso",
+          "status": "passed"
+        },
+        {
+          "name": "Fast Refresh de React aplica cambios de código y conserva progreso",
+          "status": "passed"
+        }
+      ],
+      "browserErrors": []
+    }
+  },
+  "dataUnchanged": true,
+  "questions": 497,
+  "sources": 85,
+  "frozenPaths": [
+    "src/data",
+    "input",
+    "public/collections",
+    "public/downloads",
+    "src/types.ts",
+    "src/engine/persistence.ts",
+    "src/engine/versioning.ts"
+  ],
+  "vendorSha256": {
+    "vendor/gsap/index.d.ts": "9f813266ea07e3fff604a291fbb3847e5d060c397806d0e82ac70ea790165773",
+    "vendor/gsap/package.json": "5588be38d7124091771991e2f1905e0e52faee7e35f95f2930dd8909d56a12db",
+    "vendor/gsap/THIRD_PARTY.md": "e255305646d16dba59f2c0969e16a7956ebc0eecda2496e94fa33b3e6a947b6f",
+    "vendor/lenis/browser.ts": "5d685dffa2b2eb0ea2bc03f07729e2ec3e0e25d51c57e1db767f88010d95bdf0",
+    "vendor/lenis/index.ts": "309d53245c1c267e0f95702a55023313d519ab2b25a0d406f7d672c054e213e1",
+    "vendor/lenis/lenis.css": "1468ec666c4d4b41729ed5c8a8e28baa0d1ebf7217b57a760ee4f032200d9937",
+    "vendor/lenis/LICENSE": "aa0646bd5431b4828d8e4c3312417bd516c6c6b5c96cdc2842700dde31572f50",
+    "vendor/lenis/package.json": "7e5aeaea41f4d2782962c4f4cb6eb218e46b9097fb28957913374f5b52549ff0",
+    "vendor/pico/LICENSE.md": "17b54cc4bb41043afecd590f7cedde13d38d0693e5683d813f598eabc92b30bc",
+    "vendor/pico/package.json": "25deb25955feb768f472dac009e82c389a75974cb94a0272e44cc6500c69f55a",
+    "vendor/pico/css/pico.min.css": "d909404e60ea5ddec11a48b55292f110f713c6c30ab4d9b9bfaa0f31f363ca6f",
+    "vendor/lenis/src/animate.ts": "b70a7f91d83c4d4fe37f8550c06661208929fec1201d2508b429ad09cffec87f",
+    "vendor/lenis/src/debounce.ts": "b42fa8c4267970cfb00f4c34abaeff933acf5d5701d434a80b9a90f8570de815",
+    "vendor/lenis/src/dimensions.ts": "093a0b622dc724fbc0cc2eb05e50719166ed6131ebc37ba2f6e5af18e9aa22ed",
+    "vendor/lenis/src/emitter.ts": "16d7e3905590b42fa6c3f6e0aaadedcf752499c37f6f499333eb89d35a5e4520",
+    "vendor/lenis/src/lenis.ts": "4ec3c325e40480752545b361915d9f267d72cdc793fe58b7ce0bdd0c67318363",
+    "vendor/lenis/src/maths.ts": "4966488eb4f77e4343d0c1c24beb3455c6b19e570d5d7dcd301fc653fdf7d857",
+    "vendor/lenis/src/types.ts": "7ecc8cc35e1f2d08a1642316cbb5ee36890cfe184f2138482ce2b458dfb44d67",
+    "vendor/lenis/src/virtual-scroll.ts": "1ca9c0d5f428595d8763799ce60490f95fb718077bd04c4160f5ae4e6ce095ae",
+    "vendor/gsap/dist/gsap.min.js": "42b6aa842a2a283850d7963f2cf1283cea1792c86f2bc059f0b23167a56ba6cd",
+    "vendor/gsap/dist/ScrollTrigger.min.js": "d9e8b2009a749199e2960d8ec5840c16c8fa3b85a365803a04363718b2be5b97"
+  }
+}

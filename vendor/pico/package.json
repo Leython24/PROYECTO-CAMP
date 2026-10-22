@@ -1,0 +1,8 @@
+{
+  "name": "@picocss/pico",
+  "version": "2.1.1",
+  "exports": {
+    "./css/pico.min.css": "./css/pico.min.css"
+  },
+  "license": "MIT"
+}

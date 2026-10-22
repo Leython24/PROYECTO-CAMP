@@ -14,6 +14,7 @@ child.stdio[4].on('data',data=>{buffer+=data.toString();let i;while((i=buffer.in
 async function fulfillDocument(params){const html=Buffer.from(await (await fetch(base+'/')).text());await send('Fetch.fulfillRequest',{requestId:params.requestId,responseCode:200,responseHeaders:[{name:'Content-Type',value:'text/html; charset=utf-8'},{name:'Content-Length',value:String(html.length)}],body:html.toString('base64')})}
 function send(method,params={},browser=false){return new Promise((resolve,reject)=>{const id=++seq;const timer=setTimeout(()=>{pending.delete(id);reject(Error('Tiempo agotado: '+method))},45000);pending.set(id,{resolve,reject,timer});child.stdio[3].write(JSON.stringify({id,method,params,...(!browser&&sessionId?{sessionId}:{})})+'\0')})}
 async function evaluate(expression){const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(r.exceptionDetails.exception?.description||r.exceptionDetails.text);if(r.result.subtype==='error')throw Error(r.result.description);return r.result.value}
+async function reload(){const stamp=await evaluate('performance.timeOrigin');await send('Page.reload');await wait('performance.timeOrigin!=='+stamp+'&&document.readyState==="complete"&&!!document.querySelector("main#main")',25000)}
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 async function wait(expression,ms=10000){const end=Date.now()+ms;while(Date.now()<end){try{if(await evaluate(expression))return}catch(e){if(!/navigated|closed|context|Cannot find/i.test(e.message))throw e}await delay(80)}throw Error('No se cumplió: '+expression)}
 async function click(selector){await wait('!!document.querySelector('+JSON.stringify(selector)+')');await evaluate('document.querySelector('+JSON.stringify(selector)+').click()');await delay(100)}
@@ -45,7 +46,7 @@ try{
  await check('La colección real tiene 150 preguntas, 55 respuestas IA revisadas y conserva cuatro dominios',async()=>{
    assert.equal(pdf.length,150);assert.equal(pdf.filter(q=>q.grading.keyOrigin==='ia-authored').length,55);
    assert.equal(await evaluate('document.querySelectorAll(".domain-card").length'),4);
-   assert.equal(await evaluate('getComputedStyle(document.querySelector(".button.primary")).backgroundColor'),'rgb(79, 23, 168)');
+   assert.equal(await evaluate('getComputedStyle(document.querySelector(".button.primary")).backgroundColor'),'rgb(89, 52, 154)');
  });
  let legacy;
  await check('Recuperación de un intento anterior con 14 alternativas elegidas, notas y marcas sin sobrescribir',async()=>{
@@ -55,7 +56,7 @@ try{
    p.history=legacy.questionIds.map(id=>({questionId:id,selectedIds:legacy.answers[id].selectedIds,at:now-500,attemptId:legacy.id,wasNew:true}));
    const oldSources=[...JSON.parse(await fs.readFile('src/data/sources.json','utf8')),...JSON.parse(await fs.readFile('src/data/collections/exitos-sources.json','utf8'))];
    await evaluate('localStorage.setItem("leython-capm-v1",'+JSON.stringify(JSON.stringify(p))+');localStorage.setItem("leython-capm-bank-v1",'+JSON.stringify(JSON.stringify({formatVersion:1,questions:[...bank,...original],sources:oldSources}))+');location.hash="practica"');
-   await send('Page.reload');await wait('!!document.querySelector(".solution.ungraded")',20000);
+   await reload();await wait('!!document.querySelector(".solution.ungraded")',20000);
    assert.equal(await evaluate('document.querySelectorAll(".options input:checked").length'),14);
    assert.equal(await evaluate('document.querySelector(".question-stem").textContent'),original[26].stem);
    assert.ok(await evaluate('document.body.textContent.includes("Esta sesión conserva")'));
@@ -126,7 +127,7 @@ try{
        await click('.question-tools summary');await field('.question-tools textarea','Reserva de contingencia: nota de revisión');
      }
      if(i===74){
-       const before=await active();await send('Page.reload');await wait('!!document.querySelector(".question-map")',20000);
+       const before=await active();await reload();await wait('!!document.querySelector(".question-map")',20000);
        const after=await active();assert.equal(after.id,before.id);assert.equal(after.index,74);assert.equal(after.deadline,before.deadline);
        assert.deepEqual(after.answers,before.answers);assert.deepEqual(after.flagged,before.flagged);
        assert.equal((await progress()).notes[pdf[49].id],'Reserva de contingencia: nota de revisión');
@@ -171,7 +172,7 @@ try{
  });
  let exportedProgress;
  await check('Exportación incluye versiones, 497 preguntas, 85 fuentes y progreso de ambas revisiones',async()=>{
-   await route('banco');const downloads=path.join(artifacts,'downloads');await fs.mkdir(downloads,{recursive:true});
+   await route('banco');const downloads=await fs.mkdtemp(path.join(artifacts,'downloads-'));await fs.mkdir(downloads,{recursive:true});
    await send('Browser.setDownloadBehavior',{behavior:'allow',downloadPath:downloads},true);
    await button('Exportar banco JSON');await button('Exportar progreso');
    for(let i=0;i<60;i++){try{await fs.stat(path.join(downloads,'capm-banco-v1.json'));await fs.stat(path.join(downloads,'capm-progreso-v1.json'));break}catch{await delay(100)}}
@@ -183,7 +184,7 @@ try{
    assert.equal(exportedProgress.attempts.find(a=>a.mode==='pdf').questionRevisions[pdf[7].id],2);
  });
  await check('Importar banco de la versión anterior y progreso exportado recupera todo tras recargar',async()=>{
-   await route('inicio');await evaluate('localStorage.clear()');await send('Page.reload');await wait('!!document.querySelector(".welcome")',20000);
+   await route('inicio');await evaluate('localStorage.clear()');await reload();await wait('!!document.querySelector(".welcome")',20000);
    await route('banco');
    const oldSources=[...JSON.parse(await fs.readFile('src/data/sources.json','utf8')),...JSON.parse(await fs.readFile('src/data/collections/exitos-sources.json','utf8'))];
    await upload(JSON.stringify({formatVersion:1,questions:[...bank,...original],sources:oldSources}));
@@ -191,7 +192,7 @@ try{
    assert.equal(await evaluate('document.querySelectorAll(".import-error").length'),0);
    await evaluate('(()=>{const f=new File(['+JSON.stringify(JSON.stringify(exportedProgress))+'],"progreso.json",{type:"application/json"});const dt=new DataTransfer();dt.items.add(f);const input=document.querySelectorAll("input[type=file]")[1];input.files=dt.files;input.dispatchEvent(new Event("change",{bubbles:true}))})()');
    await wait('document.body.textContent.includes("Progreso importado")');
-   await send('Page.reload');await wait('document.body.textContent.includes("Gestionar banco")',20000);
+   await reload();await wait('document.body.textContent.includes("Gestionar banco")',20000);
    assert.deepEqual((await progress()).attempts,exportedProgress.attempts);
    assert.deepEqual((await progress()).notes,exportedProgress.notes);
    await route('resultados');await wait('!!document.querySelector(".result-hero")');
