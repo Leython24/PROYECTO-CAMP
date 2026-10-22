@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {BookOpen, FileText, Play, RotateCcw, Timer} from 'lucide-react';
+import {BookOpen, FileText, Play, RotateCcw, Timer, Trash2} from 'lucide-react';
 import type {Attempt, Progress, Question, QuestionCollection} from '../types';
 import {collections, collectionOf} from '../data/collections';
 import {attemptCollection, canGrade, canPractice, collectionStats} from '../engine/collections';
@@ -7,9 +7,9 @@ import {topics, domains} from '../data/syllabus';
 import {score} from '../engine/exam';
 
 export interface PdfStartSettings {practice: boolean; count?: number; domain?: string; topic?: string; shuffle?: boolean; minutes?: number; allowUngraded?: boolean}
-interface Props {bank: Question[]; progress: Progress; onStart: (id: string, settings: PdfStartSettings) => void; onResume: (attempt: Attempt) => void; onResult: (attempt: Attempt) => void}
+interface Props {bank: Question[]; progress: Progress; onStart: (id: string, settings: PdfStartSettings) => void; onResume: (attempt: Attempt) => void; onResult: (attempt: Attempt) => void; onDelete: (attempt: Attempt) => void}
 
-function PdfCard({collection, bank, progress, onStart, onResume, onResult}: Props & {collection: QuestionCollection}) {
+function PdfCard({collection, bank, progress, onStart, onResume, onResult, onDelete}: Props & {collection: QuestionCollection}) {
   const [practice, setPractice] = useState(false), [domain, setDomain] = useState(''), [topic, setTopic] = useState('');
   const [count, setCount] = useState(20), [shuffle, setShuffle] = useState(false), [acknowledged, setAcknowledged] = useState(false);
   const qs = bank.filter(q => collectionOf(q) === collection.id), stats = collectionStats(bank, collection.id);
@@ -36,7 +36,7 @@ function PdfCard({collection, bank, progress, onStart, onResume, onResult}: Prop
     {stats.imported > stats.practice && <p className="fine-print">{stats.imported - stats.practice} preguntas importadas no tienen todavía contenido suficiente para responder y quedan fuera de este intento.</p>}
     {ready && !complete && !practice && <p className="notice">El simulacro completo requiere las {collection.expectedCount} preguntas disponibles y su numeración íntegra. Por ahora puedes practicar una selección importada.</p>}
     <button className="button primary" disabled={!ready || (!practice && !complete) || !chosen.length || (!!ungraded && !acknowledged)} onClick={() => onStart(collection.id, {practice, count: practice ? Math.min(count, chosen.length) : undefined, domain: practice ? domain : '', topic: practice ? topic : '', shuffle, minutes: 180, allowUngraded: acknowledged})}><Play size={18}/>{practice ? 'Practicar esta colección' : 'Iniciar este simulacro'}</button>
-    <details className="collection-history"><summary>{attempts.length} intentos de esta colección</summary>{!attempts.length ? <p>Aún no hay intentos guardados.</p> : attempts.map(a => <div key={a.id}><span>{new Date(a.startedAt).toLocaleString('es-PE')} · {a.questionIds.length} preguntas{a.finishedAt ? ' · ' + (score(a, bank).graded ? score(a, bank).percent + '% en calificables' : 'Sin calificación') : ' · En curso'}</span><button className="button secondary small" onClick={() => a.finishedAt ? onResult(a) : onResume(a)}><RotateCcw size={15}/>{a.finishedAt ? 'Ver resultado' : 'Continuar'}</button></div>)}</details>
+    <details className="collection-history"><summary>{attempts.length} intentos de esta colección</summary>{!attempts.length ? <p>Aún no hay intentos guardados.</p> : attempts.map(a => <div key={a.id}><span>{new Date(a.startedAt).toLocaleString('es-PE')} · {a.questionIds.length} preguntas{a.finishedAt ? ' · ' + (score(a, bank).graded ? score(a, bank).percent + '% en calificables' : 'Sin calificación') : ' · En curso'}</span><button className="button secondary small" onClick={() => a.finishedAt ? onResult(a) : onResume(a)}><RotateCcw size={15}/>{a.finishedAt ? 'Ver resultado' : 'Continuar'}</button><button className="button danger small" aria-label={'Eliminar intento ' + a.id} onClick={() => onDelete(a)}><Trash2 size={15}/> Eliminar</button></div>)}</details>
   </article>;
 }
 

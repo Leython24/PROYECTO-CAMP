@@ -1,6 +1,6 @@
 # CAPM · Centro de estudio de Leython
 
-Proyecto existente de **React + Vite + TypeScript**, versión **1.4.0**, actualizado para estudio local en Visual Studio Code. No usa Sites.
+Proyecto existente de **React + Vite + TypeScript**, versión **1.4.1**, actualizado para estudio local en Visual Studio Code. No usa Sites.
 
 ## Ejecutar
 
@@ -14,6 +14,22 @@ npm run dev -- --open
 Vite indica la dirección, normalmente http://localhost:5173/. Mantén la terminal abierta. Guardar cambios en src actualiza la aplicación mediante HMR/Fast Refresh.
 
 **Node compatible:** ^20.19.0 o >=22.12.0. Probado con Node 24.14.1 y npm 11.11.0. La instalación inicial requiere acceso a npm; el estudio y la corrección usan los datos locales incluidos. Los enlaces externos de respaldo requieren Internet.
+
+## Guardar, descartar y eliminar intentos
+
+Durante una sesión, **Guardar y salir** abre un diálogo con tres opciones: seguir estudiando, guardar el avance o **Salir sin guardar**. Esta última descarta el intento, incluidas sus respuestas, dudas y tiempo. Si solo abriste las preguntas para mirar, no quedará un intento en tu historial al elegirla. Recargar la página sigue recuperando automáticamente una sesión guardada; cerrar la pestaña no la descarta.
+
+En **Mis resultados** puedes eliminar cada resultado, gestionar las **Sesiones sin finalizar** y continuar un intento. Las tarjetas de cada PDF también permiten eliminar sus intentos. Toda eliminación requiere confirmación y afecta exclusivamente al intento elegido: no borra la colección, las preguntas, las otras sesiones ni tus notas y marcadores personales. Sus respuestas se retiran del historial y las estadísticas se actualizan. Una pregunta vista únicamente en el intento eliminado vuelve a estar disponible como nueva; se conserva si ya se había visto antes o hay respuestas de otras sesiones.
+
+## Desplegar en Vercel
+
+Este mismo repositorio incluye `vercel.json`: preset **Vite**, instalación **npm ci**, compilación **npm run build**, salida **dist**. Importa `Leython24/PROYECTO-CAMP`, rama **main**, directorio raíz **./**, con **Node 24.x**. No necesita variables de entorno ni servidor Node en producción. El router usa `#`, por lo que no necesita reglas de reescritura para sus pantallas. Los PDF, diagramas y bancos se sirven desde el mismo despliegue.
+
+[Importar el repositorio en Vercel](https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2FLeython24%2FPROYECTO-CAMP)
+
+**Trasladar tu progreso:** antes de cambiar de localhost a Vercel, usa **Gestionar banco → Exportar progreso** en localhost. En la nueva dirección abre **Gestionar banco → Importar progreso** y elige ese archivo. Si añadiste preguntas propias, exporta e importa también el banco, primero. Cada dirección tiene almacenamiento independiente: publicar no transfiere automáticamente tus datos. La app mantiene el formato versión 1 y los identificadores actuales.
+
+Referencias oficiales: [Vite en Vercel](https://vercel.com/docs/frameworks/frontend/vite), [configuración estática](https://vercel.com/docs/project-configuration/vercel-json) y [versiones de Node](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions). La presencia de esta configuración no significa que exista un despliegue: la publicación requiere una cuenta conectada y un despliegue completado en Vercel.
 
 ## Simulador 1 · Éxitos
 

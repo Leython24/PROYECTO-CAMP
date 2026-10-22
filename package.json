@@ -1,6 +1,6 @@
 {
   "name": "capm-centro-leython",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,7 +15,8 @@
     "dev:watch": "vite --configLoader native",
     "start": "node scripts/serve.mjs",
     "test:procesos": "node scripts/procesos-browser-qa.mjs",
-    "test:design": "node scripts/design-browser-qa.mjs"
+    "test:design": "node scripts/design-browser-qa.mjs",
+    "test:sessions": "node scripts/sessions-browser-qa.mjs"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"

@@ -177,3 +177,25 @@ select,.field select {padding-right: 34px}.field input {font-weight: 450}.field 
 @media (prefers-reduced-motion: reduce) {
   *,*::before,*::after {animation-duration: .001ms!important;animation-iteration-count: 1!important;transition-duration: .001ms!important;scroll-behavior: auto!important}
 }
+/* Session management: destructive actions always carry a text label. */
+.button.danger {background: #fff; color: #a1263c; border: 1px solid #ce8390; box-shadow: none}
+.button.danger:hover {background: #fff0f2; border-color: #a1263c; color: #88182c}
+.button.danger:focus-visible {outline: 3px solid #a1263c; outline-offset: 3px}
+.history-item-actions {display: flex; align-items: center; justify-content: space-between; gap: 8px; border-top: 1px solid var(--border); padding: 6px 10px}
+.history-item-actions .compare-check {border: 0; padding: 8px 2px; flex: 1}
+.history-item-actions .button {min-height: 36px; padding: 7px 9px; font-size: 13px}
+.unfinished-results {margin-bottom: 24px}
+.unfinished-results>.section-heading {margin: 0 0 15px}
+.unfinished-attempt {display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid var(--border); padding: 18px 0 0; margin-top: 15px}
+.unfinished-attempt h3 {font-size: 17px; margin: 0 0 5px}
+.unfinished-attempt p {font-size: 14px; margin: 0 0 5px}
+.unfinished-attempt small {font-size: 13px; color: var(--muted)}
+.unfinished-attempt>.button-row {flex-shrink: 0}
+.discard-attempt {margin-top: 12px}
+.collection-history>div {flex-wrap: wrap}
+.collection-history>div>span {flex: 1 1 220px}
+@media(max-width: 700px) {
+  .unfinished-attempt {align-items: stretch; flex-direction: column}
+  .unfinished-attempt .button-row {width: 100%}
+  .unfinished-attempt .button-row .button {flex: 1}
+}

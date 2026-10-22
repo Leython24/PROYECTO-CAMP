@@ -1,0 +1,193 @@
+{
+  "version": "1.4.1",
+  "date": "2026-10-22T19:47:41.487365+00:00",
+  "unitTests": {
+    "passed": 70,
+    "failed": 0
+  },
+  "browser": {
+    "sessions": {
+      "date": "2026-10-22T19:44:39.505Z",
+      "checks": [
+        {
+          "name": "Progreso anterior cargado con dos resultados, notas, marcadores e historial",
+          "status": "passed"
+        },
+        {
+          "name": "Abrir, navegar y marcar sin responder; Salir sin guardar descarta y sigue descartado tras recargar",
+          "status": "passed"
+        },
+        {
+          "name": "Descartar práctica confirmada quita sus respuestas e historial y conserva notas compartidas",
+          "status": "passed"
+        },
+        {
+          "name": "Guardar y salir conserva respuesta, duda e índice y permite continuar desde Mis resultados",
+          "status": "passed"
+        },
+        {
+          "name": "Eliminar intento guardado: cancelar y Escape conservan; confirmar elimina solo el elegido",
+          "status": "passed"
+        },
+        {
+          "name": "Eliminar resultado seleccionado durante comparación no rompe la vista ni altera el otro intento",
+          "status": "passed"
+        },
+        {
+          "name": "Eliminar el último resultado muestra el estado vacío; las 497 preguntas siguen disponibles",
+          "status": "passed"
+        },
+        {
+          "name": "Eliminar desde la tarjeta PDF cancela o elimina el intento sin tocar la colección",
+          "status": "passed"
+        },
+        {
+          "name": "Móvil 390 y 320 px: controles y confirmaciones utilizables, sin desbordamiento",
+          "status": "passed"
+        }
+      ]
+    },
+    "design": {
+      "date": "2026-10-22T19:45:14.981Z",
+      "checks": [
+        {
+          "name": "Inicio real, GSAP y Lenis activos, controles nativos y siete destinos accesibles",
+          "status": "passed"
+        },
+        {
+          "name": "Progreso versión 1 recuperado: 1 respuesta de 150 y 149 omisiones se explican sin inflar el puntaje",
+          "status": "passed"
+        },
+        {
+          "name": "Historial: búsqueda, colección, comparación y procedencia de las claves",
+          "status": "passed"
+        },
+        {
+          "name": "Revisión completa, filtro de omitidas y notas guardadas después de recargar",
+          "status": "passed"
+        },
+        {
+          "name": "Practicar omitidas utiliza exactamente esa colección; salir confirma, recupera y no borra el intento",
+          "status": "passed"
+        },
+        {
+          "name": "Repetir simulacro conserva los 150 IDs y crea otro intento; finalizar requiere confirmación",
+          "status": "passed"
+        },
+        {
+          "name": "Personalizado: controles nativos, pausa, recarga, salida y reanudación conservan el reloj",
+          "status": "passed"
+        },
+        {
+          "name": "Ruta y biblioteca: recomendaciones reales, búsqueda, paginación y filtros de colección",
+          "status": "passed"
+        },
+        {
+          "name": "Exportación e importación conservan sesiones, notas y marcas con la nueva interfaz",
+          "status": "passed"
+        },
+        {
+          "name": "Todas las pantallas a 1600, 900, 390 y 320 px: sin desbordamiento horizontal y con navegación móvil por teclado",
+          "status": "passed"
+        },
+        {
+          "name": "Movimiento reducido desactiva Lenis y mantiene todas las acciones disponibles",
+          "status": "passed"
+        },
+        {
+          "name": "Capturas finales del caso 1/150 sin modificar el progreso personal",
+          "status": "passed"
+        }
+      ]
+    },
+    "production": {
+      "date": "2026-10-22T19:46:34.893Z",
+      "checks": [
+        {
+          "name": "Inicio de escritorio: cuatro dominios, métricas reales y sin desbordamiento",
+          "status": "passed"
+        },
+        {
+          "name": "Las siete pantallas se abren",
+          "status": "passed"
+        },
+        {
+          "name": "Los 89 módulos se pueden abrir y registran visita sin respuestas",
+          "status": "passed"
+        },
+        {
+          "name": "Práctica: solución oculta hasta confirmar y notas guardadas",
+          "status": "passed"
+        },
+        {
+          "name": "Recarga recupera elección, confirmación y explicaciones de práctica",
+          "status": "passed"
+        },
+        {
+          "name": "Errores y finalización producen resultados y revisión completa",
+          "status": "passed"
+        },
+        {
+          "name": "Selección múltiple limita cantidad y explica faltantes y sobrantes",
+          "status": "passed"
+        },
+        {
+          "name": "Biblioteca busca fuentes por autor y filtra preguntas por procedencia con paginación",
+          "status": "passed"
+        },
+        {
+          "name": "Simulacro personalizado no muestra respuestas y recupera cronómetro",
+          "status": "passed"
+        },
+        {
+          "name": "Completo: 150 únicas, cuotas exactas, sin pausa y vencimiento persistido",
+          "status": "passed"
+        },
+        {
+          "name": "JSON inválido y referencias rotas se rechazan sin sobrescribir",
+          "status": "passed"
+        },
+        {
+          "name": "Importación válida de progreso y banco conserva integridad",
+          "status": "passed"
+        },
+        {
+          "name": "Exportaciones JSON descargables tienen conteos y formato consistentes",
+          "status": "passed"
+        },
+        {
+          "name": "Móvil: navegación, casos legibles, teclado y sin desbordamiento",
+          "status": "passed"
+        }
+      ]
+    }
+  },
+  "build": "passed",
+  "bank": {
+    "questions": 497,
+    "original": 197,
+    "exitos": 150,
+    "procesos": 150,
+    "dataChanged": false
+  },
+  "storage": {
+    "key": "leython-capm-v1",
+    "version": 1,
+    "migrationRequired": false
+  },
+  "deployment": {
+    "configuration": "vercel.json",
+    "framework": "vite",
+    "installCommand": "npm ci",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "status": "prepared-not-deployed",
+    "reason": "Vercel account not connected"
+  },
+  "freshInstallCheck": {
+    "status": "blocked-by-environment",
+    "offlineError": "ENOTCACHED: yallist-3.1.1.tgz",
+    "networkError": "EACCES accessing registry.npmjs.org; npm Exit handler never called",
+    "note": "Isolated copy only. Existing working node_modules and user localhost server untouched."
+  }
+}
